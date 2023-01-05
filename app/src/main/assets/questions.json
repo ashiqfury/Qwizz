@@ -1,0 +1,606 @@
+{
+    "questions": [
+        {
+            "_id": "633d50eeef1fec4d39be85ad",
+            "text": "Which flag depicts the image of an eagle devouring a snake?",
+            "options": [
+                {
+                    "option": "Mexico",
+                    "isCorrect": true
+                },
+                {
+                    "option": "Egypt",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Brazil",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Columbia",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357abb3ab81af9ad154eb0",
+                "name": "Geography"
+            },
+            "difficulty": {
+                "_id": "63343ba898b44503fecc49e9",
+                "degree": "Easy"
+            }
+        },
+        {
+            "_id": "633f445a6c9ef451f3102f1b",
+            "text": "How many grooves are on one side of an LP record?",
+            "options": [
+                {
+                    "option": "3",
+                    "isCorrect": false
+                },
+                {
+                    "option": "2",
+                    "isCorrect": false
+                },
+                {
+                    "option": "1",
+                    "isCorrect": true
+                },
+                {
+                    "option": "0",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357ae03ab81af9ad154eb6",
+                "name": "Music"
+            },
+            "difficulty": {
+                "_id": "63343ba898b44503fecc49e9",
+                "degree": "Easy"
+            }
+        },
+        {
+            "_id": "633d427cef1fec4d39be854e",
+            "text": "In Roman mythology, who was the ruler of the Gods?",
+            "options": [
+                {
+                    "option": "Neptune",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Minerva",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Juno",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Jupiter",
+                    "isCorrect": true
+                }
+            ],
+            "category": {
+                "_id": "63357adc3ab81af9ad154eb4",
+                "name": "History"
+            },
+            "difficulty": {
+                "_id": "63357b5b3ab81af9ad154ec0",
+                "degree": "Hard"
+            }
+        },
+        {
+            "_id": "633d551def1fec4d39be85ca",
+            "text": "What name was given to the Chinese peasant uprising of 1900?",
+            "options": [
+                {
+                    "option": "Boxer Rebellion",
+                    "isCorrect": true
+                },
+                {
+                    "option": "Sertorian War",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Amasis Revolt",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Rebellion of the Remences",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357adc3ab81af9ad154eb4",
+                "name": "History"
+            },
+            "difficulty": {
+                "_id": "63343ba898b44503fecc49e9",
+                "degree": "Easy"
+            }
+        },
+        {
+            "_id": "634037f524fbd515626c9e73",
+            "text": "In music, how was Jiles Perry Richardson better known?",
+            "options": [
+                {
+                    "option": "The Big Hopper",
+                    "isCorrect": false
+                },
+                {
+                    "option": "The Big Dipper",
+                    "isCorrect": false
+                },
+                {
+                    "option": "The Big Bopper",
+                    "isCorrect": true
+                },
+                {
+                    "option": "The Big Bomber",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357ae03ab81af9ad154eb6",
+                "name": "Music"
+            },
+            "difficulty": {
+                "_id": "63357b5b3ab81af9ad154ec0",
+                "degree": "Hard"
+            }
+        },
+        {
+            "_id": "633d52e4ef1fec4d39be85bb",
+            "text": "In motoring, what does MG stand for?",
+            "options": [
+                {
+                    "option": "Mechanical Gadgets",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Maximum Gadgets",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Max's Garages",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Morris Garages",
+                    "isCorrect": true
+                }
+            ],
+            "category": {
+                "_id": "63357ad03ab81af9ad154eb2",
+                "name": "General Knowledge"
+            },
+            "difficulty": {
+                "_id": "63357b533ab81af9ad154ebe",
+                "degree": "Medium"
+            }
+        },
+        {
+            "_id": "633f4fa96c9ef451f3102f55",
+            "text": "How many funnels did Titanic have?",
+            "options": [
+                {
+                    "option": "6",
+                    "isCorrect": false
+                },
+                {
+                    "option": "5",
+                    "isCorrect": false
+                },
+                {
+                    "option": "4",
+                    "isCorrect": true
+                },
+                {
+                    "option": "3",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357adc3ab81af9ad154eb4",
+                "name": "History"
+            },
+            "difficulty": {
+                "_id": "63357b533ab81af9ad154ebe",
+                "degree": "Medium"
+            }
+        },
+        {
+            "_id": "633d50cdef1fec4d39be85ab",
+            "text": "What number is Britain in a list of the largest islands in the world?",
+            "options": [
+                {
+                    "option": "8th",
+                    "isCorrect": true
+                },
+                {
+                    "option": "4th",
+                    "isCorrect": false
+                },
+                {
+                    "option": "2th",
+                    "isCorrect": false
+                },
+                {
+                    "option": "1th",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357abb3ab81af9ad154eb0",
+                "name": "Geography"
+            },
+            "difficulty": {
+                "_id": "63357b533ab81af9ad154ebe",
+                "degree": "Medium"
+            }
+        },
+        {
+            "_id": "633f4ed66c9ef451f3102f4d",
+            "text": "Which century saw the abolition of the slave trade in the British Empire?",
+            "options": [
+                {
+                    "option": "16th",
+                    "isCorrect": false
+                },
+                {
+                    "option": "17th ",
+                    "isCorrect": false
+                },
+                {
+                    "option": "18th",
+                    "isCorrect": false
+                },
+                {
+                    "option": "19th",
+                    "isCorrect": true
+                }
+            ],
+            "category": {
+                "_id": "63357adc3ab81af9ad154eb4",
+                "name": "History"
+            },
+            "difficulty": {
+                "_id": "63357b533ab81af9ad154ebe",
+                "degree": "Medium"
+            }
+        },
+        {
+            "_id": "633f4b5a6c9ef451f3102f39",
+            "text": "What is the tallest grass in the world?",
+            "options": [
+                {
+                    "option": "Bamboo",
+                    "isCorrect": true
+                },
+                {
+                    "option": "Zoysia",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Ryegrass",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Centipede",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357b0d3ab81af9ad154eba",
+                "name": "Science and Nature"
+            },
+            "difficulty": {
+                "_id": "63343ba898b44503fecc49e9",
+                "degree": "Easy"
+            }
+        },
+        {
+            "_id": "633d5369ef1fec4d39be85bd",
+            "text": "Who invented the piano?",
+            "options": [
+                {
+                    "option": "Philip Dadson",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Narciso Yepes",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Heinrich Band",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Bartolomeo Cristofori",
+                    "isCorrect": true
+                }
+            ],
+            "category": {
+                "_id": "63357ad03ab81af9ad154eb2",
+                "name": "General Knowledge"
+            },
+            "difficulty": {
+                "_id": "63357b5b3ab81af9ad154ec0",
+                "degree": "Hard"
+            }
+        },
+        {
+            "_id": "633d4618ef1fec4d39be8565",
+            "text": "Which pop band named itself after an American firetruck?",
+            "options": [
+                {
+                    "option": "The Supremes",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Queen",
+                    "isCorrect": false
+                },
+                {
+                    "option": "The Beatles",
+                    "isCorrect": false
+                },
+                {
+                    "option": "REO Speedwagon",
+                    "isCorrect": true
+                }
+            ],
+            "category": {
+                "_id": "63357adc3ab81af9ad154eb4",
+                "name": "History"
+            },
+            "difficulty": {
+                "_id": "63343ba898b44503fecc49e9",
+                "degree": "Easy"
+            }
+        },
+        {
+            "_id": "633d514fef1fec4d39be85b1",
+            "text": "What is the capital city of Greenland?",
+            "options": [
+                {
+                    "option": "Upernavik",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Narsaq",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Nuuk",
+                    "isCorrect": true
+                },
+                {
+                    "option": "Qaqortoq",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357abb3ab81af9ad154eb0",
+                "name": "Geography"
+            },
+            "difficulty": {
+                "_id": "63357b5b3ab81af9ad154ec0",
+                "degree": "Hard"
+            }
+        },
+        {
+            "_id": "633d47faef1fec4d39be8571",
+            "text": "Alex Band and Aaron Kamin make up which band?",
+            "options": [
+                {
+                    "option": "The Drifters",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Aerosmith",
+                    "isCorrect": false
+                },
+                {
+                    "option": "The Calling",
+                    "isCorrect": true
+                },
+                {
+                    "option": "The Doors",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357ae03ab81af9ad154eb6",
+                "name": "Music"
+            },
+            "difficulty": {
+                "_id": "63357b5b3ab81af9ad154ec0",
+                "degree": "Hard"
+            }
+        },
+        {
+            "_id": "633f4e706c9ef451f3102f4b",
+            "text": "In which European Country is the port of Bergen?",
+            "options": [
+                {
+                    "option": "England",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Scotland ",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Norway",
+                    "isCorrect": true
+                },
+                {
+                    "option": "Belgium",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357abb3ab81af9ad154eb0",
+                "name": "Geography"
+            },
+            "difficulty": {
+                "_id": "63357b533ab81af9ad154ebe",
+                "degree": "Medium"
+            }
+        },
+        {
+            "_id": "633d44eeef1fec4d39be855f",
+            "text": "What Viking is said to have discovered America?",
+            "options": [
+                {
+                    "option": "Leif Erikson",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Gunnar Hamundarson",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Eric Bloodaxe",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Eric the Red",
+                    "isCorrect": true
+                }
+            ],
+            "category": {
+                "_id": "63357adc3ab81af9ad154eb4",
+                "name": "History"
+            },
+            "difficulty": {
+                "_id": "63343ba898b44503fecc49e9",
+                "degree": "Easy"
+            }
+        },
+        {
+            "_id": "633b280ae9cc1b3541dd07d6",
+            "text": "What is the most populous country in Africa at 2007?",
+            "options": [
+                {
+                    "option": "Nigeria",
+                    "isCorrect": true
+                },
+                {
+                    "option": "South Africa",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Algeria",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Senegal",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357abb3ab81af9ad154eb0",
+                "name": "Geography"
+            },
+            "difficulty": {
+                "_id": "63357b533ab81af9ad154ebe",
+                "degree": "Medium"
+            }
+        },
+        {
+            "_id": "633d463cef1fec4d39be8567",
+            "text": "The original Live Aid concerts were held at Wembly and Philadelphia on 13th July in which year?",
+            "options": [
+                {
+                    "option": "1990",
+                    "isCorrect": false
+                },
+                {
+                    "option": "1985",
+                    "isCorrect": true
+                },
+                {
+                    "option": "1980",
+                    "isCorrect": false
+                },
+                {
+                    "option": "1975",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357adc3ab81af9ad154eb4",
+                "name": "History"
+            },
+            "difficulty": {
+                "_id": "63357b533ab81af9ad154ebe",
+                "degree": "Medium"
+            }
+        },
+        {
+            "_id": "633d46f0ef1fec4d39be856b",
+            "text": "Who sang the first line of the USA for Africa`s `We Are The World`?",
+            "options": [
+                {
+                    "option": "Barry Manilow",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Lionel Richie",
+                    "isCorrect": true
+                },
+                {
+                    "option": "Sam Cooke",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Dusty Springfield",
+                    "isCorrect": false
+                }
+            ],
+            "category": {
+                "_id": "63357adc3ab81af9ad154eb4",
+                "name": "History"
+            },
+            "difficulty": {
+                "_id": "63357b5b3ab81af9ad154ec0",
+                "degree": "Hard"
+            }
+        },
+        {
+            "_id": "633f4d2e6c9ef451f3102f3f",
+            "text": "In which country does the Blue Nile meet the White Nile?",
+            "options": [
+                {
+                    "option": "Congo",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Tanzania",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Egypt",
+                    "isCorrect": false
+                },
+                {
+                    "option": "Sudan",
+                    "isCorrect": true
+                }
+            ],
+            "category": {
+                "_id": "63357abb3ab81af9ad154eb0",
+                "name": "Geography"
+            },
+            "difficulty": {
+                "_id": "63357b5b3ab81af9ad154ec0",
+                "degree": "Hard"
+            }
+        }
+    ],
+    "result_code": "200",
+    "result_message": "success"
+}

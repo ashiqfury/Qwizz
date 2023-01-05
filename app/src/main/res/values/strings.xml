@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Qwizz</string>
+    <string name="welcome_text">Hey Ashiq, what subject you want to improve today?</string>
+    <string name="back">Back</string>
+</resources>
