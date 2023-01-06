@@ -24,6 +24,7 @@ import androidx.navigation.NavController
 import com.example.qwizz.R
 import com.example.qwizz.ui.navigation.QScreens
 import com.example.qwizz.ui.theme.QColors
+import com.example.qwizz.ui.utils.StatusBarInsetHandler
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 
 @Composable
@@ -34,7 +35,9 @@ internal fun DifficultyScreen(
         modifier = Modifier.fillMaxSize(),
         backgroundColor = QColors.LightWhite,
         topBar = {
-            DifficultyScreenTopBar(navController)
+            StatusBarInsetHandler {
+                DifficultyScreenTopBar(navController)
+            }
         },
     ) { paddingValues ->
         Column(
@@ -150,6 +153,7 @@ private fun DifficultyButton(
         onClick = {
             navController.navigate(route = QScreens.Question.route) {
 //                popUpTo(QwizzScreens.Home.route)
+                launchSingleTop = true
             }
         },
         colors = ButtonDefaults.buttonColors(backgroundColor = QColors.LightWhite)

@@ -1,7 +1,6 @@
 package com.example.qwizz.ui.screens
 
 import android.graphics.BlurMaskFilter
-import android.util.Log
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -34,9 +33,9 @@ import com.example.qwizz.R
 import com.example.qwizz.model.SubjectCard
 import com.example.qwizz.ui.navigation.QScreens
 import com.example.qwizz.ui.theme.*
+import com.example.qwizz.ui.utils.StatusBarInsetHandler
 import com.google.accompanist.flowlayout.FlowRow
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 @Composable
@@ -45,25 +44,20 @@ internal fun HomeScreen(
 ) {
     val scaffoldState = rememberScaffoldState()
     Scaffold(
+        scaffoldState = scaffoldState,
         modifier = Modifier.fillMaxSize(),
         backgroundColor = QColors.LightWhite,
         topBar = {
-            HomeScreenTopBar(scaffoldState)
-        },
-        drawerContent = {
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth(0.5f)
-                    .padding(20.dp)
-            ) {
-                Text(text = "Home")
-                Text(text = "Home")
-                Text(text = "Home")
-                Text(text = "Home")
-                Text(text = "Home")
+            StatusBarInsetHandler {
+                HomeScreenTopBar(scaffoldState)
             }
         },
-        drawerBackgroundColor = QColors.LightWhite,
+        drawerContent = {
+            StatusBarInsetHandler {
+                DrawerContent()
+            }
+        },
+        drawerBackgroundColor = QColors.VeryLightWhite,
         drawerElevation = 8.dp,
         drawerShape = RoundedCornerShape(topEnd = 32.dp, bottomEnd = 32.dp)
     ) { paddingValues ->
@@ -125,14 +119,8 @@ private fun HomeScreenTopBar(
                 IconButton(
                     modifier = Modifier.fillMaxSize(0.9f),
                     onClick = {
-                        coroutineScope.launch(Dispatchers.Main) {
-                            Log.d("FURY", "drawerState -> ${scaffoldState.drawerState.currentValue}")
+                        coroutineScope.launch {
                             scaffoldState.drawerState.open()
-//                            if (scaffoldState.drawerState.isOpen) {
-//                                scaffoldState.drawerState.close()
-//                            } else {
-//                                scaffoldState.drawerState.open()
-//                            }
                         }
                     }
                 ) {
@@ -198,7 +186,9 @@ private fun SubjectGrid(
                     .clip(RoundedCornerShape(12.dp))
                     .background(QColors.VeryLightWhite)
                     .clickable {
-                        navController.navigate(route = QScreens.Difficulty.route)
+                        navController.navigate(route = QScreens.Difficulty.route) {
+                            launchSingleTop = true
+                        }
                     },
             ) {
                 Column(
@@ -239,6 +229,29 @@ private fun SubjectGrid(
     }
 }
 
+@Composable
+private fun DrawerContent() {
+    val textModifier = Modifier
+        .fillMaxWidth()
+        .padding(vertical = 5.dp)
+        .background(QColors.LightWhite, shape = RoundedCornerShape(12.dp))
+        .border(0.5f.dp, QColors.Tomato, RoundedCornerShape(12.dp))
+        .padding(vertical = 10.dp, horizontal = 20.dp)
+        .clickable { }
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(QColors.VeryLightWhite)
+            .padding(10.dp)
+    ) {
+        Text(text = "Home", modifier = textModifier)
+        Text(text = "Home", modifier = textModifier)
+        Text(text = "Home", modifier = textModifier)
+        Text(text = "Home", modifier = textModifier)
+        Text(text = "Home", modifier = textModifier)
+    }
+}
+
 @OptIn(ExperimentalAnimationApi::class)
 @Preview(showBackground = true)
 @Composable
@@ -252,37 +265,37 @@ private fun getSubjectGridData(): List<SubjectCard> {
         SubjectCard(
             title = "Art & Literature",
             illustration = R.drawable.subject_arts,
-            progressValue =  100,
+            progressValue = 100,
             progressColor = QColors.Saffron
         ),
         SubjectCard(
             title = "Sport",
             illustration = R.drawable.subject_sports,
-            progressValue =  50,
+            progressValue = 50,
             progressColor = QColors.Purple
         ),
         SubjectCard(
             title = "Mathematics",
             illustration = R.drawable.subject_mathematics,
-            progressValue =  30,
+            progressValue = 30,
             progressColor = QColors.InkBlue
         ),
         SubjectCard(
             title = "Science",
             illustration = R.drawable.subject_science,
-            progressValue =  80,
+            progressValue = 80,
             progressColor = QColors.Tomato
         ),
         SubjectCard(
             title = "History",
             illustration = R.drawable.subject_history,
-            progressValue =  10,
+            progressValue = 10,
             progressColor = QColors.BabyPink
         ),
         SubjectCard(
             title = "Music",
             illustration = R.drawable.subject_music,
-            progressValue =  20,
+            progressValue = 20,
             progressColor = QColors.BabyGreen
         )
     )
