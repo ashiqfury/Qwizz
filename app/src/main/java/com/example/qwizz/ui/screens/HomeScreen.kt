@@ -1,35 +1,100 @@
 package com.example.qwizz.ui.screens
 
 import androidx.compose.animation.ExperimentalAnimationApi
-import androidx.compose.foundation.*
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.GenericShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.*
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.Card
+import androidx.compose.material.Icon
+import androidx.compose.material.IconButton
+import androidx.compose.material.LinearProgressIndicator
+import androidx.compose.material.Scaffold
+import androidx.compose.material.ScaffoldState
+import androidx.compose.material.Text
+import androidx.compose.material.TopAppBar
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Menu
+import androidx.compose.material.rememberScaffoldState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.qwizz.R
 import com.example.qwizz.model.SubjectCard
 import com.example.qwizz.ui.navigation.QScreens
-import com.example.qwizz.ui.theme.*
+import com.example.qwizz.ui.theme.QColors
 import com.example.qwizz.ui.utils.StatusBarInsetHandler
 import com.google.accompanist.flowlayout.FlowRow
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import kotlinx.coroutines.launch
+import kotlin.math.sqrt
+
+val CustomDrawerShape = GenericShape { size: Size, _: LayoutDirection ->
+    val curveRadius: Float = size.width / 5 // 1/5 of width
+    val heightOffset: Float = size.height / 4 // 1/4 of height
+
+    val hypotenuseLength = calculateDistanceBetweenPoints(0f, size.height, size.width, size.height - heightOffset + curveRadius) // bottom curve line length
+
+    val answerX = (size.width - curveRadius) * sqrt(2.0).toFloat()
+
+    moveTo(0f, 0f) // move to top middle
+    lineTo(size.width - curveRadius, 0f) // top line
+    quadraticBezierTo(
+        x1 = size.width,
+        y1 = 0f,
+        x2 = size.width,
+        y2 = curveRadius
+    ) // top right curve
+    lineTo(size.width, size.height - heightOffset) // right line
+    quadraticBezierTo(
+        x1 = size.width,
+        y1 = size.height - heightOffset + curveRadius,
+        x2 = size.width - curveRadius,
+        y2 = size.height - heightOffset + curveRadius + 68f // static value
+    ) // bottom major curve
+    lineTo(0f, size.height) // line bottom
+    lineTo(0f, 0f) // left line
+
+    close()
+}
+
+internal fun calculateDistanceBetweenPoints(
+    x1: Float,
+    y1: Float,
+    x2: Float,
+    y2: Float
+): Float {
+    return sqrt((y2 - y1) * (y2 - y1) + (x2 - x1) * (x2 - x1))
+}
 
 @Composable
 internal fun HomeScreen(
@@ -52,7 +117,8 @@ internal fun HomeScreen(
         },
         drawerBackgroundColor = QColors.VeryLightWhite,
         drawerElevation = 8.dp,
-        drawerShape = RoundedCornerShape(topEnd = 32.dp, bottomEnd = 32.dp)
+//        drawerShape = RoundedCornerShape(topEnd = 32.dp, bottomEnd = 32.dp)
+        drawerShape = CustomDrawerShape
     ) { paddingValues ->
         Column(
             modifier = Modifier
@@ -227,21 +293,64 @@ private fun DrawerContent() {
     val textModifier = Modifier
         .fillMaxWidth()
         .padding(vertical = 5.dp)
-        .background(QColors.LightWhite, shape = RoundedCornerShape(12.dp))
-        .border(0.5f.dp, QColors.Tomato, RoundedCornerShape(12.dp))
-        .padding(vertical = 10.dp, horizontal = 20.dp)
+        .shadow(
+            3.dp,
+            RoundedCornerShape(12.dp),
+            clip = true,
+            ambientColor = Color.Black,
+            spotColor = QColors.BabyPink
+        )
+//        .padding(2.dp)
+        .background(QColors.LightWhite, shape = CustomDrawerShape)
+        .clip(RoundedCornerShape(12.dp))
         .clickable { }
+        .padding(vertical = 10.dp, horizontal = 20.dp)
+
+    val brush = Brush.linearGradient(
+        colors = listOf(
+            Color.Transparent,
+            Color.Transparent,
+            Color.Transparent,
+            Color.Transparent,
+            Color.Transparent,
+            QColors.BabyPink,
+            QColors.Tomato
+        )
+    )
+
     Column(
         modifier = Modifier
-            .fillMaxWidth()
+            .fillMaxSize()
             .background(QColors.VeryLightWhite)
-            .padding(10.dp)
+            .background(brush, shape = CustomDrawerShape, alpha = 0.3f)
+            .padding(20.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = "Home", modifier = textModifier)
-        Text(text = "Home", modifier = textModifier)
-        Text(text = "Home", modifier = textModifier)
-        Text(text = "Home", modifier = textModifier)
-        Text(text = "Home", modifier = textModifier)
+        Image(
+            painter = painterResource(id = R.drawable.qwizz_400),
+            contentDescription = "Qwizz_Logo",
+            modifier = Modifier.fillMaxWidth(),
+            contentScale = ContentScale.Fit
+        )
+
+        Text(
+            text = "Qwizz",
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 10.dp, bottom = 40.dp),
+            fontSize = 32.sp,
+            textAlign = TextAlign.Center,
+            fontWeight = FontWeight.ExtraLight,
+            lineHeight = 26.sp,
+            color = QColors.TextPrimary
+        )
+
+
+        Text(text = "Home", modifier = textModifier, fontWeight = FontWeight.Bold, color = QColors.TextPrimary)
+        Text(text = "Profile", modifier = textModifier, color = QColors.TextPrimary)
+        Text(text = "Settings", modifier = textModifier, color = QColors.TextPrimary)
+        Text(text = "About Us", modifier = textModifier, color = QColors.TextPrimary)
+        Text(text = "Logout", modifier = textModifier, color = QColors.TextPrimary)
     }
 }
 
