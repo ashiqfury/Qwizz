@@ -10,18 +10,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Outline
 import androidx.compose.ui.graphics.Paint
-import androidx.compose.ui.graphics.Path
-import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.drawscope.drawIntoCanvas
 import androidx.compose.ui.graphics.toArgb
-import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
-import kotlin.math.cos
-import kotlin.math.sin
 import kotlin.math.sqrt
 
 
@@ -105,34 +99,4 @@ val CustomDrawerShapeDiscussed = GenericShape { size: Size, _: LayoutDirection -
     lineTo(0f, 0f) // left line
 
     close()
-}
-
-
-class DrawerShape(private val sides: Int, private val rotation: Float = 0f, val cornerRadius: Dp) : Shape {
-    override fun createOutline(
-        size: Size,
-        layoutDirection: LayoutDirection,
-        density: Density
-    ): Outline {
-        return Outline.Generic(
-            Path().apply {
-                val radius = if (size.width > size.height) size.width / 2f else size.height / 2f
-                val angle = 2.0 * Math.PI / sides
-                val cx = size.width / 2f
-                val cy = size.height / 2f
-                val r = rotation * (Math.PI / 180)
-                moveTo(
-                    x = cx + (radius * cos(0.0 + r).toFloat()), // center X
-                    y = cy + (radius * sin(0.0 + r).toFloat()) // center Y
-                )
-                for (i in 1 until sides) {
-                    lineTo(
-                        x = cx + (radius * cos(angle * i + r).toFloat()),
-                        y = cy + (radius * sin(angle * i + r).toFloat())
-                    )
-                }
-                close()
-            }
-        )
-    }
 }

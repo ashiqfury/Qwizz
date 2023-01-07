@@ -15,7 +15,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.GenericShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Card
@@ -35,7 +34,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
-import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
@@ -44,7 +42,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
@@ -52,49 +49,11 @@ import com.example.qwizz.R
 import com.example.qwizz.model.SubjectCard
 import com.example.qwizz.ui.navigation.QScreens
 import com.example.qwizz.ui.theme.QColors
+import com.example.qwizz.ui.utils.QShapes
 import com.example.qwizz.ui.utils.StatusBarInsetHandler
 import com.google.accompanist.flowlayout.FlowRow
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import kotlinx.coroutines.launch
-import kotlin.math.sqrt
-
-val CustomDrawerShape = GenericShape { size: Size, _: LayoutDirection ->
-    val curveRadius: Float = size.width / 5 // 1/5 of width
-    val heightOffset: Float = size.height / 4 // 1/4 of height
-
-    val hypotenuseLength = calculateDistanceBetweenPoints(0f, size.height, size.width, size.height - heightOffset + curveRadius) // bottom curve line length
-
-    val answerX = (size.width - curveRadius) * sqrt(2.0).toFloat()
-
-    moveTo(0f, 0f) // move to top middle
-    lineTo(size.width - curveRadius, 0f) // top line
-    quadraticBezierTo(
-        x1 = size.width,
-        y1 = 0f,
-        x2 = size.width,
-        y2 = curveRadius
-    ) // top right curve
-    lineTo(size.width, size.height - heightOffset) // right line
-    quadraticBezierTo(
-        x1 = size.width,
-        y1 = size.height - heightOffset + curveRadius,
-        x2 = size.width - curveRadius,
-        y2 = size.height - heightOffset + curveRadius + 68f // static value
-    ) // bottom major curve
-    lineTo(0f, size.height) // line bottom
-    lineTo(0f, 0f) // left line
-
-    close()
-}
-
-internal fun calculateDistanceBetweenPoints(
-    x1: Float,
-    y1: Float,
-    x2: Float,
-    y2: Float
-): Float {
-    return sqrt((y2 - y1) * (y2 - y1) + (x2 - x1) * (x2 - x1))
-}
 
 @Composable
 internal fun HomeScreen(
@@ -118,7 +77,7 @@ internal fun HomeScreen(
         drawerBackgroundColor = QColors.VeryLightWhite,
         drawerElevation = 8.dp,
 //        drawerShape = RoundedCornerShape(topEnd = 32.dp, bottomEnd = 32.dp)
-        drawerShape = CustomDrawerShape
+        drawerShape = QShapes.DrawerShapes.shape
     ) { paddingValues ->
         Column(
             modifier = Modifier
@@ -301,7 +260,7 @@ private fun DrawerContent() {
             spotColor = QColors.BabyPink
         )
 //        .padding(2.dp)
-        .background(QColors.LightWhite, shape = CustomDrawerShape)
+        .background(QColors.LightWhite, shape = QShapes.DrawerShapes.shape)
         .clip(RoundedCornerShape(12.dp))
         .clickable { }
         .padding(vertical = 10.dp, horizontal = 20.dp)
@@ -322,7 +281,7 @@ private fun DrawerContent() {
         modifier = Modifier
             .fillMaxSize()
             .background(QColors.VeryLightWhite)
-            .background(brush, shape = CustomDrawerShape, alpha = 0.3f)
+            .background(brush, shape = QShapes.DrawerShapes.shape, alpha = 0.3f)
             .padding(20.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
