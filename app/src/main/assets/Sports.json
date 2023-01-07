@@ -1,0 +1,592 @@
+{
+  "results": [
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "At which bridge does the annual Oxford and Cambridge boat race start?",
+      "correct_answer": "Putney",
+      "incorrect_answers": [
+        "Hammersmith",
+        "Vauxhall ",
+        "Battersea"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+      "correct_answer": "Nine",
+      "incorrect_answers": [
+        "Ten",
+        "Seven",
+        "Eight"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In golf, what name is given to a hole score of two under par?",
+      "correct_answer": "Eagle",
+      "incorrect_answers": [
+        "Birdie",
+        "Bogey",
+        "Albatross"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
+      "correct_answer": "Duck",
+      "incorrect_answers": [
+        "Bye",
+        "Beamer",
+        "Carry"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the nickname of Northampton town&#039;s rugby union club?",
+      "correct_answer": "Saints",
+      "incorrect_answers": [
+        "Harlequins",
+        "Saracens",
+        "Wasps"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many soccer players should be on the field at the same time?",
+      "correct_answer": "22",
+      "incorrect_answers": [
+        "20",
+        "24",
+        "26"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In what sport is a &quot;shuttlecock&quot; used?",
+      "correct_answer": "Badminton",
+      "incorrect_answers": [
+        "Table Tennis",
+        "Rugby",
+        "Cricket"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which Formula One driver was nicknamed &#039;The Professor&#039;?",
+      "correct_answer": "Alain Prost",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Niki Lauda",
+        "Emerson Fittipaldi"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many scoring zones are there on a conventional dart board?",
+      "correct_answer": "82",
+      "incorrect_answers": [
+        "62",
+        "42",
+        "102"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which nation hosted the FIFA World Cup in 2006?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "United Kingdom",
+        "Brazil",
+        "South Africa"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who won the 2015 Formula 1 World Championship?",
+      "correct_answer": "Lewis Hamilton",
+      "incorrect_answers": [
+        "Nico Rosberg",
+        "Sebastian Vettel",
+        "Jenson Button"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?",
+      "correct_answer": "7 - 1",
+      "incorrect_answers": [
+        "0 - 1",
+        "3 - 4",
+        "16 - 0"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which team was the 2014-2015 NBA Champions?",
+      "correct_answer": "Golden State Warriors",
+      "incorrect_answers": [
+        "Cleveland Cavaliers",
+        "Houston Rockets",
+        "Atlanta Hawks"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which car manufacturer won the 2016 24 Hours of Le Mans?",
+      "correct_answer": "Porsche",
+      "incorrect_answers": [
+        "Toyota",
+        "Audi",
+        "Ferrari"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+      "correct_answer": "Mazda",
+      "incorrect_answers": [
+        "Toyota",
+        "Subaru",
+        "Nissan"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "The Olympics tennis court is a giant green screen.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+      "correct_answer": "Ma Long (China)",
+      "incorrect_answers": [
+        "Zhang Jike (China)",
+        "Jun Mizutani (Japan)",
+        "Vladimir Samsonov (Belarus)"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which soccer team won the Copa Am&eacute;rica 2015 Championship ?",
+      "correct_answer": "Chile",
+      "incorrect_answers": [
+        "Argentina",
+        "Brazil",
+        "Paraguay"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which soccer team won the Copa Am&eacute;rica Centenario 2016?",
+      "correct_answer": "Chile",
+      "incorrect_answers": [
+        "Argentina",
+        "Brazil",
+        "Colombia"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which team won 2014 FIFA World Cup in Brazil?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "Argentina",
+        "Brazil",
+        "Netherlands"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Formula E is an auto racing series that uses hybrid electric race cars.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What team won the 2016 MLS Cup?",
+      "correct_answer": "Seattle Sounders",
+      "incorrect_answers": [
+        "Colorado Rapids",
+        "Toronto FC",
+        "Montreal Impact"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the oldest team in the NFL?",
+      "correct_answer": "Arizona Cardinals",
+      "incorrect_answers": [
+        "Chicago Bears",
+        "Green Bay Packers",
+        "New York Giants"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
+      "correct_answer": "Jules Bianchi",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Ronald Ratzenberger",
+        "Gilles Villeneuve"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the exact length of one non-curved part in Lane 1 of an Olympic Track?",
+      "correct_answer": "84.39m",
+      "incorrect_answers": [
+        "100m",
+        "100yd",
+        "109.36yd"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "In Rugby League, performing a &quot;40-20&quot; is punished by a free kick for the opposing team.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Wilt Chamberlain scored his infamous 100-point-game against the New York Knicks in 1962.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the full name of the footballer &quot;Cristiano Ronaldo&quot;?",
+      "correct_answer": "Cristiano Ronaldo dos Santos Aveiro",
+      "incorrect_answers": [
+        "Cristiano Ronaldo los Santos Diego",
+        "Cristiano Armando Diego Ronaldo",
+        "Cristiano Luis Armando Ronaldo"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who won the &quot;Champions League&quot; in 1999?",
+      "correct_answer": "Manchester United",
+      "incorrect_answers": [
+        "Barcelona",
+        "Bayern Munich",
+        "Liverpool"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who won the 2015 College Football Playoff (CFP) National Championship? ",
+      "correct_answer": "Ohio State Buckeyes",
+      "incorrect_answers": [
+        "Alabama Crimson Tide",
+        "Clemson Tigers",
+        "Wisconsin Badgers"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following pitchers was named National League Rookie of the Year for the 2013 season?",
+      "correct_answer": "Jose Fernandez",
+      "incorrect_answers": [
+        "Jacob deGrom",
+        "Shelby Miller",
+        "Matt Harvey"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Why was The Green Monster at Fenway Park was originally built?",
+      "correct_answer": "To prevent viewing games from outside the park.",
+      "incorrect_answers": [
+        "To make getting home runs harder.",
+        "To display advertisements.",
+        "To provide extra seating."
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "When was the first official international game played?",
+      "correct_answer": "1872",
+      "incorrect_answers": [
+        "1880",
+        "1863",
+        "1865"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which boxer was banned for taking a bite out of Evander Holyfield&#039;s ear in 1997?",
+      "correct_answer": "Mike Tyson",
+      "incorrect_answers": [
+        "Roy Jones Jr.",
+        "Evander Holyfield",
+        "Lennox Lewis"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "In 2008, Usain Bolt set the world record for the 100 meters with one shoelace untied.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In bowling, what is the term used for getting three consecutive strikes?",
+      "correct_answer": "Turkey",
+      "incorrect_answers": [
+        "Flamingo",
+        "Birdie",
+        "Eagle"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which African American is in part responsible for integrating  Major League baseball?",
+      "correct_answer": "Jackie Robinson",
+      "incorrect_answers": [
+        "Curt Flood",
+        "Roy Campanella",
+        "Satchell Paige"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which player holds the NHL record of 2,857 points?",
+      "correct_answer": "Wayne Gretzky",
+      "incorrect_answers": [
+        "Mario Lemieux ",
+        "Sidney Crosby",
+        "Gordie Howe"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+      "correct_answer": "13",
+      "incorrect_answers": [
+        "11",
+        "20",
+        "22"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who is Manchester United&#039;s top premier league goal scorer?",
+      "correct_answer": "Wayne Rooney",
+      "incorrect_answers": [
+        "Sir Bobby Charlton",
+        "Ryan Giggs",
+        "David Beckham"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Who is Manchester United&#039;s leading appearance maker?",
+      "correct_answer": "Ryan Giggs",
+      "incorrect_answers": [
+        "David Beckham",
+        "Wayne Rooney",
+        "Eric Cantona"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "There are a total of 20 races in Formula One 2016 season.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which year did Jenson Button won his first ever Formula One World Drivers&#039; Championship?",
+      "correct_answer": "2009",
+      "incorrect_answers": [
+        "2010",
+        "2007",
+        "2006"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country will host the 2022 FIFA World Cup?",
+      "correct_answer": "Qatar",
+      "incorrect_answers": [
+        "USA",
+        "Japan",
+        "Switzerland"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who won the UEFA Champions League in 2016?",
+      "correct_answer": "Real Madrid C.F.",
+      "incorrect_answers": [
+        "FC Bayern Munich",
+        "Atletico Madrid",
+        "Manchester City F.C."
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who won the 2011 Stanley Cup?",
+      "correct_answer": "Boston Bruins",
+      "incorrect_answers": [
+        "Montreal Canadiens",
+        "New York Rangers",
+        "Toronto Maple Leafs"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The Mazda 787B won the 24 Hours of Le Mans in what year?",
+      "correct_answer": "1991",
+      "incorrect_answers": [
+        "1990",
+        "2000",
+        "1987"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is &ldquo;The Sport of Kings&rdquo;?",
+      "correct_answer": "Horse Racing",
+      "incorrect_answers": [
+        "Chess",
+        "Jousting",
+        "Fencing"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What country hosted the 2014 Winter Olympics?",
+      "correct_answer": "Russia",
+      "incorrect_answers": [
+        "Canada",
+        "United States",
+        "Germany"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which basketball team has attended the most NBA grand finals?",
+      "correct_answer": "Los Angeles Lakers",
+      "incorrect_answers": [
+        "Boston Celtics",
+        "Philadelphia 76ers",
+        "Golden State Warriors"
+      ]
+    }
+  ]
+}

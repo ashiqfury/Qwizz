@@ -1,0 +1,587 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "The Cold War ended with Joseph Stalin&#039;s death.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "The Tiananmen Square protests of 1989 were held in Hong Kong.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "The two atomic bombs dropped on Japan by the United States in August 1945 were named &#039;Little Man&#039; and &#039;Fat Boy&#039;.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "The first televised presidential debate was between Jimmy Carter and Gerald Ford.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In what year did the Wall Street Crash take place?",
+      "correct_answer": "1929",
+      "incorrect_answers": [
+        "1932",
+        "1930",
+        "1925"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which one of these tanks was designed and operated by the United Kingdom?",
+      "correct_answer": "Tog II",
+      "incorrect_answers": [
+        "M4 Sherman",
+        "Tiger H1",
+        "T-34"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Joseph Stalin&#039;s real name was Ioseb Bessarionis dze Dzugashvili.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which country had an &quot;Orange Revolution&quot; between 2004 and 2005?",
+      "correct_answer": "Ukraine",
+      "incorrect_answers": [
+        "Belarus",
+        "Latvia",
+        "Lithuania"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following battles is often considered as marking the beginning of the fall of the Western Roman Empire?",
+      "correct_answer": "Battle of Adrianople",
+      "incorrect_answers": [
+        "Battle of Thessalonica",
+        "Battle of Pollentia",
+        "Battle of Constantinople"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?",
+      "correct_answer": "Shamshi-Adad III",
+      "incorrect_answers": [
+        "Shalmaneser V",
+        "Esharhaddon",
+        "Ashur-nasir-pal II"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was Manfred von Richthofen&#039;s nickname?",
+      "correct_answer": "The Red Baron",
+      "incorrect_answers": [
+        "The High Flying Ace",
+        "The Blue Serpent ",
+        "The Germany Gunner"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "On which day did the attempted coup d&#039;etat of 1991 in the Soviet Union begin?",
+      "correct_answer": "August 19",
+      "incorrect_answers": [
+        "August 21",
+        "December 26",
+        "December 24"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How old was Lyndon B. Johnson when he assumed the role of President of the United States?",
+      "correct_answer": "55",
+      "incorrect_answers": [
+        "50",
+        "60",
+        "54"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of these countries was NOT a part of the Soviet Union?",
+      "correct_answer": "Afghanistan",
+      "incorrect_answers": [
+        "Turkmenistan",
+        "Kazakhstan",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which Apollo mission was the last one in NASA&#039;s Apollo program?",
+      "correct_answer": "Apollo 17",
+      "incorrect_answers": [
+        "Apollo 13",
+        "Apollo 11",
+        "Apollo 15"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What year did the Battle of Agincourt take place?",
+      "correct_answer": "1415",
+      "incorrect_answers": [
+        "1463",
+        "1401",
+        "1422"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which modern day country is the region that was known as Phrygia in ancient times?",
+      "correct_answer": "Turkey",
+      "incorrect_answers": [
+        "Syria",
+        "Greece",
+        "Egypt"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When was Adolf Hitler appointed as Chancellor of Germany?",
+      "correct_answer": "January 30, 1933",
+      "incorrect_answers": [
+        "September 1, 1939",
+        "February 27, 1933",
+        "October 6, 1939"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What year were the Marian Reforms instituted in the Roman Republic?",
+      "correct_answer": "107 BCE",
+      "incorrect_answers": [
+        "42 BCE",
+        "264 BCE",
+        "102 CE"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "In 1967, a magazine published a story about extracting hallucinogenic chemicals from bananas to raise moral questions about banning drugs.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Joseph Stalin had a criminal past doing what?",
+      "correct_answer": "Robbing Trains",
+      "incorrect_answers": [
+        "Murder for Hire",
+        "Tax Evasion",
+        "Identity Fraud"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What year was the United States Declaration of Independence signed?",
+      "correct_answer": "1776",
+      "incorrect_answers": [
+        "1775",
+        "1774",
+        "1777"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Abraham Lincoln was the first U.S. President to be born outside the borders of the thirteen original states. ",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the bloodiest event in United States history, in terms of casualties?",
+      "correct_answer": "Battle of Antietam",
+      "incorrect_answers": [
+        "Pearl Harbor",
+        "September 11th",
+        "D-Day"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the transfer of disease, crops, and people across the Atlantic shortly after the discovery of the Americas called?",
+      "correct_answer": "The Columbian Exchange",
+      "incorrect_answers": [
+        "Triangle Trade",
+        "Transatlantic Slave Trade",
+        "The Silk Road"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was found in 1946 by two young shepards near a cave?",
+      "correct_answer": "Dead Sea Scrolls",
+      "incorrect_answers": [
+        "The Blackbeard Chest",
+        "Sheep",
+        "The First Oaxaca Cave Sleeper"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When did Norway get its constitution?",
+      "correct_answer": "1814",
+      "incorrect_answers": [
+        "1932",
+        "1905",
+        "1854"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following snipers has the highest amount of confirmed kills?",
+      "correct_answer": "Simo H&auml;yh&auml;",
+      "incorrect_answers": [
+        "Chris Kyle",
+        "Vasily Zaytsev",
+        "Craig Harrison"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In what dialogue did Socrates defend himself to the court of Athens? ",
+      "correct_answer": "The Apology",
+      "incorrect_answers": [
+        "The Euthyphro",
+        "The Laws",
+        "The Republic"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the bloodiest single-day battle during the American Civil War?",
+      "correct_answer": "The Battle of Antietam",
+      "incorrect_answers": [
+        "The Siege of Vicksburg",
+        "The Battle of Gettysburg",
+        "The Battles of Chancellorsville"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which historical conflict killed the most people?",
+      "correct_answer": "World War II",
+      "incorrect_answers": [
+        "Taiping Rebellion",
+        "Three Kingdoms War",
+        "Mongol conquests"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Martin Luther King Jr. and Anne Frank were born the same year. ",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the code name for the Allied invasion of Southern France on August 15th, 1944?",
+      "correct_answer": "Operation Dragoon",
+      "incorrect_answers": [
+        "Operation Overlord",
+        "Operation Market Garden",
+        "Operation Torch"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the total length of the Titanic?",
+      "correct_answer": "882 ft | 268.8 m",
+      "incorrect_answers": [
+        "759 ft | 231.3 m",
+        "1042 ft | 317.6 m",
+        "825 ft | 251.5 m"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+      "correct_answer": "The Polish President",
+      "incorrect_answers": [
+        "Pope John Paul II",
+        "Bang-Ding Ow",
+        "Albert Putin"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When was the &quot;Siege of Leningrad&quot; lifted during World War II?",
+      "correct_answer": "January 1944",
+      "incorrect_answers": [
+        "September 1943",
+        "November 1943",
+        "March 1944"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which day did World War I begin?",
+      "correct_answer": "July 28",
+      "incorrect_answers": [
+        "January 28",
+        "June 28",
+        "April 28"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "On which aircraft carrier did the Doolitte Raid launch from on April 18, 1942 during World War II?",
+      "correct_answer": "USS Hornet",
+      "incorrect_answers": [
+        "USS Enterprise",
+        "USS Lexington",
+        "USS Saratoga"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When did construction of the Suez Canal finish?",
+      "correct_answer": "1869",
+      "incorrect_answers": [
+        "1859",
+        "1860",
+        "1850"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?",
+      "correct_answer": "March 25th",
+      "incorrect_answers": [
+        "June 1st",
+        "September 25th",
+        "December 1st"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Korean War started in what year?",
+      "correct_answer": "1950",
+      "incorrect_answers": [
+        "1945",
+        "1960",
+        "1912"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Sir Issac Newton served as a Member of Parliament, but the only recorded time he spoke was to complain about a draft in the chambers.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which countries participated in the Lobster War?",
+      "correct_answer": "France and Brazil",
+      "incorrect_answers": [
+        "Canada and Norway",
+        "Australia and New Zealand",
+        "United States and England"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When did the Crisis of the Third Century begin?",
+      "correct_answer": "235 AD",
+      "incorrect_answers": [
+        "235 BC",
+        "242 AD",
+        "210 AD"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "During World War I, which nation&#039;s monarchs were blood related?",
+      "correct_answer": "England, Germany, Russia",
+      "incorrect_answers": [
+        "France, Russia, Germany",
+        "Serbia, Russia, Croatia",
+        "Germany, Spain, Austria"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "During which American Civil War campaign did Union troops dig a tunnel beneath Confederate troops to detonate explosives underneath them?",
+      "correct_answer": "Siege of Petersburg",
+      "incorrect_answers": [
+        "Siege of Vicksburg",
+        "Antietam Campaign",
+        "Gettysburg Campagin"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "After the 1516 Battle of Marj Dabiq, the Ottoman Empire took control of Jerusalem from which sultanate?",
+      "correct_answer": "Mamluk",
+      "incorrect_answers": [
+        "Ayyubid",
+        "Ummayyad",
+        "Seljuq"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The coat of arms of the King of Spain contains the arms from the monarchs of Castille, Leon, Aragon and which other former Iberian kingdom?",
+      "correct_answer": "Navarre",
+      "incorrect_answers": [
+        "Galicia",
+        "Granada",
+        "Catalonia"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of the following physicists did NOT work on the Manhattan project?",
+      "correct_answer": "Murray Gell-Mann",
+      "incorrect_answers": [
+        "Richard Feynman",
+        "J. Robert Oppenheimer",
+        "John Von-Neumann"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which country did the Eureka Rebellion, an 1856 battle against colonial rule, take place in?",
+      "correct_answer": "Australia",
+      "incorrect_answers": [
+        "India",
+        "Canada",
+        "Brazil"
+      ]
+    }
+  ]
+}

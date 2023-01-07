@@ -1,0 +1,588 @@
+{
+  "results": [
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What European country is not a part of the EU?",
+      "correct_answer": "Norway",
+      "incorrect_answers": [
+        "Lithuania",
+        "Ireland",
+        "Czechia"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Montreal is in which Canadian province?",
+      "correct_answer": "Quebec",
+      "incorrect_answers": [
+        "Ontario",
+        "Nova Scotia",
+        "Alberta"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the capital of Peru?",
+      "correct_answer": "Lima",
+      "incorrect_answers": [
+        "Santiago",
+        "Montevideo",
+        "Buenos Aires"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What state is the largest state of the United States of America?",
+      "correct_answer": "Alaska",
+      "incorrect_answers": [
+        "California",
+        "Texas",
+        "Washington"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these countries is NOT a part of the Asian continent?",
+      "correct_answer": "Suriname",
+      "incorrect_answers": [
+        "Georgia",
+        "Russia",
+        "Singapore"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Kuala Lumpur is the capital of which country?",
+      "correct_answer": "Malaysia",
+      "incorrect_answers": [
+        "Indonesia",
+        "Singapore",
+        "Thailand"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these is NOT a province in China?",
+      "correct_answer": "Yangtze",
+      "incorrect_answers": [
+        "Fujian",
+        "Sichuan",
+        "Guangdong"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "All of the following are classified as Finno-Ugric languages EXCEPT:",
+      "correct_answer": "Samoyedic",
+      "incorrect_answers": [
+        "Hungarian",
+        "Finnish",
+        "Estonian"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "On which continent is the country of Angola located?",
+      "correct_answer": "Africa",
+      "incorrect_answers": [
+        "South America",
+        "Europe",
+        "Asia"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Alaska is the largest state in the United States.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following languages does NOT use the Latin alphabet?",
+      "correct_answer": "Georgian",
+      "incorrect_answers": [
+        "Turkish",
+        "Swahili",
+        "Vietnamese"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In 2012 the German-speaking microstate &quot;Liechtenstein&quot; in Central Europe had a population of how many inhabitants?",
+      "correct_answer": "36,600",
+      "incorrect_answers": [
+        "2,400",
+        "90,000",
+        "323,400"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "The Southeast Asian island of Borneo is politically divided among 3 countries.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of these is NOT an island that is part of the Philippines?",
+      "correct_answer": "Java",
+      "incorrect_answers": [
+        "Luzon",
+        "Mindanao",
+        "Palawan"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many countries does the United States share a land border with?",
+      "correct_answer": "2",
+      "incorrect_answers": [
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many countries are larger than Australia?",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "4",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the capital of the State of Washington, United States?",
+      "correct_answer": "Olympia",
+      "incorrect_answers": [
+        "Washington D.C.",
+        "Seattle",
+        "Yukon"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What country has a horizontal bicolor red and white flag?",
+      "correct_answer": "Monaco",
+      "incorrect_answers": [
+        "Bahrain",
+        "Malta",
+        "Liechenstein"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The historical city Timbuktu is located in which West African country?",
+      "correct_answer": "Mali",
+      "incorrect_answers": [
+        "Senegal",
+        "Niger",
+        "Burkina Faso"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which UK country features a dragon on their flag?",
+      "correct_answer": "Wales",
+      "incorrect_answers": [
+        "England",
+        "North Ireland",
+        "Scotland"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the right way to spell the capital of Hungary?",
+      "correct_answer": "Budapest",
+      "incorrect_answers": [
+        "Boodapest",
+        "Bhudapest",
+        "Budapast"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the area of Vatican City?",
+      "correct_answer": "0.44km^2",
+      "incorrect_answers": [
+        "0.10km^2",
+        "0.86km^2",
+        "12.00km^2"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "The Sonoran Desert is located in eastern Africa.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What tiny principality lies between Spain and France?",
+      "correct_answer": "Andorra",
+      "incorrect_answers": [
+        "Liechtenstein",
+        "Monaco",
+        "San Marino"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which country has three capital cities?",
+      "correct_answer": "South Africa",
+      "incorrect_answers": [
+        "Somalia",
+        "China",
+        "United Kingdom"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How tall is One World Trade Center in New York City?",
+      "correct_answer": "1,776 ft",
+      "incorrect_answers": [
+        "1,888 ft",
+        "1,225 ft",
+        "1,960 ft"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What city is known as the Rose Capital of the World?",
+      "correct_answer": "Tyler, Texas",
+      "incorrect_answers": [
+        "San Diego, California",
+        "Miami, Florida",
+        "Anaheim, California"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Japan has left-hand side traffic.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country is the home of the largest Japanese population outside of Japan?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": [
+        "China",
+        "Russia",
+        "The United States"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which Canadian province has Charlottetown as its capital?",
+      "correct_answer": "Prince Edward Island",
+      "incorrect_answers": [
+        "Saskachewan",
+        "Northwest Terrirories",
+        "Ontario"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the capital of British Columbia, Canada?",
+      "correct_answer": "Victoria",
+      "incorrect_answers": [
+        "Vancouver",
+        "Hope",
+        "Kelowna"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+      "correct_answer": "Grand Banks",
+      "incorrect_answers": [
+        "Great Barrier Reef",
+        "Mariana Trench",
+        "Hudson Bay"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When does Finland celebrate their independence day?",
+      "correct_answer": "December 6th",
+      "incorrect_answers": [
+        "January 2nd",
+        "November 12th",
+        "February 8th"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Norway has a larger land area than Sweden.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Where is the &quot;Sonoran Desert&quot; located?",
+      "correct_answer": "North America",
+      "incorrect_answers": [
+        "South America",
+        "Asia",
+        "Africa"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the capital city of New Zealand?",
+      "correct_answer": "Wellington",
+      "incorrect_answers": [
+        "Auckland",
+        "Christchurch",
+        "Melbourne"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "New Haven is the capital city of the state of Connecticut in the United States.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How many stations does the Central Line have on the London Underground?",
+      "correct_answer": "49",
+      "incorrect_answers": [
+        "51",
+        "43",
+        "47"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the fifth largest country by area?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": [
+        "United States",
+        "Australia",
+        "India"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Nova Scotia is on the east coast of Canada.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country was NOT part of the Soviet Union?",
+      "correct_answer": "Romania",
+      "incorrect_answers": [
+        "Turkmenistan",
+        "Belarus",
+        "Tajikistan"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In which English county is the city of Portsmouth?",
+      "correct_answer": "Hampshire",
+      "incorrect_answers": [
+        "Oxfordshire",
+        "Buckinghamshire",
+        "Surrey"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?",
+      "correct_answer": "Crown",
+      "incorrect_answers": [
+        "Bird",
+        "Sickle",
+        "Tree"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "There is an island in Japan called Ōkunoshima, A.K.A. &quot;Rabbit Island&quot;, so named because of it&#039;s huge population of rabbits.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these cities is NOT in England?",
+      "correct_answer": "Edinburgh",
+      "incorrect_answers": [
+        "Oxford",
+        "Manchester",
+        "Southampton"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Where is Hadrian&#039;s Wall located?",
+      "correct_answer": "Carlisle, England",
+      "incorrect_answers": [
+        "Rome, Italy",
+        "Alexandria, Egypt",
+        "Dublin, Ireland"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Bir Tawil, an uninhabited track of land claimed by no country, is located along the border of which two countries?",
+      "correct_answer": "Egypt and Sudan",
+      "incorrect_answers": [
+        "Israel and Jordan",
+        "Chad and Libya",
+        "Iraq and Saudi Arabia"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What island in the Canary Islands was the scene of one of the worst air disasters in history with the collision of two jumbo jets?",
+      "correct_answer": "Tenerife",
+      "incorrect_answers": [
+        "Fuerteventura",
+        "Gran Canaria",
+        "Maui"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which two modern-day countries used to be known as the region of Rhodesia between the 1890s and 1980?",
+      "correct_answer": "Zambia &amp; Zimbabwe",
+      "incorrect_answers": [
+        "Togo &amp; Benin",
+        "Lesotho &amp; Swaziland",
+        "Rwanda &amp; Burundi"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The formerly East-Prussian city of K&ouml;nigsberg is known as which Russian City today?",
+      "correct_answer": "Kaliningrad",
+      "incorrect_answers": [
+        "Kazan",
+        "Kursk",
+        "Krasnodar"
+      ]
+    }
+  ]
+}

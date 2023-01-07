@@ -1,0 +1,5722 @@
+{
+  "books": {
+    "results": [
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following authors was not born in England? ",
+        "correct_answer": "Arthur Conan Doyle",
+        "incorrect_answers": [
+          "Graham Greene",
+          "H G Wells",
+          "Arthur C Clarke"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who wrote the 'A Song of Ice And Fire' fantasy novel series?",
+        "correct_answer": "George R. R. Martin",
+        "incorrect_answers": [
+          "George Lucas",
+          "George Orwell",
+          "George Eliot"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Who wrote the novel 'Moby-Dick'?",
+        "correct_answer": "Herman Melville",
+        "incorrect_answers": [
+          "William Golding",
+          "William Shakespeare",
+          "J. R. R. Tolkien"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the name of Captain Nemo's submarine in '20,000 Leagues Under the Sea'?",
+        "correct_answer": "The Nautilus",
+        "incorrect_answers": [
+          "The Neptune",
+          "The Poseidon  ",
+          "The Atlantis"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the book 'The Martian', how long was Mark Watney trapped on Mars (in Sols)?",
+        "correct_answer": "549 Days",
+        "incorrect_answers": [
+          "765 Days",
+          "401 Days",
+          "324 Days"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who wrote the 1967 horror novel 'Rosemary's Baby'?",
+        "correct_answer": "Ira Levin",
+        "incorrect_answers": [
+          "Stephen King",
+          "Robert Bloch",
+          "Mary Shelley"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the Lord of the Rings, who is the father of the dwarf Gimli?",
+        "correct_answer": "Gloin",
+        "incorrect_answers": [
+          "Thorin Oakenshield",
+          "Bombur",
+          "Dwalin"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What position does Harry Potter play in Quidditch?",
+        "correct_answer": "Seeker",
+        "incorrect_answers": [
+          "Beater",
+          "Chaser",
+          "Keeper"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "'Green Eggs And Ham' is a book by which author?",
+        "correct_answer": "Dr. Seuss",
+        "incorrect_answers": [
+          "Beatrix Potter",
+          "Roald Dahl",
+          "A.A. Milne"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was the pen name of novelist, Mary Ann Evans?",
+        "correct_answer": "George Eliot",
+        "incorrect_answers": [
+          "George Orwell",
+          "George Bernard Shaw",
+          "George Saunders"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who wrote the children's story 'The Little Match Girl'?",
+        "correct_answer": "Hans Christian Andersen",
+        "incorrect_answers": [
+          "Charles Dickens",
+          "Lewis Carroll",
+          "Oscar Wilde"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the 'Harry Potter' series, what is Headmaster Dumbledore's full name?",
+        "correct_answer": "Albus Percival Wulfric Brian Dumbledore",
+        "incorrect_answers": [
+          "Albus Valum Jetta Mobius Dumbledore",
+          "Albus James Lunae Otto Dumbledore",
+          "Albus Valencium Horatio Kul Dumbledore"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "The book 1984 was published in 1949.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
+        "correct_answer": "Richard Bachman",
+        "incorrect_answers": [
+          "J. D. Robb",
+          "Mark Twain",
+          "Lewis Carroll"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The novel 'Of Mice And Men' was written by what author? ",
+        "correct_answer": "John Steinbeck ",
+        "incorrect_answers": [
+          "George Orwell",
+          "Mark Twain ",
+          "Harper Lee"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who wrote the young adult novel 'The Fault in Our Stars'?",
+        "correct_answer": "John Green",
+        "incorrect_answers": [
+          "Stephenie Meyer",
+          "Suzanne Collins",
+          "Stephen Chbosky"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who was the author of the 1954 novel, 'Lord of the Flies'?",
+        "correct_answer": "William Golding",
+        "incorrect_answers": [
+          "Stephen King",
+          "F. Scott Fitzgerald",
+          "Hunter Fox"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the year 1818, novelist Mary Shelly is credited with writing a fiction novel and creating this infamous character.",
+        "correct_answer": "Frankenstein's monster",
+        "incorrect_answers": [
+          "Dracula",
+          "The Thing",
+          "The Invisible Man"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "'Elementary, my dear Watson' is a phrase that is never truly said within the Conan Doyle books of Sherlock Holmes.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The title of Adolf Hitler's autobiography 'Mein Kampf' is what when translated to English?",
+        "correct_answer": "My Struggle",
+        "incorrect_answers": [
+          "My Hatred",
+          "My Sadness",
+          "My Desire"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of the protagonist of J.D. Salinger's novel Catcher in the Rye?",
+        "correct_answer": "Holden Caulfield",
+        "incorrect_answers": [
+          "Fletcher Christian",
+          "Jay Gatsby",
+          "Randall Flagg"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the title of the first Sherlock Holmes book by Arthur Conan Doyle?",
+        "correct_answer": "A Study in Scarlet",
+        "incorrect_answers": [
+          "The Sign of the Four",
+          "A Case of Identity",
+          "The Doings of Raffles Haw"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "According to The Hitchhiker's Guide to the Galaxy book, the answer to life, the universe and everything else is...",
+        "correct_answer": "42",
+        "incorrect_answers": [
+          "Loving everyone around you",
+          "Chocolate",
+          "Death"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Where does the book 'The Silence of the Lambs' get its title from?",
+        "correct_answer": "The main character's trauma in childhood",
+        "incorrect_answers": [
+          "The relation it has with killing the innocents",
+          "The villain's favourite meal",
+          "The voice of innocent people being shut by the powerful"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "boolean",
+        "difficulty": "hard",
+        "question": "Harry Potter was born on July 31st, 1980.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the novel 'Lord of the Rings', how many rings of power were given to the race of man?",
+        "correct_answer": "9",
+        "incorrect_answers": [
+          "5",
+          "11",
+          "13"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Michael Crichton's novel 'Jurassic Park', John Hammond meets his demise at the claws of which dinosaur?",
+        "correct_answer": "Procompsognathus",
+        "incorrect_answers": [
+          "Dilophosaurus",
+          "Tyrannosaurus Rex",
+          "Velociraptor"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the 'Harry Potter' novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
+        "correct_answer": "Answer a riddle",
+        "incorrect_answers": [
+          "Rhythmically tap barrels with a wand",
+          "Speak a password",
+          "Knock in sequence"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the gang that Ponyboy is a part of in the book, The Outsiders?",
+        "correct_answer": "The Greasers",
+        "incorrect_answers": [
+          "The Outsiders",
+          "The Mafia",
+          "The Socs"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which of the following is NOT a work done by Shakespeare?",
+        "correct_answer": "Trial of Temperance",
+        "incorrect_answers": [
+          "Measure For Measure",
+          "Titus Andronicus",
+          "Cymbeline"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What book series published by Jim Butcher follows a wizard in modern day Chicago?",
+        "correct_answer": "The Dresden Files",
+        "incorrect_answers": [
+          "A Hat in Time",
+          "The Cinder Spires",
+          "My Life as a Teenage Wizard"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the make and model of the tour vehicles in 'Jurassic Park' (1990)?",
+        "correct_answer": "1989 Toyota Land Cruiser",
+        "incorrect_answers": [
+          "1989 Jeep Wrangler YJ Sahar",
+          "1989 Ford Explorer XLT",
+          "Mercedes M-Class"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the book series 'Odd Thomas', Danny Jessup has what genetic disease? ",
+        "correct_answer": " Osteogenesis Imperfecta",
+        "incorrect_answers": [
+          "Spinocerebellar ataxia",
+          "Adrenoleukodystrophy",
+          "Cystic Fibrosis"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In Margaret Atwood's 'The Handmaid's Tale', what is Offred's real name is implied to be?",
+        "correct_answer": "June",
+        "incorrect_answers": [
+          "August",
+          "April",
+          "May"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Magic: The Gathering universe,  the Antiquities, Ice Age, and Alliances expansions take place on which continent?",
+        "correct_answer": "Terisiare",
+        "incorrect_answers": [
+          "Aerona",
+          "Shiv",
+          "Jamuraa"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Magic: The Gathering universe, which plane does the Homelands expansion take place in?",
+        "correct_answer": "Ulgrotha",
+        "incorrect_answers": [
+          "Bant",
+          "Llanowar",
+          "Tazeem"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Alice in Wonderland, what is the name of Alice's kitten?",
+        "correct_answer": "Dinah",
+        "incorrect_answers": [
+          "Oscar",
+          "Heath",
+          "Smokey"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What's the second book in George R. R. Martin's 'A Song of Ice and Fire' series?",
+        "correct_answer": "A Clash of Kings",
+        "incorrect_answers": [
+          "A Dance with Dragons",
+          "A Storm of Swords",
+          "A Feast for Crows"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "'Green Eggs and Ham' consists of only 50 different words.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the first ever entry written for the SCP Foundation collaborative writing project?",
+        "correct_answer": "SCP-173",
+        "incorrect_answers": [
+          "SCP-001",
+          "SCP-999",
+          "SCP-1459"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which is NOT a book in the Harry Potter Series?",
+        "correct_answer": "The House Elf",
+        "incorrect_answers": [
+          "The Chamber of Secrets",
+          "The Prisoner of Azkaban",
+          "The Deathly Hallows"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which novel by John Grisham was conceived on a road trip to Florida while thinking about stolen books with his wife?",
+        "correct_answer": "Camino Island",
+        "incorrect_answers": [
+          "Rogue Lawyer",
+          "Gray Mountain",
+          "The Litigators"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which fictional English county was the setting for Thomas Hardy's novels?",
+        "correct_answer": "Wessex",
+        "incorrect_answers": [
+          "Barsetshire",
+          "Fulchester",
+          "Ambridge"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following is not a work authored by Fyodor Dostoevsky?",
+        "correct_answer": "Anna Karenina",
+        "incorrect_answers": [
+          "Notes from the Underground",
+          "Crime and Punishment",
+          "The Brothers Karamazov"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which Russian author wrote the epic novel War and Peace?",
+        "correct_answer": "Leo Tolstoy",
+        "incorrect_answers": [
+          "Fyodor Dostoyevsky",
+          "Alexander Pushkin",
+          "Vladimir Nabokov"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was Sir Handel's original name in 'The Railway Series' and it's animated counterpart 'Thomas and Friends?'",
+        "correct_answer": "Falcon",
+        "incorrect_answers": [
+          "Eagle",
+          "Kyte",
+          "Swallow"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Shub-Niggurath is a creature that was created by \tJ. R. R. Tolkien in his novel 'The Lord of The Rings'.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is the name of the town in which Lily and James Potter are buried?",
+        "correct_answer": "Godric's Hollow",
+        "incorrect_answers": [
+          "Hogsmeade",
+          "Ottery St. Catchpole",
+          "Little Hangleton"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In The Lies of Locke Lamora, what title is Locke known by in the criminal world?",
+        "correct_answer": "The Thorn of Camorr",
+        "incorrect_answers": [
+          "The Rose of the Marrows",
+          "The Thorn of Emberlain",
+          "The Thorn of the Marrows"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Romance of the Three Kingdoms, who was not a member of the Peach Garden Oath?",
+        "correct_answer": "Zhao Yun",
+        "incorrect_answers": [
+          "Liu Bei",
+          "Guan Yu",
+          "Zhang Fei"
+        ]
+      }
+    ]
+  },
+  "films": {
+    "results": [
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which animated movie was first to feature a celebrity as a voice actor?",
+        "correct_answer": "Aladdin",
+        "incorrect_answers": [
+          "Toy Story",
+          "James and the Giant Peach",
+          "The Hunchback of Notre Dame"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In which 1973 film does Yul Brynner play a robotic cowboy who malfunctions and goes on a killing\tspree?",
+        "correct_answer": "Westworld",
+        "incorrect_answers": [
+          "Runaway",
+          "Android",
+          "The Terminators"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which actress danced the twist with John Travolta in 'Pulp Fiction'?",
+        "correct_answer": "Uma Thurman",
+        "incorrect_answers": [
+          "Kathy Griffin",
+          "Pam Grier",
+          "Bridget Fonda"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the 1984 movie 'The Terminator', what model number is the Terminator portrayed by Arnold Schwarzenegger?",
+        "correct_answer": "T-800",
+        "incorrect_answers": [
+          "I-950",
+          "T-888",
+          "T-1000"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Matt Damon played an astronaut stranded on an extraterrestrial planet in both of the movies Interstellar and The Martian.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who directed the 2015 movie 'The Revenant'?",
+        "correct_answer": "Alejandro G. Iñárritu",
+        "incorrect_answers": [
+          "Christopher Nolan",
+          "David Fincher",
+          "Wes Anderson"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+        "correct_answer": "Highlander",
+        "incorrect_answers": [
+          "Flash Gordon",
+          "Labyrinth",
+          "Howard the Duck"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who played Batman in the 1997 film 'Batman and Robin'?",
+        "correct_answer": "George Clooney",
+        "incorrect_answers": [
+          "Michael Keaton",
+          "Val Kilmer",
+          "Christian Bale"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "This movie contains the quote, 'I feel the need ... the need for speed!'",
+        "correct_answer": "Top Gun",
+        "incorrect_answers": [
+          "Days of Thunder",
+          "The Color of Money",
+          "Cocktail"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "The 2010 film 'The Social Network' is a biographical drama film about MySpace founder Tom Anderson.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In what year was the first Transformers movie released?",
+        "correct_answer": "1986",
+        "incorrect_answers": [
+          "2007",
+          "1984",
+          "2009"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does TIE stand for in reference to the TIE Fighter in 'Star Wars'?",
+        "correct_answer": "Twin Ion Engine",
+        "incorrect_answers": [
+          "Twin Iron Engine",
+          "Twin Intercepter Engine",
+          "Twin Inception Engine"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is the name of the assassin in the first 'Hellboy' movie?",
+        "correct_answer": "Karl Ruprecht Kroenen",
+        "incorrect_answers": [
+          "Klaus Werner von Krupt",
+          "Grigori Efimovich Rasputin",
+          "Ilsa Haupstein"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the name of the planet in 'Aliens'?",
+        "correct_answer": "LV-426",
+        "incorrect_answers": [
+          "Weyland Yutani Corporation Base",
+          "FR-838",
+          "DI-621"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the first James Bond film?",
+        "correct_answer": "Dr. No",
+        "incorrect_answers": [
+          "Goldfinger",
+          "From Russia With Love",
+          "Thunderball"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What did the first moving picture depict?",
+        "correct_answer": "A galloping horse",
+        "incorrect_answers": [
+          "A woman in a dress",
+          "A man walking",
+          "A crackling fire"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which movie includes a giant bunny-like spirit who has magic powers including growing trees?",
+        "correct_answer": "My Neighbor Totoro",
+        "incorrect_answers": [
+          "Hop",
+          "Rise of the Guardians",
+          "Alice in Wonderland"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In 2012, which movie won every category in the 32nd 'Golden Raspberry Awards'?",
+        "correct_answer": "Jack and Jill",
+        "incorrect_answers": [
+          "The Girl with the Dragon Tattoo",
+          "Thor",
+          "The King's Speech"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which one of these films are shot entirely in one-take?",
+        "correct_answer": "Russian Ark",
+        "incorrect_answers": [
+          "Good Will Hunting",
+          "Birdman",
+          "Schindler's List"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Samuel L. Jackson had the words, 'Bad Motherf*cker' in-scripted on his lightsaber during the filming of Star Wars.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was another suggested name for, the 1985 film, Back to the Future?",
+        "correct_answer": "Spaceman From Pluto",
+        "incorrect_answers": [
+          "Hill Valley Time Travelers",
+          "The Time Travelers",
+          "The Lucky Man"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the first movie to ever use a Wilhelm Scream?",
+        "correct_answer": "Distant Drums",
+        "incorrect_answers": [
+          "Treasure of the Sierra Madre",
+          "The Charge at Feather River",
+          "Indiana Jones"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-lll?",
+        "correct_answer": "Ewan McGregor",
+        "incorrect_answers": [
+          "Alec Guinness",
+          "Hayden Christensen",
+          "Liam Neeson"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who voices the main character Blu in the 2011 animated film 'Rio'?",
+        "correct_answer": "Jesse Eisenberg",
+        "incorrect_answers": [
+          "Michael Cera",
+          "Jonah Hill",
+          "Zach Galifianakis"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The 2002 film '28 Days Later' is mainly set in which European country?",
+        "correct_answer": "United Kingdom",
+        "incorrect_answers": [
+          "France",
+          "Italy",
+          "Germany"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Back to the Future Part II, Marty and Dr. Emmett Brown go to which future date?",
+        "correct_answer": "October 21, 2015",
+        "incorrect_answers": [
+          "August 28, 2015",
+          "July 20, 2015",
+          "January 25, 2015"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "'Minions' was released on the June 10th, 2015.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In order to cut costs, what were most of the extras of Mad Max (1979) paid with?",
+        "correct_answer": "Beer",
+        "incorrect_answers": [
+          "Fast food",
+          "Food stamps",
+          "They weren't paid"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In what year did Clint Eastwood star as Inspector Harry Callahan in the film 'Dirty Harry'?",
+        "correct_answer": "1971",
+        "incorrect_answers": [
+          "1975",
+          "1983",
+          "1969"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "boolean",
+        "difficulty": "hard",
+        "question": "The weapon Clint Eastwood uses in 'Dirty Harry' was a .44 Automag.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Actor Tommy Chong served prison time.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Before 'Jurassic Park III' was finalized and the Spinosaurus was chosen, which dinosaur was going to be the star?",
+        "correct_answer": "Baryonyx",
+        "incorrect_answers": [
+          "Tyrannosaurus Rex",
+          "Velociraptor",
+          "Suchomimus"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the 'Jurassic Park' universe, what was the first dinosaur cloned by InGen in 1986?",
+        "correct_answer": "Velociraptor",
+        "incorrect_answers": [
+          "Triceratops",
+          "Troodon",
+          "Brachiosaurus"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the 'Jurassic Park' universe, when did 'Jurassic Park: San Diego' begin construction?",
+        "correct_answer": "1985",
+        "incorrect_answers": [
+          "1988",
+          "1986",
+          "1993"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was Bruce Campbell's iconic one-liner after getting a chainsaw hand in Evil Dead 2?",
+        "correct_answer": "Groovy.",
+        "incorrect_answers": [
+          "Gnarly.",
+          "Perfect.",
+          "Nice."
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which town is the setting for the Disney movie The Love Bug (1968)?",
+        "correct_answer": "San Francisco",
+        "incorrect_answers": [
+          "Los Angeles",
+          "Sacramento",
+          "San Jose"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What character in the Winnie the Pooh films was added by Disney and does not appear in the original books?",
+        "correct_answer": "Gopher",
+        "incorrect_answers": [
+          "Tigger",
+          "Heffalumps",
+          "Rabbit"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the queen's pet in A Bug's Life?",
+        "correct_answer": "Aphie",
+        "incorrect_answers": [
+          "Flik",
+          "Hopper",
+          "Dot"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which sci-fi cult films plot concerns aliens attempting to prevent humans from creating a doomsday weapon?",
+        "correct_answer": "Plan 9 from Outer Space",
+        "incorrect_answers": [
+          "The Man from Planet X",
+          "It Came from Outer Space",
+          "The Day The Earth Stood Still"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was Humphrey Bogart's middle name?",
+        "correct_answer": "DeForest",
+        "incorrect_answers": [
+          "DeWinter",
+          "Steven",
+          "Bryce"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the film 'Harry Potter and the Order of The Phoenix', why was Harry Potter's scream, after Sirius Black died, muted?",
+        "correct_answer": "Too Agonizing",
+        "incorrect_answers": [
+          "Too Loud",
+          "Too Harsh",
+          "Too Violent"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the film 'Requiem for a Dream', what drug does Jared Leto's character get addicted to?",
+        "correct_answer": "Heroin",
+        "incorrect_answers": [
+          "Cocaine",
+          "Marijuana",
+          "Oxycodone"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "After India, which country produces the second most movies per year?",
+        "correct_answer": "Nigeria",
+        "incorrect_answers": [
+          "United States",
+          "China",
+          "France"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who plays Jack Burton in the movie 'Big Trouble in Little China?'",
+        "correct_answer": "Kurt Russell",
+        "incorrect_answers": [
+          "Patrick Swayze",
+          "John Cusack",
+          "Harrison Ford"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the wifi password given to Stephen Strange in Doctor Strange?",
+        "correct_answer": "Shambala",
+        "incorrect_answers": [
+          "Peace",
+          "Ancient",
+          "Chakra"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "About how much money did it cost for Tommy Wiseau to make his masterpiece 'The Room' (2003)?",
+        "correct_answer": "$6 Million",
+        "incorrect_answers": [
+          "$20,000",
+          "$1 Million",
+          "$10 Million"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the birth name of Michael Keaton?",
+        "correct_answer": "Michael Douglas",
+        "incorrect_answers": [
+          "Michael Fox",
+          "Michael Richards",
+          "Michael Kane"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The 1996 film 'Fargo' is primarily set in which US state?",
+        "correct_answer": "Minnesota",
+        "incorrect_answers": [
+          "North Dakota",
+          "South Dakota",
+          "Wisconsin"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which singer is portrayed by Bruce Campbell in the 2002 film 'Bubba Ho-Tep'?",
+        "correct_answer": "Elvis Presley",
+        "incorrect_answers": [
+          "Johnny Cash",
+          "Hank Williams, Sr.",
+          "Buddy Holly"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How much money did the 2019 Marvel movie 'Avengers: Endgame' grossed for it's record-breaking worldwide opening weekend?",
+        "correct_answer": "1.2 billion USD",
+        "incorrect_answers": [
+          "640 million USD",
+          "456 million USD",
+          "392 million USD"
+        ]
+      }
+    ]
+  },
+  "music": {
+    "results": [
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the  Rossini opera, what was the name of 'The Barber of Seville'?",
+        "correct_answer": "Figaro",
+        "incorrect_answers": [
+          "Angelo",
+          "Fernando",
+          "Dave"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which Canadian reggae musician had a 1993 hit with the song 'Informer'?",
+        "correct_answer": "Snow",
+        "incorrect_answers": [
+          "Rain",
+          "Hail",
+          "Sleet"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these is NOT an album released by The Beatles?",
+        "correct_answer": "The Wall",
+        "incorrect_answers": [
+          "Abbey Road",
+          "Magical Mystery Tour",
+          "Revolver"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Rapper Snoop Dogg's real name is 'Cordozar Calvin Broadus, Jr.'.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Soulja Boy's 'Crank That' won a Grammy for Best Rap Song in 2007.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the best selling album of all time from 1976 to 2018?",
+        "correct_answer": "Thriller",
+        "incorrect_answers": [
+          "Back in Black",
+          "Abbey Road",
+          "The Dark Side of the Moon"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who is the lead singer of the band Coldplay?",
+        "correct_answer": "Chris Martin",
+        "incorrect_answers": [
+          "Chris Isaak",
+          "Chris Wallace",
+          "Chris Connelly"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Irish musician Hozier released a music track in 2013 titled, 'Take Me to ______'",
+        "correct_answer": "Church",
+        "incorrect_answers": [
+          "Mosque",
+          "Synagogue",
+          "Temple"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which M83 album is the song 'Midnight City' featured in?",
+        "correct_answer": "Hurry Up, We're Dreaming",
+        "incorrect_answers": [
+          "Saturdays = Youth",
+          "Before the Dawn Heals Us",
+          "Junk"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Norwegian producer Kygo released a remix of the song 'Sexual Healing' by Marvin Gaye.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "The country song  'A Boy Named Sue' was written by Shel Silverstein.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which song is not by TheFatRat?",
+        "correct_answer": "Ascent",
+        "incorrect_answers": [
+          "Monody",
+          "Windfall",
+          "Infinite Power!"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these artists do NOT originate from France?",
+        "correct_answer": "The Chemical Brothers",
+        "incorrect_answers": [
+          "Air",
+          "Justice",
+          "Daft Punk"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which of these artists did NOT remix the song 'Faded' by Alan Walker?",
+        "correct_answer": "Skrillex",
+        "incorrect_answers": [
+          "Ti&euml;sto",
+          "Slushii",
+          "Dash Berlin"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "EDM record label Monstercat is based in which country?",
+        "correct_answer": "Canada",
+        "incorrect_answers": [
+          "United States",
+          "Australia",
+          "United Kingdom"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these is NOT the name of an album released by Miami-based producer DJ Khaled?",
+        "correct_answer": "Don't Ever Play Yourself",
+        "incorrect_answers": [
+          "Major Key",
+          "Suffering From Success",
+          "I Changed A Lot"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which brass instrument has the lowest pitch in an orchestra?",
+        "correct_answer": "Tuba",
+        "incorrect_answers": [
+          "Trumpet",
+          "Saxophone",
+          "Trombone"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was Rage Against the Machine's debut album?",
+        "correct_answer": "Rage Against the Machine",
+        "incorrect_answers": [
+          "Evil Empire",
+          "Bombtrack",
+          "The Battle Of Los Angeles"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "May 16th of every year is known as __________ Day, named after a punk band prominent in the 1990s.",
+        "correct_answer": "Lagwagon",
+        "incorrect_answers": [
+          "Goldfinger",
+          "Less Than Jake",
+          "Lit"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the relationship between the band members of American rock band King of Leon?",
+        "correct_answer": "Brothers & cousins",
+        "incorrect_answers": [
+          "Childhood friends",
+          "Former classmates",
+          "Fraternity house members"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which band released songs suchs as 'Rio', 'Girls on Film', and 'The Reflex'?",
+        "correct_answer": "Duran Duran",
+        "incorrect_answers": [
+          "The Cure",
+          "New Order",
+          "Depeche Mode"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was the title of Sakamoto Kyu's song 'Ue o Muite Arukou' (I Look Up As I Walk) changed to in the United States?",
+        "correct_answer": "Sukiyaki",
+        "incorrect_answers": [
+          "Takoyaki",
+          "Sushi",
+          "Oden"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who is the frontman of Muse?",
+        "correct_answer": "Matt Bellamy",
+        "incorrect_answers": [
+          "Dominic Howard",
+          "Thom Yorke",
+          "Jonny Greenwood"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "According to the American rapper Nelly, what should you do when its hot in here?",
+        "correct_answer": "Take off all your clothes",
+        "incorrect_answers": [
+          "Take a cool shower",
+          "Drink some water",
+          "Go skinny dipping"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which year was the album 'Floral Shoppe' by Macintosh Plus released?",
+        "correct_answer": "2011",
+        "incorrect_answers": [
+          "2014",
+          "2013",
+          "2012"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is Brian May's guitar called?",
+        "correct_answer": "Red Special",
+        "incorrect_answers": [
+          "Blue Special",
+          "Green Special",
+          "Yellow Special"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which song in Drake's 'Views' features Future?",
+        "correct_answer": "Grammys",
+        "incorrect_answers": [
+          "Too Good",
+          "Faithful",
+          "Pop Style"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the last song on the first Panic! At the Disco album?",
+        "correct_answer": "Build God, Then We'll Talk",
+        "incorrect_answers": [
+          "Nails for Breakfast, Tacks for Snacks",
+          "I Write Sins Not Tragedies",
+          "Lying Is The Most Fun A Girl Can Have Without Taking Her Clothes Off"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who is the vocalist and frontman of rock band 'Guns N' Roses'?",
+        "correct_answer": "Axl Rose",
+        "incorrect_answers": [
+          "Kurt Cobain",
+          "Slash",
+          "Bono"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is the stage name of New Zealand singer Phillipa 'Pip' Brown?",
+        "correct_answer": "Ladyhawke",
+        "incorrect_answers": [
+          "Lorde",
+          "Kesha",
+          "Anika Moa"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The Who's eponymous line, 'Teenage Wasteland', appears in which of their songs?",
+        "correct_answer": "Baba O' Riley",
+        "incorrect_answers": [
+          "The Seeker",
+          "Won't Get Fooled Again",
+          "Pinball Wizard"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Pete Townshend collaborated with which famous guitarist for an event at Brixton Academy in 1985?",
+        "correct_answer": "David Gilmour",
+        "incorrect_answers": [
+          "Jimmy Page",
+          "Mark Knopfler",
+          "Eric Clapton"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these is not a single by Pink Floyd guitarist, David Gilmour?",
+        "correct_answer": "Sunset Strip",
+        "incorrect_answers": [
+          "Rattle That Lock",
+          "Blue Light",
+          "Arnold Layne"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which artist or group did John Lennon consider 'son(s) of the Beatles'?",
+        "correct_answer": "Jeff Lynne's Electric Light Orchestra",
+        "incorrect_answers": [
+          "The Rolling Stones",
+          "Pink Floyd",
+          "The Who"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?",
+        "correct_answer": "'A rainy Lithuanian / Is dancing as an Indian'",
+        "incorrect_answers": [
+          "'Fly away on, my zephyr / I feel it more than ever'",
+          "'And I liked the dimple in your chin / Your pale blue eyes'",
+          "'You used to be so warm and affectionate...but now you're quick to get into your regret'"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the name of the cold-war singer who has a song in Grand Theft Auto IV, and a wall landmark in Moscow for his memorial?",
+        "correct_answer": "Viktor Tsoi",
+        "incorrect_answers": [
+          "Jimi Hendrix",
+          "Brian Jones",
+          "Vladimir Vysotsky"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "boolean",
+        "difficulty": "hard",
+        "question": "The song Scatman's World was released after Scatman (Ski-Ba-Bop-Ba-Dop-Bop).",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Musical artist, Future, collaborated with Kendrick Lamar for the song: 'Mask Off'.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "boolean",
+        "difficulty": "hard",
+        "question": "The singer Billie Holiday was also known as 'Lady Day'.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which novelty band was best known for their UK chart hits 'Combine Harvester' and 'I Am a Cider Drinker' in 1976?",
+        "correct_answer": "The Wurzels",
+        "incorrect_answers": [
+          "Goldie Lookin Chain",
+          "Bonzo Dog Doo-Dah Band",
+          "The Firm"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who was walking like an Egyptian in 1981?",
+        "correct_answer": "The Bangles",
+        "incorrect_answers": [
+          "R.E.M.",
+          "The Ocean Blue",
+          "The Connells"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Metallica collaborated with Rowan Atkinson's Mr Bean on a 1992 comic relief single.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which song previously recorded by Elvis Presley was covered by UB40 with a reggae beat?",
+        "correct_answer": "Can't Help Falling in Love",
+        "incorrect_answers": [
+          "Jailhouse Rock",
+          "In the Ghetto",
+          "Wooden Heart"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was Bon Iver's debut album released in 2007?",
+        "correct_answer": "For Emma, Forever Ago",
+        "incorrect_answers": [
+          "Bon Iver, Bon Iver",
+          "22, A Million",
+          "Blood Bank EP"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What album did Gorillaz release in 2017?",
+        "correct_answer": "Humanz",
+        "incorrect_answers": [
+          "Plastic Beach",
+          "The Fall",
+          "Demon Days"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The Rush song 'YYZ' derives its name from the IATA aiport identification code for which city?",
+        "correct_answer": "Toronto",
+        "incorrect_answers": [
+          "Vancouver",
+          "Ottawa",
+          "Calgary"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which member of the Wu-Tang Clan had only one verse in their debut album Enter the Wu-Tang (36 Chambers)?",
+        "correct_answer": "Masta Killa",
+        "incorrect_answers": [
+          "Method Man",
+          "Inspectah Deck",
+          "GZA"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which Beatle wrote and sang the song 'Why Don't We Do It in the Road' after being inspired by seeing two monkeys copulating in the street?",
+        "correct_answer": "Paul",
+        "incorrect_answers": [
+          "John",
+          "George",
+          "Ringo"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was The Velvet Underground's first album called?",
+        "correct_answer": "The Velvet Underground & Nico",
+        "incorrect_answers": [
+          "Loaded",
+          "The Velvet Underground",
+          "White Light / White Heat"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The Proclaimers - I'm Gonna Be (500 Miles) reached what position on the US Hot 100 Charts in 1993?",
+        "correct_answer": "3rd",
+        "incorrect_answers": [
+          "8th",
+          "1st",
+          "5th"
+        ]
+      }
+    ]
+  },
+  "musical_theatres": {
+    "results": [
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "When was the play 'Macbeth' written?",
+        "correct_answer": "1606",
+        "incorrect_answers": [
+          "1605",
+          "1723",
+          "1628"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which Shakespeare play inspired the musical 'West Side Story'?",
+        "correct_answer": "Romeo & Juliet",
+        "incorrect_answers": [
+          "Hamlet",
+          "Macbeth",
+          "Othello"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In which Shakespeare play does the character Marcellus say, 'Something is rotten in the state of Denmark'?",
+        "correct_answer": "Hamlet",
+        "incorrect_answers": [
+          "Macbeth",
+          "King Lear",
+          "Twelfth Night"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "In the play Oedipus Rex, Oedipus kills his father due to jealousy in loving his mother.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these musicals won the Tony Award for Best Musical?",
+        "correct_answer": "Rent",
+        "incorrect_answers": [
+          "The Color Purple",
+          "American Idiot",
+          "Newsies"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In which Shakespearean play will you find the suicide of Ophelia?",
+        "correct_answer": "Hamlet",
+        "incorrect_answers": [
+          "Macbeth",
+          "Othello",
+          "King Lear"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who wrote the award winning musical 'In The Heights'?",
+        "correct_answer": "Lin-Manuel Miranda",
+        "incorrect_answers": [
+          "Steven Sondheim",
+          "Francis Scott Key",
+          "John Phillips Sousa"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who is the musical director for the award winning musical 'Hamilton'?",
+        "correct_answer": "Alex Lacamoire",
+        "incorrect_answers": [
+          "Lin-Manuel Miranda",
+          "Renee Elise-Goldberry",
+          "Leslie Odom Jr."
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is the name of Broadway's first 'long-run' musical?",
+        "correct_answer": "The Elves",
+        "incorrect_answers": [
+          "Wicked",
+          "Hamilton",
+          "The Book of Mormon"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was George Bizet's last opera?",
+        "correct_answer": "Carmen",
+        "incorrect_answers": [
+          "Don Rodrigue",
+          "Grisélidis",
+          "Les pêcheurs de perles"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In Shakespeare's play Julius Caesar, Caesar's last words were...",
+        "correct_answer": "Et tu, Brute? ",
+        "incorrect_answers": [
+          "Iacta alea est!",
+          "Vidi, vini, vici.",
+          "Aegri somnia vana."
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In Les Misérables, who is Prison Code 24601?",
+        "correct_answer": "Jean Valjean",
+        "incorrect_answers": [
+          "Marius Pontmercy",
+          "Javert",
+          "Jean Claude Van Damme"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Jeff Wayne's Musical Version of War of the Worlds, the chances of anything coming from Mars are...",
+        "correct_answer": "A million to one",
+        "incorrect_answers": [
+          "A billion to one",
+          "A trillion to one",
+          "A hundred to one"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What play is the quote 'Hell is other people' from?",
+        "correct_answer": "No Exit",
+        "incorrect_answers": [
+          "The Devil and the Good Lord",
+          "The Condemned of Altona",
+          "The Flies"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Who wrote the lyrics for Leonard Bernstein's 1957 Brodway musical West Side Story?",
+        "correct_answer": "Stephen Sondheim",
+        "incorrect_answers": [
+          "Himself",
+          "Oscar Hammerstein",
+          "Richard Rodgers"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many plays is Shakespeare generally considered to have written?",
+        "correct_answer": "37",
+        "incorrect_answers": [
+          "18",
+          "54",
+          "25"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In Macbeth, the eyes of what animals were used in the Witches' cauldron?",
+        "correct_answer": "Newts",
+        "incorrect_answers": [
+          "Humans",
+          "Sharks",
+          "Squids"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following is not a piece from the 1950's musical West Side Story?",
+        "correct_answer": "The Back Alley",
+        "incorrect_answers": [
+          "Maria",
+          "Tonight",
+          "Mambo"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "'Doctor Who' star David Tennant performed in a rendition of which Shakespearean play?",
+        "correct_answer": "Hamlet",
+        "incorrect_answers": [
+          "The Tempest",
+          "Othello",
+          "The Taming of the Shrew"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Who serves as the speaker of the prologue in Shakespeare's Romeo and Juliet?",
+        "correct_answer": "Chorus",
+        "incorrect_answers": [
+          "Montague",
+          "Refrain",
+          "Capulet"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "After England, more Shakespeare plays are set in this present day country than in any other.",
+        "correct_answer": "Italy",
+        "incorrect_answers": [
+          "United States",
+          "Greece",
+          "France"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Who played 'Charlie Price' in the musical 'Kinky Boots' on Broadway in New York from May 26th - Aug 6th 2017?",
+        "correct_answer": "Brendon Urie",
+        "incorrect_answers": [
+          "Ed Sheeren",
+          "Tom Cruise",
+          "Dallon Weekes"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The musical 'Dirty Rotten Scoundrels' is set in what country?",
+        "correct_answer": "France",
+        "incorrect_answers": [
+          "USA",
+          "Germany",
+          "Sweden"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which Shakespeare play features the stage direction 'Enter a messenger, with two heads and a hand'?",
+        "correct_answer": "Titus Andronicus",
+        "incorrect_answers": [
+          "Othello",
+          "Macbeth",
+          "King Lear"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The World Chess Championship in Chess, Act 1 is set in which Italian city?",
+        "correct_answer": "Merano",
+        "incorrect_answers": [
+          "Venice",
+          "Milan",
+          "Rome"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which of these plays was famously first performed posthumously after the playwright committed suicide?",
+        "correct_answer": "4.48 Psychosis",
+        "incorrect_answers": [
+          "Hamilton",
+          "Much Ado About Nothing",
+          "The Birthday Party"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who played Marquis de Lafayette and Thomas Jefferson in the original Broadway run of Hamilton?",
+        "correct_answer": "Daveed Diggs",
+        "incorrect_answers": [
+          "Lin-Manuel Miranda",
+          "Javier Muñoz",
+          "Wayne Brady"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The Andrew Lloyd Webber musical 'Cats' is based off a book of poems written by which author?",
+        "correct_answer": "T.S. Elliot",
+        "incorrect_answers": [
+          "Andrew Lloyd Webber",
+          "Emily Dickenson",
+          "Robert Frost"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is Jean ValJean's first prisoner number?",
+        "correct_answer": "24601",
+        "incorrect_answers": [
+          "9430",
+          "1729",
+          "32769"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who wrote the play 'Angels in America'?",
+        "correct_answer": "Tony Kusher",
+        "incorrect_answers": [
+          "Tom Stoppard",
+          "Matthew Lopez",
+          "Anthony Neilson"
+        ]
+      },
+      {
+        "category": "Entertainment: Musicals & Theatres",
+        "type": "boolean",
+        "difficulty": "hard",
+        "question": "The protagonist's names in 'Who's Afraid of Virginia Woolf', George and Martha, were derived from George Washington and his wife.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      }
+    ]
+  },
+  "television": {
+    "results": [
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "From what show is the character 'James Doakes'? ",
+        "correct_answer": "Dexter",
+        "incorrect_answers": [
+          "Marvel's Daredevil",
+          "Boardwalk Empire",
+          "The Walking Dead"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the name of the police officer in the cartoon 'Top Cat'?",
+        "correct_answer": "Dibble",
+        "incorrect_answers": [
+          "Barbrady",
+          "Mahoney",
+          "Murphy"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, 'Top Gear'?",
+        "correct_answer": "Jessica",
+        "incorrect_answers": [
+          "Angela",
+          "Erica",
+          "Sandra"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who is the star of the AMC series Breaking Bad?",
+        "correct_answer": "Walter White",
+        "incorrect_answers": [
+          "Saul Goodman",
+          "Jesse Pinkman",
+          "Skyler White"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "The theme for the popular science fiction series 'Doctor Who' was composed by who?",
+        "correct_answer": "Ron Grainer",
+        "incorrect_answers": [
+          "Murray Gold",
+          "Delia Derbyshire",
+          "Peter Howell"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the setting of the show 'Parks and Recreation'?",
+        "correct_answer": "Pawnee, Indiana",
+        "incorrect_answers": [
+          "Eagleton, Indiana",
+          "Pasadena, California",
+          "London, England"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was the name of Ross' pet monkey on 'Friends'?",
+        "correct_answer": "Marcel",
+        "incorrect_answers": [
+          "Jojo",
+          "George",
+          "Champ"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these characters in 'Stranger Things' has the power of Telekinesis?",
+        "correct_answer": "Eleven",
+        "incorrect_answers": [
+          "Mike",
+          "Lucas",
+          "Karen"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the episode of SpongeBob SquarePants, 'Survival of the Idiots', Spongebob called Patrick which nickname?",
+        "correct_answer": "Pinhead",
+        "incorrect_answers": [
+          "Starfish",
+          "Larry",
+          "Dirty Dan"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Guy's Grocery Games is hosted by which presenter?",
+        "correct_answer": "Guy Fieri",
+        "incorrect_answers": [
+          "Guy Martin",
+          "Guy Ritchie",
+          "Ainsley Harriott"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The 'Psycho' series of videos on YouTube was created by which of the following?",
+        "correct_answer": "RiDGiD STUDiOS",
+        "incorrect_answers": [
+          "Dan Bell",
+          "Billy Familia",
+          "VeganGainz"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many seasons did 'Stargate SG-1' have?",
+        "correct_answer": "10",
+        "incorrect_answers": [
+          "3",
+          "7",
+          "12"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the Star Trek universe, what color is Vulcan blood?",
+        "correct_answer": "Green",
+        "incorrect_answers": [
+          "Blue",
+          "Red",
+          "Purple"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What country is Cory in the House set in?",
+        "correct_answer": "The United States of America",
+        "incorrect_answers": [
+          "Canada",
+          "Venezuala",
+          "England"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In Game of Thrones, what continent lies across the Narrow Sea from Westeros?",
+        "correct_answer": "Essos",
+        "incorrect_answers": [
+          "Easteros",
+          "Westereast",
+          "Esuntos"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "When did the TV show Rick and Morty first air on Adult Swim?",
+        "correct_answer": "2013",
+        "incorrect_answers": [
+          "2014",
+          "2016",
+          "2015"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the name of the the first episode of Doctor Who to air in 1963?",
+        "correct_answer": "An Unearthly Child",
+        "incorrect_answers": [
+          "The Daleks",
+          "The Aztecs",
+          "The Edge of Destruction"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the real name of the famous spanish humorist, El Risitas?",
+        "correct_answer": "Juan Joya Borga",
+        "incorrect_answers": [
+          "Gabriel Garcia Marquez",
+          "Jesus Quintero",
+          "Ernesto Guevara"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'The Big Bang Theory', what is Howard Wolowitz's nickname in World of Warcraft?",
+        "correct_answer": "Wolowizard",
+        "incorrect_answers": [
+          "Sheldor",
+          "Rajesh",
+          "Priya"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the surname of the character Daryl in AMC's show The Walking Dead?",
+        "correct_answer": "Dixon",
+        "incorrect_answers": [
+          "Grimes",
+          "Dickinson",
+          "Dicketson"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How long was Ken Jennings' win streak on Jeopardy?",
+        "correct_answer": "74",
+        "incorrect_answers": [
+          "88",
+          "49",
+          "62"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which show is known for the songs 'You are a Pirate', 'Cooking by the Book' and 'We Are Number One'?",
+        "correct_answer": "LazyTown",
+        "incorrect_answers": [
+          "Sofia the First",
+          "DuckTales",
+          "Tom and Jerry"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In which year did the British television series 'The Bill' end?",
+        "correct_answer": "2010",
+        "incorrect_answers": [
+          "2001",
+          "2007",
+          "2012"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In season one of the Netflix political drama 'House of Cards', what government position does Frank Underwood hold?",
+        "correct_answer": "House Majority Whip",
+        "incorrect_answers": [
+          "Attorney General",
+          "President",
+          "Chief of Staff"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "When Donkey Kong died in the 'Donkey Kong Country' episode 'It's a Wonderful Life', who was his guardian angel?",
+        "correct_answer": "Eddie the Mean Old Yeti",
+        "incorrect_answers": [
+          "Kiddy Kong",
+          "Diddy Kong",
+          "King K. Rool"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Bob Ross was a US Air Force pilot.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "hard",
+        "question": "The Klingon home planet is Qo'noS.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Klingons once had a period of Democracy in their history, they referred to it as the 'Dark Times'.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was Nickelodeon's original name?",
+        "correct_answer": "Pinwheel",
+        "incorrect_answers": [
+          "MTVKids",
+          "KidsTV",
+          "Splat!"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'Star Trek', what is the Klingon death ritual?",
+        "correct_answer": "Look into sky and yell loudly in mourning.",
+        "incorrect_answers": [
+          "Kiss the jagged forehead before burial.",
+          "Shoot into space in a torpedo casing.",
+          "Split the deceased's earnings between bloodkin."
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In 'Star Trek', what sauce is commonly used by Klingons on bregit lung?",
+        "correct_answer": "Grapok sauce",
+        "incorrect_answers": [
+          "Gazorpazorp pudding",
+          "Sweet chili sauce",
+          "Grapork sauce"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In 'Star Trek', what is the Klingon delicacy of 'gagh' made from?",
+        "correct_answer": "Serpent worms",
+        "incorrect_answers": [
+          "Earthworms",
+          "Spaghetti noodles",
+          "Klingworms"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many seasons did the Sci-Fi television show 'Stargate Universe' have?",
+        "correct_answer": "2",
+        "incorrect_answers": [
+          "10",
+          "5",
+          "3"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the main antagonists in Battlestar Galactica?",
+        "correct_answer": "The Cylons",
+        "incorrect_answers": [
+          "The Collective",
+          "The Federation",
+          "The Rebels"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the name of the inflatable duck sacrified to the crowd at the end of Episode 34 of the 18th season of Big Brother?",
+        "correct_answer": "Pablo",
+        "incorrect_answers": [
+          "Esteban",
+          "Carlos",
+          "Duckster"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the TV show 'Mad Men', what was Donald Draper's birthname?",
+        "correct_answer": "Richard 'Dick' Whitman",
+        "incorrect_answers": [
+          "Donald Draper",
+          "John Ashbury",
+          "Michael 'Mikey' Wilhelm"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who was the first ever actor to play 'The Doctor' on 'Doctor Who'?",
+        "correct_answer": "William Hartnell",
+        "incorrect_answers": [
+          "David Tennant",
+          "Peter Capaldi",
+          "Tom Baker"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of Chris's brother in 'Everybody Hates Chris'?",
+        "correct_answer": "Drew",
+        "incorrect_answers": [
+          "Jerome",
+          "Greg",
+          "Joe"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "'The A Team' first aired in the USA and in the UK in what year?",
+        "correct_answer": "1983",
+        "incorrect_answers": [
+          "1981",
+          "1985",
+          "1987"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which former Coronation Street actress was once a hostess on the British Game Show 'Double Your Money'?",
+        "correct_answer": "Amanda Barrie",
+        "incorrect_answers": [
+          "Sue Nicholls",
+          "Violet Carson",
+          "Jean Alexander"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which boxing personality was one of the presenters in the 1999 revival of It's a Knockout?",
+        "correct_answer": "Frank Bruno",
+        "incorrect_answers": [
+          "Henry Cooper",
+          "Muhammad Ali",
+          "Joe Fraiser"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Cesar Romero played which iconic Batman villain from the 1960's TV show?",
+        "correct_answer": "The Joker",
+        "incorrect_answers": [
+          "The Penguin",
+          "The Riddler",
+          "Mr. Freeze"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Game of Thrones what is the name of Jon Snow's sword?",
+        "correct_answer": "Longclaw",
+        "incorrect_answers": [
+          "Oathkeeper",
+          "Widow's Wail",
+          "Needle"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What Nickelodeon game show featured a house on the set that the contestants would ransack to find hidden objects?",
+        "correct_answer": "Finders Keepers",
+        "incorrect_answers": [
+          "Double Dare",
+          "Nickelodeon Guts",
+          "Nick Arcade"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the inspector in the series 'On the Buses'?",
+        "correct_answer": "Blakey",
+        "incorrect_answers": [
+          "Harper",
+          "Naily",
+          "Gally"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who was Firestorm's rival during the original run of UK Robot Wars?",
+        "correct_answer": "Panic Attack",
+        "incorrect_answers": [
+          "Razer",
+          "Chaos 2",
+          "Hypno Disc"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the Sci-Fi television show Doctor Who, who plays the Tenth Doctor?",
+        "correct_answer": "David Tennant",
+        "incorrect_answers": [
+          "William Hartnell",
+          "Peter Capaldi",
+          "Peter Davison"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which actor was not a major character in TV Show Freaks and Geeks?",
+        "correct_answer": "Jonah Hill",
+        "incorrect_answers": [
+          "Jason Segel",
+          "Seth Rogen",
+          "James Franco"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the show 'Dragonball Z', what is the name of Cell's most powerful attack?",
+        "correct_answer": "Solar Kamehameha",
+        "incorrect_answers": [
+          "Super Kamehameha",
+          "Cell Kamehameha",
+          "Android Kamehameha"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the show 'Futurama' what is Fry's full name?",
+        "correct_answer": "Philip J. Fry",
+        "incorrect_answers": [
+          "Fry J. Philip",
+          "Fry Rodr&iacute;guez",
+          "Fry Philip"
+        ]
+      }
+    ]
+  },
+  "video_games": {
+    "results": [
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which game did 'Sonic The Hedgehog' make his first appearance in?",
+        "correct_answer": "Rad Mobile",
+        "incorrect_answers": [
+          "Sonic The Hedgehog",
+          "Super Mario 64",
+          "Mega Man"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "When Halo 3: ODST was unveiled in 2008, it had a different title. What was the game formally called?",
+        "correct_answer": "Halo 3: Recon",
+        "incorrect_answers": [
+          "Halo 3: Helljumpers",
+          "Halo 3: Phantom",
+          "Halo 3: Guerilla"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these is NOT a map included in the game Counter-Strike: Global Offensive?",
+        "correct_answer": "Oilrig",
+        "incorrect_answers": [
+          "Assault",
+          "Mirage",
+          "Cache"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How many Star Spirits do you rescue in the Nintendo 64 video game 'Paper Mario'?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+          "5",
+          "10",
+          "12"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In 'Undertale', how many main endings are there?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+          "2",
+          "5",
+          "13"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Gamecube Version of 'Resident Evil' what text document is open on the monitor of the computer in the Visual Data Room?",
+        "correct_answer": "A GDC Document",
+        "incorrect_answers": [
+          "Text Document on Herbs",
+          "Nothing",
+          "Document on B.O.Ws"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the game series 'The Legend of Zelda', what was the first 3D game?",
+        "correct_answer": "Ocarina of Time",
+        "incorrect_answers": [
+          "Majora's Mask",
+          "A Link to the Past",
+          "The Wind Waker"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the Kingdom Heart series who provides the english voice for Master Eraqus?",
+        "correct_answer": "Mark Hamill",
+        "incorrect_answers": [
+          "Jason Dohring",
+          "Jesse McCartney",
+          "Haley Joel Osment"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was the first interactive movie video game?",
+        "correct_answer": "Astron Belt",
+        "incorrect_answers": [
+          "Dragon's Lair",
+          "Cube Quest",
+          "M.A.C.H. 3"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In what year were achivements added to Steam?",
+        "correct_answer": "2007",
+        "incorrect_answers": [
+          "2008",
+          "2009",
+          "2006"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "In Team Fortress 2, being disguised as a scout or medic results in a speed boost.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "TF2: The Heavy's voice actor, Gary Schwartz, voices the Demoman as well ",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the videogame Bully, what is the protagonist's last name?",
+        "correct_answer": "Hopkins",
+        "incorrect_answers": [
+          "Smith",
+          "Kowalski",
+          "Crabblesnitch"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which company did Bethesda purchase the Fallout Series from?",
+        "correct_answer": "Interplay Entertainment ",
+        "incorrect_answers": [
+          "Capcom",
+          "Blizzard Entertainment",
+          "Nintendo"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the National Pokedex what number is Porygon-Z?",
+        "correct_answer": "474",
+        "incorrect_answers": [
+          "376",
+          "432",
+          "589"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In Pokemon Red & Blue, what is the name of HM05?",
+        "correct_answer": "Flash",
+        "incorrect_answers": [
+          "Strength",
+          "Cut",
+          "Fly"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the video game 'League of Legends' which character is known as 'The Sinister Blade'?",
+        "correct_answer": "Katarina",
+        "incorrect_answers": [
+          "Shaco",
+          "Akali",
+          "Zed"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which franchise had a special event hosted in the popular MMORPG Final Fantasy XIV: A Realm Reborn?",
+        "correct_answer": "Yo-kai Watch",
+        "incorrect_answers": [
+          "Pokémon",
+          "Yu-gi-oh",
+          "Buddyfight"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of the following is not a faction in Tom Clancy's The Division?",
+        "correct_answer": "CDC",
+        "incorrect_answers": [
+          "Cleaners",
+          "Last Man Batallion",
+          "Rikers"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Hitman: Blood Money, what is the name of the target in the mission 'Death of a Showman'?",
+        "correct_answer": "Joseph Clarence",
+        "incorrect_answers": [
+          "The Swing King",
+          "Maynard John",
+          "Manuel Delgado"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "When was Nintendo's Virtual Boy released?",
+        "correct_answer": "1995",
+        "incorrect_answers": [
+          "1989",
+          "1997",
+          "1992"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Of the following space shooter games, which came out first?",
+        "correct_answer": "Space Invaders",
+        "incorrect_answers": [
+          "Galaxian",
+          "Galaga",
+          "Sinistar"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What level do you have to be to get a service medal on CS:GO?",
+        "correct_answer": "40",
+        "incorrect_answers": [
+          "50",
+          "30",
+          "20"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "How many playable characters are there in Super Smash Bros. for Nintendo 3DS and Wii U?",
+        "correct_answer": "58",
+        "incorrect_answers": [
+          "48",
+          "51",
+          "55"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'Halo 2', what is the name of the monitor of Installation 05?",
+        "correct_answer": "2401 Penitent Tangent",
+        "incorrect_answers": [
+          "343 Guilty Spark",
+          "031 Exuberant Witness",
+          "252 Biodis Expolsion"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which town was Seamus 'Sledge' Cowden from 'Tom Clancy's Rainbow Six Siege' born in?",
+        "correct_answer": "John O'Groats",
+        "incorrect_answers": [
+          "Brawl",
+          "Kearvaig",
+          "Talmine"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which operation in 'Tom Clancy's Rainbow Six Siege' introduced the 'Skyscraper' map?",
+        "correct_answer": "Red Crow",
+        "incorrect_answers": [
+          "Velvet Shell",
+          "Skull Rain",
+          "Dust Line"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who is the main character in most of the games of the YS series?",
+        "correct_answer": "Adol Christin ",
+        "incorrect_answers": [
+          "Character doesn't have a name",
+          "Estelle Bright",
+          "Roger Wilco"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What household item make the characters of 'Steins; Gate' travel through time?",
+        "correct_answer": "Microwave",
+        "incorrect_answers": [
+          "Computer",
+          "Refrigerator",
+          "Televison"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which character from the Mega Man series made a small cameo on Volt Catfish's introduction scene in CD versions of Mega Man X3?",
+        "correct_answer": "Auto",
+        "incorrect_answers": [
+          "Eddie",
+          "Tango",
+          "Rush"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which Kirby game first introduced Copy Abilities?",
+        "correct_answer": "Kirby's Adventure",
+        "incorrect_answers": [
+          "Kirby Super Star",
+          "Kirby's Dream Land 2",
+          "Kirby's Dream Land"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which game in the 'Monster Hunter' series introduced the monster 'Gobul'?",
+        "correct_answer": "Monster Hunter Tri",
+        "incorrect_answers": [
+          "Monster Hunter Freedom Unite",
+          "Monster Hunter Frontier",
+          "Monster Hunter Generations"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which 'Perk-A-Cola' in 'Call Of Duty: Zombies' was 'reworked' in 'Call of Duty: Black Ops II'?",
+        "correct_answer": "Double Tap Root Beer",
+        "incorrect_answers": [
+          "Who's Who",
+          "Juggernog",
+          "Mule Kick"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of the game developer who created 'Call Of Duty: Zombies'?",
+        "correct_answer": "Treyarch",
+        "incorrect_answers": [
+          "Sledgehammer Games",
+          "Infinity Ward",
+          "Naughty Dog"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What were the first two blocks in 'Minecraft'?",
+        "correct_answer": "Grass and Cobblestone",
+        "incorrect_answers": [
+          "Grass and Stone",
+          "Crafting Table and Cobblestone",
+          "Cobblestone and Stone"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The Khajiit are a race of cat-like creatures from which epic series of role-playing games, set across the land of Tamriel?",
+        "correct_answer": "The Elder Scrolls",
+        "incorrect_answers": [
+          "Lord of the Rings",
+          "The Witcher",
+          "Neverwinter Nights"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which Sonic the Hedgehog game introudced Knuckles the Echidna?",
+        "correct_answer": "Sonic the Hedgehog 3",
+        "incorrect_answers": [
+          "Sonic the Hedgehog 2",
+          "Sonic & Knuckles",
+          "Sonic Adventure"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who is the main villain of the Crash Bandicoot series?",
+        "correct_answer": "Dr. Neo Cortex",
+        "incorrect_answers": [
+          "Dr. Evo-Cortex",
+          "Dr. Cortox",
+          "Sir Cartex"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What song is played during the ending credits of Guitar Hero: World Tour?",
+        "correct_answer": "Dream Theater - Pull Me Under",
+        "incorrect_answers": [
+          "King Crimson - 21st Century Schizoid Man",
+          "Dragonforce - Through The Fire & The Flames",
+          "Lynyrd Skynyrd - Free Bird"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Touhou 12: Undefined Fantastic Object, which of these was not a playable character?",
+        "correct_answer": "Izayoi Sakuya",
+        "incorrect_answers": [
+          "Hakurei Reimu",
+          "Kirisame Marisa",
+          "Kochiya Sanae"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Sid Meier's Civilization V, which World Wonder can only be built in cities on or next to a desert?",
+        "correct_answer": "Petra",
+        "incorrect_answers": [
+          "The Pyramids",
+          "Alhambra",
+          "Mausoleum of Maussollos"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In Divinity: Original Sin II, what is the name of the skeletal origin character?",
+        "correct_answer": "Fane",
+        "incorrect_answers": [
+          "Lohse",
+          "The Red Prince",
+          "There are no skeletal origin characters"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the 'Metal Gear Solid' series, what's the name of Solid Snake's brother?",
+        "correct_answer": "Liquid Snake",
+        "incorrect_answers": [
+          "Kulus Snake",
+          "Billy Snake",
+          "Gilur Snake"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the mod 'Cry of Fear' based off of?",
+        "correct_answer": "Half-Life",
+        "incorrect_answers": [
+          "Counter Strike: Source",
+          "Half-Life 2",
+          "It's a stand alone game, not a mod"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What numbers did Sayaka Maizono write on the wall in Dangan Ronpa Trigger Happy Havoc?",
+        "correct_answer": "11037",
+        "incorrect_answers": [
+          "4, 8, 15, 16, 23, 42",
+          "55730",
+          "3, 9, 11, 12, 15, 17,"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who is the leader of the Brotherhood of Nod in the Command and Conquer series?",
+        "correct_answer": "Kane",
+        "incorrect_answers": [
+          "Joseph Stalin",
+          "CABAL",
+          "Yuri"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who is the main protagonist in the game Life is Strange: Before The Storm?",
+        "correct_answer": "Chloe Price ",
+        "incorrect_answers": [
+          "Max Caulfield",
+          "Rachel Amber",
+          "Frank Bowers"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Skylanders Giants, why was Zaps' Wow Pow named 'For Riley' ?",
+        "correct_answer": "As a tribute to a fan who passed away",
+        "incorrect_answers": [
+          "As a reference to a film",
+          "After one of the writers of the game",
+          "After a voice actor"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which unlockable character in Super Smash Bros. For Wii U and 3DS does not have to be fought to be unlocked?",
+        "correct_answer": "Mii Fighters",
+        "incorrect_answers": [
+          "Ness",
+          "R.O.B.",
+          "Mewtwo"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the video game DOTA 2, which of these is NOT a hero?",
+        "correct_answer": "Dragon Champion",
+        "incorrect_answers": [
+          "Dark Seer",
+          "Keeper of the Light",
+          "Mirana"
+        ]
+      }
+    ]
+  },
+  "board_games": {
+    "results": [
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "The board game 'Monopoly' is a variation of what board game?",
+        "correct_answer": "The Landlord's Game",
+        "incorrect_answers": [
+          "Territorial Dispute",
+          "Property Feud",
+          "The Monopolist's Game"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Carcassonne is based on which French town?",
+        "correct_answer": "Carcassonne",
+        "incorrect_answers": [
+          "Paris",
+          "Marseille",
+          "Clermont-Ferrand"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Snakes and Ladders was originally created in India?",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In a standard game of Monopoly, what colour are the two cheapest properties?",
+        "correct_answer": "Brown",
+        "incorrect_answers": [
+          "Green",
+          "Yellow",
+          "Blue"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many spaces are there on a standard Monopoly board?",
+        "correct_answer": "40",
+        "incorrect_answers": [
+          "28",
+          "55",
+          "36"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many dice are used in the game of Yahtzee?",
+        "correct_answer": "Five",
+        "incorrect_answers": [
+          "Four",
+          "Six",
+          "Eight"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many pieces are there on the board at the start of a game of chess?",
+        "correct_answer": "32",
+        "incorrect_answers": [
+          "16",
+          "20",
+          "36"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "On a standard Monopoly board, which square is diagonally opposite 'Go'? ",
+        "correct_answer": "Free Parking",
+        "incorrect_answers": [
+          "Go to Jail",
+          "Jail",
+          "The Electric Company"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many dots are on a single die?",
+        "correct_answer": "21",
+        "incorrect_answers": [
+          "24",
+          "15",
+          "18"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "At the start of a standard game of the Monopoly, if you throw a double six, which square would you land on?",
+        "correct_answer": "Electric Company",
+        "incorrect_answers": [
+          "Water Works",
+          "Chance",
+          "Community Chest"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is the world's oldest board game?",
+        "correct_answer": "Senet",
+        "incorrect_answers": [
+          "Chess",
+          "Checkers",
+          "Go"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "In the game 'Racko' you may pick up ANY card from the discard pile.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The board game, Nightmare was released in what year?",
+        "correct_answer": "1991",
+        "incorrect_answers": [
+          "1992",
+          "1989",
+          "1995"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who is the main character in the VHS tape included in the board game Nightmare?",
+        "correct_answer": "The Gatekeeper",
+        "incorrect_answers": [
+          "The Kryptkeeper",
+          "The Monster",
+          "The Nightmare"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these games includes the phrase 'Do not pass Go, do not collect $200'?",
+        "correct_answer": "Monopoly",
+        "incorrect_answers": [
+          "Pay Day",
+          "Cluedo",
+          "Coppit"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "The card game 'Munchkin' won the 2001 Origins Award for Best Traditional Card Game.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "There is a Donald Trump Board Game, which was made in 1989.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In standard Monopoly, what's the rent if you land on Park Place with no houses?",
+        "correct_answer": "$35",
+        "incorrect_answers": [
+          "$30",
+          "$50",
+          "$45"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which one of these is not a real game in the Dungeons & Dragons series?",
+        "correct_answer": "Extreme Dungeons & Dragons",
+        "incorrect_answers": [
+          "Advanced Dungeons & Dragons",
+          "Dungeons & Dragons 3.5th edition",
+          "Advanced Dungeons & Dragons 2nd edition"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The board game Monopoly takes its street names from which real American city?",
+        "correct_answer": "Atlantic City, New Jersey",
+        "incorrect_answers": [
+          "Las Vegas, Nevada",
+          "Duluth, Minnesota",
+          "Charleston, South Carolina"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which board game was first released on February 6th, 1935?",
+        "correct_answer": "Monopoly",
+        "incorrect_answers": [
+          "Risk",
+          "Clue",
+          "Candy Land"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What do you declare in Rīchi Mahjong when you've drawn your winning tile?",
+        "correct_answer": "Tsumo",
+        "incorrect_answers": [
+          "Ron",
+          "Rīchi",
+          "Kan"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Chess, the Queen has the combined movement of which two pieces?",
+        "correct_answer": "Bishop and Rook",
+        "incorrect_answers": [
+          "Rook and King",
+          "Knight and Bishop",
+          "King and Knight"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "'PAYDAY: The Heist' is a sequel to the board game 'Payday'.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "How many rooms are there, not including the hallways and the set of stairs, in the board game 'Clue'?",
+        "correct_answer": "9",
+        "incorrect_answers": [
+          "1",
+          "6",
+          "10"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Yu-Gi-Oh, how does a player perform an Xyz Summon?",
+        "correct_answer": "Overlay at least 2 Monsters of the Same Level",
+        "incorrect_answers": [
+          "Activate a Spell and Send Monsters to the Graveyard",
+          "Add the Monsters' Levels Together to Match the Xyz Monster",
+          "Banish A Number of Monsters From Your Hand And Deck"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following tabletop games is the oldest?",
+        "correct_answer": "Go",
+        "incorrect_answers": [
+          "Chess",
+          "Mahjong",
+          "Shogi"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "boolean",
+        "difficulty": "hard",
+        "question": "The board game Go has more possible legal positions than the number of atoms in the visible universe.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In which year was the pen and paper RPG 'Deadlands' released?",
+        "correct_answer": "1996",
+        "incorrect_answers": [
+          "2003",
+          "1999",
+          "1993"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "The board game 'Ra' was designed by which designer? ",
+        "correct_answer": "Reiner Knizia",
+        "incorrect_answers": [
+          "Bruno Cathala",
+          "Uwe Rosenburg",
+          "Allison Kline"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is the most challenging monster in the Dungeons & Dragons 5th Edition Monster Manual?",
+        "correct_answer": "Tarrasque",
+        "incorrect_answers": [
+          "Beholder",
+          "Displacer Beast",
+          "Lich"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "The Dice Tower network of board game podcasts and videos is run by which individual?",
+        "correct_answer": "Tom Vasel",
+        "incorrect_answers": [
+          "Jason LeVine",
+          "Borth Sampson",
+          "Uncle Pennybags"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'Magic: The Gathering', what instant card has the highest converted mana cost?",
+        "correct_answer": "Blinkmoth Infusion",
+        "incorrect_answers": [
+          "Vitalizing Wind",
+          " Chant of Vitu-Ghazi",
+          "Assert Authority"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the development code name for the 'Urza's Destiny' expansion for 'Magic: The Gathering', released in 1999?",
+        "correct_answer": "Chimichanga",
+        "incorrect_answers": [
+          "Burrito",
+          "Taquito",
+          "Enchilada"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the development code name for the 'Weatherlight' expansion for 'Magic: The Gathering', released in 1997?",
+        "correct_answer": "Mocha Latte",
+        "incorrect_answers": [
+          "Decaf",
+          "Frappuccino",
+          "Macchiato"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which ability from the 'Magic: The Gathering' Scars of Mirrodin expansion involves having at least three artifacts in play?",
+        "correct_answer": "Metalcraft",
+        "incorrect_answers": [
+          "Affinity",
+          "Imprint",
+          "Living Weapon"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Some of the 'Fallen Empires' cards from 'Magic: The Gathering' were misprinted on the backs of which other card game?",
+        "correct_answer": "Wyvern",
+        "incorrect_answers": [
+          "Pokemon",
+          "Dominion",
+          "Yu-Gi-Oh"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which of these cards from 'Magic: The Gathering' has a flavor text that begins with 'Oi oi oi'?",
+        "correct_answer": "Uthden Troll",
+        "incorrect_answers": [
+          "Lotleth Troll",
+          "Albino Troll",
+          "Harvester Troll"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which card is on the cover of the Beta rulebook of 'Magic: The Gathering'?",
+        "correct_answer": "Bog Wraith",
+        "incorrect_answers": [
+          "Island",
+          "Rock Hydra",
+          "Elvish Archers"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "When Magic: The Gathering was first solicited, which of the following was it originally titled?",
+        "correct_answer": "Mana Clash",
+        "incorrect_answers": [
+          "Magic",
+          "Magic Clash",
+          "Mana Duels"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In Magic: The Gathering, which of the following was the first publicly released foil card?",
+        "correct_answer": "Lightning Dragon",
+        "incorrect_answers": [
+          "Revenant",
+          "Beast of Burden",
+          "Dirtcowl Wurm"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In Magic: The Gathering, what term for blocking was established in the Portal set?",
+        "correct_answer": "Intercepting",
+        "incorrect_answers": [
+          "Blocking",
+          "Resisting",
+          "Shielding"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Europa Universalis is a strategy video game based on which French board game?",
+        "correct_answer": "Europa Universalis",
+        "incorrect_answers": [
+          "Europe and the Universe",
+          "Europa!",
+          "Power in Europe"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What Magic: The Gathering card's flavor text is just 'Ribbit.'?",
+        "correct_answer": "Turn to Frog",
+        "incorrect_answers": [
+          "Spore Frog",
+          "Bloated Toad",
+          "Frogmite"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In Magic: The Gathering, what card's flavor text is 'Catch!'?",
+        "correct_answer": "Lava Axe",
+        "incorrect_answers": [
+          "Stone-Throwing Devils",
+          "Ember Shot",
+          "Throwing Knife"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "When was the board game Twister, released to the public?",
+        "correct_answer": "April 1966",
+        "incorrect_answers": [
+          "September 1965",
+          "January 1969",
+          "February 1966"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which character class in Dungeons and Dragons 5th edition gains it's powers from making a pact with a being of higher power?",
+        "correct_answer": "Warlock",
+        "incorrect_answers": [
+          "Wizard",
+          "Sorceror",
+          "Cleric"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In what year was the card game Magic: the Gathering first introduced?",
+        "correct_answer": "1993",
+        "incorrect_answers": [
+          "1987",
+          "1998",
+          "2003"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is the sum of all the tiles in a standard box of Scrabble?",
+        "correct_answer": "187",
+        "incorrect_answers": [
+          "207",
+          "197",
+          "177"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the Board Game, Settlers of Catan, a die roll of what number causes the Robber to attack? ",
+        "correct_answer": "7",
+        "incorrect_answers": [
+          "3",
+          "10",
+          "1"
+        ]
+      }
+    ]
+  },
+  "comics": {
+    "results": [
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who is Batman?",
+        "correct_answer": "Bruce Wayne",
+        "incorrect_answers": [
+          "Clark Kent",
+          "Barry Allen",
+          "Tony Stark"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Marvel Comics, Taurus is the founder and leader of which criminal organization?",
+        "correct_answer": "Zodiac",
+        "incorrect_answers": [
+          "Scorpio",
+          "Tiger Mafia",
+          "The Union"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What's the name of Batman's parents?",
+        "correct_answer": "Thomas & Martha",
+        "incorrect_answers": [
+          "Joey & Jackie",
+          "Jason & Sarah",
+          "Todd & Mira"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Batman comics, by what other name is the villain Dr. Jonathan Crane known?",
+        "correct_answer": "Scarecrow",
+        "incorrect_answers": [
+          "Bane",
+          "Calendar Man",
+          "Clayface"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "boolean",
+        "difficulty": "hard",
+        "question": "In the comic book 'Archie', Betty is friends with Veronica because she is rich.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was the name of the first Robin in the Batman comics?",
+        "correct_answer": "Dick Grayson",
+        "incorrect_answers": [
+          "Bruce Wayne",
+          "Jason Todd",
+          "Tim Drake"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the main character in the webcomic Gunnerkrigg Court by Tom Siddell?",
+        "correct_answer": "Antimony",
+        "incorrect_answers": [
+          "Bismuth",
+          "Mercury",
+          "Cobalt"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Deadpool's identity is Slade Wilson.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Homestuck Series, what is the alternate name for the Kingdom of Lights?",
+        "correct_answer": "Prospit",
+        "incorrect_answers": [
+          "No Name",
+          "Golden City",
+          "Yellow Moon"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "In the webcomic Homestuck, the first character introduced is Dave Strider.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following superheros did Wonder Woman NOT have a love interest in?",
+        "correct_answer": "Green Arrow",
+        "incorrect_answers": [
+          "Superman",
+          "Batman",
+          "Steve Trevor"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "The 'Pepe' meme originated from a comic drawn by Matt Furie called 'Boy's Club'?",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which issue of the 'Sonic the Hedgehog' comic did Scourge the Hedgehog make his first appearance?",
+        "correct_answer": "Sonic the Hedgehog #11",
+        "incorrect_answers": [
+          "Sonic Universe #32",
+          "Sonic the Hedgehog #161",
+          "Sonic the Hedgehog #47"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'Sonic the Hedgehog' comic, who was the creator of Roboticizer? ",
+        "correct_answer": "Professor Charles the Hedgehog",
+        "incorrect_answers": [
+          "Julian Robotnik",
+          "Ivo Robotnik",
+          "Snively Robotnik"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which universe crossover was introduced in the 'Sonic the Hedgehog' comic issue #247?",
+        "correct_answer": "Mega Man",
+        "incorrect_answers": [
+          "Super Mario Brothers",
+          "Alex Kidd",
+          "Super Monkey Ball"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who wrote the Batman comic series 'The Killing Joke'?",
+        "correct_answer": "Alan Moore",
+        "incorrect_answers": [
+          "Bill Finger",
+          "Frank Miller",
+          "Jerry Siegel"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What year was the first San Diego Comic-Con?",
+        "correct_answer": "1970",
+        "incorrect_answers": [
+          "2000",
+          "1990",
+          "1985"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the designation given to the Marvel Cinematic Universe?",
+        "correct_answer": "Earth-199999",
+        "incorrect_answers": [
+          "Earth-616",
+          "Earth-10005",
+          "Earth-2008"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who created Ultron of Earth-616?",
+        "correct_answer": "Henry Pym",
+        "incorrect_answers": [
+          "Amadeus Cho",
+          "Tony Stark",
+          "Reed Richards"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is the real hair colour of the mainstream comic book version (Earth-616) of Daredevil?",
+        "correct_answer": "Blonde",
+        "incorrect_answers": [
+          "Auburn",
+          "Brown",
+          "Black"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In what year did the first 'The Walking Dead' comic come out?",
+        "correct_answer": "2003",
+        "incorrect_answers": [
+          "2001",
+          "2006",
+          "1999"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the comics, which Sonic character took command of the Dark Legion after Luger's assassination?",
+        "correct_answer": "Lien-Da",
+        "incorrect_answers": [
+          "Kragok",
+          "Dimitri",
+          "Remington"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the 'Archie' comics, who was Jughead's first girlfriend?",
+        "correct_answer": "Joani",
+        "incorrect_answers": [
+          "Ethel",
+          "Debbi",
+          "Margret"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the alter-ego of the DC comics character 'Superman'?",
+        "correct_answer": "Clark Kent",
+        "incorrect_answers": [
+          "Bruce Wayne",
+          "Arthur Curry",
+          "John Jones"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the webcomic 'Ava's Demon', what sin is 'Nevy Nervine' based off of? ",
+        "correct_answer": "Envy ",
+        "incorrect_answers": [
+          "Sloth",
+          "Wrath ",
+          "Lust"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which 'Green Arrow' sidekick commonly wears a baseball cap?",
+        "correct_answer": "Roy Harper",
+        "incorrect_answers": [
+          "Black Canary",
+          "Emiko Queen",
+          "Dick Grayson"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the DC Comics 2016 reboot, Rebirth, which speedster escaped from the Speed Force after he had been erased from existance?",
+        "correct_answer": "Wally West",
+        "incorrect_answers": [
+          "Johnny Quick",
+          "Jay Garrick",
+          "Eobard Thawne"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the full first name of the babysitter in Calvin and Hobbes?",
+        "correct_answer": "Rosalyn",
+        "incorrect_answers": [
+          "Rose",
+          "Ruby",
+          "Rachel"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The main six year old protagonist in Calvin and Hobbes is named after what theologian?",
+        "correct_answer": "John Calvin",
+        "incorrect_answers": [
+          "Calvin Klein",
+          "Calvin Coolidge",
+          "Phillip Calvin McGraw"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The stuffed tiger in Calvin and Hobbes is named after what philosopher?",
+        "correct_answer": "Thomas Hobbes",
+        "incorrect_answers": [
+          "David Hobbes",
+          "John Hobbes",
+          "Nathaniel Hobbes"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Calvin and Hobbes, what is the name of Susie's stuffed rabbit?",
+        "correct_answer": "Mr. Bun",
+        "incorrect_answers": [
+          "Mr. Bunbun",
+          "Mr. Rabbit",
+          "Mr. Hoppy"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Calvin and Hobbes, what is the name of the principal at Calvin's school?",
+        "correct_answer": "Mr. Spittle",
+        "incorrect_answers": [
+          "Mr. Boreman",
+          "Mr. Spitling",
+          "Mr. Moe"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "When Batman trolls the online chat rooms, what alias does he use?",
+        "correct_answer": "JonDoe297",
+        "incorrect_answers": [
+          "iAmBatman",
+          "BWayne13",
+          "BW1129"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In 1978, Superman teamed up with what celebrity, to defeat an alien invasion?",
+        "correct_answer": "Muhammad Ali",
+        "incorrect_answers": [
+          "Mike Tyson",
+          "Sylvester Stallone",
+          "Arnold Schwarzenegger"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who was the inspiration for Cuthbert Calculus in the Tintin series?",
+        "correct_answer": "Auguste Picard",
+        "incorrect_answers": [
+          "Jacques Piccard",
+          "Will Morris",
+          "J. Cecil Maby"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which of the following rings from the DC Comics' 'Lantern Corps' are classified as Parasitic?",
+        "correct_answer": "Indigo (Compassion)",
+        "incorrect_answers": [
+          "Green (Willpower)",
+          "White (Life)",
+          "Yellow (Fear)"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the real name of the 'Master Of Magnetism' Magneto?",
+        "correct_answer": "Max Eisenhardt",
+        "incorrect_answers": [
+          "Charles Xavier",
+          "Pietro Maximoff",
+          "Johann Schmidt"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What are the names of the two 'Canon fan trolls' in 'Homestuck'?",
+        "correct_answer": "Mierfa Durgas and Nektan Whelan",
+        "incorrect_answers": [
+          "The Wrycrown and Voksea Olkido",
+          "Aikter Frekik and Xagrai Ollomu",
+          "Grekei Ceknux and Riya Camacho"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In 'Homestuck' what is Dave Strider's guardian?",
+        "correct_answer": "Bro",
+        "incorrect_answers": [
+          "Becquerel",
+          "Doc Scratch",
+          "Halley"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In 'Homestuck' the 'Kingdom of Darkness' is also known as?",
+        "correct_answer": "Derse",
+        "incorrect_answers": [
+          "Skaia",
+          "Prospit",
+          "The Medium"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "When was Marvel Comics founded?",
+        "correct_answer": "1939",
+        "incorrect_answers": [
+          "1932",
+          "1951",
+          "1936"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Better known by his nickname Logan, what is Wolverine's birth name?",
+        "correct_answer": "James Howlett",
+        "incorrect_answers": [
+          "Logan Wolf",
+          "Thomas Wilde",
+          "John Savage"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the Hellboy universe, who founded the BPRD?",
+        "correct_answer": "Trevor Bruttenholm",
+        "incorrect_answers": [
+          "Kate Corrigan",
+          "Johann Kraus",
+          "Benjamin Daimio"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Hellboy universe, what was Abe Sapien's birth name?",
+        "correct_answer": "Langdon Everett Caul",
+        "incorrect_answers": [
+          "Lord Baltimore",
+          "Sir Edward Grey",
+          "Landis Pope"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which pulp hero made appearances in Hellboy and BPRD comics before getting his own spin-off?",
+        "correct_answer": "Lobster Johnson",
+        "incorrect_answers": [
+          "Roger the Homunculus",
+          "The Spider",
+          "The Wendigo"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In Black Hammer, what city did the heroes save from the Anti-God?",
+        "correct_answer": "Spiral City",
+        "incorrect_answers": [
+          "Mega-City One",
+          "Rockwood",
+          "Star City"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Black Hammer, what dimension does Colonel Weird travel through?",
+        "correct_answer": "Para-Zone",
+        "incorrect_answers": [
+          "Hyperspace",
+          "Mirror Universe",
+          "Phantom Zone"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which one of these superhero teams appears in the Invincible comics?",
+        "correct_answer": "Guardians of the Globe",
+        "incorrect_answers": [
+          "Avengers",
+          "Justice League",
+          "Teenage Mutant Ninja Turtles"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who was the first American Vampire (Scott Snyder's American Vampire)?",
+        "correct_answer": "Skinner Sweet",
+        "incorrect_answers": [
+          "Hattie Hargrove",
+          "Pearl Jones",
+          "James 'Jim' Book"
+        ]
+      },
+      {
+        "category": "Entertainment: Comics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What's the weakness of american vampires (Scott Snyder's American Vampire)?",
+        "correct_answer": "Gold",
+        "incorrect_answers": [
+          "Sunlight",
+          "Wood",
+          "Silver"
+        ]
+      }
+    ]
+  },
+  "japanese_anime_manga": {
+    "results": [
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "In Kill La Kill, the weapon of the main protagonist is a katana. ",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of the corgi in Cowboy Bebop?",
+        "correct_answer": "Einstein",
+        "incorrect_answers": [
+          "Edward",
+          "Rocket",
+          "Joel"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'Shakugan no Shana' what was the Shana usually referred as?",
+        "correct_answer": "Flame-Haired Burning-Eyed Hunter",
+        "incorrect_answers": [
+          "Flame Haze",
+          "Flame-Haired Burning-Eyed Haze",
+          "Shana"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which band name isn't a Stand in 'JoJo's Bizzare Adventure'?",
+        "correct_answer": "AC/DC",
+        "incorrect_answers": [
+          "Green Day",
+          "Survivor",
+          "Red Hot Chili Peppers"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What year was 'JoJo's Bizarre Adventure: Phantom Blood' first released?",
+        "correct_answer": "1987",
+        "incorrect_answers": [
+          "2013",
+          "1983",
+          "1995"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The main antagonist of the second part of JoJo's Bizarre Adventure is which of the following?",
+        "correct_answer": "Kars",
+        "incorrect_answers": [
+          "Erina Joestar",
+          "Santana",
+          "Wired Beck"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who is the main character with yellow hair in the anime Naruto?",
+        "correct_answer": "Naruto",
+        "incorrect_answers": [
+          "Ten Ten",
+          "Sasuke",
+          "Kakashi"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Gosho Aoyama Made This Series: (Detective Conan / Case Closed!)",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "The anime Attack on Titan was directed by Tetsurō Araki, the same person who directed the anime Highschool of the Dead.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What song plays in the ending credits of the anime 'Ergo Proxy'?",
+        "correct_answer": "Paranoid Android",
+        "incorrect_answers": [
+          "Sadistic Summer",
+          "Bittersweet Symphony",
+          "Mad World"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the anime Assassination Classroom what is the class that Korosensei teaches?",
+        "correct_answer": "Class 3-E",
+        "incorrect_answers": [
+          "Class 3-A",
+          "Class 3-B",
+          "Class 3-D"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "boolean",
+        "difficulty": "hard",
+        "question": "Throughout the entirety of 'Dragon Ball Z', Goku only kills two characters: a miniboss named Yakon and Kid Buu.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In 'The Melancholy of Haruhi Suzumiya' series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.",
+        "correct_answer": "God",
+        "incorrect_answers": [
+          "Alien",
+          "Time Traveler",
+          "Esper"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In 'A Certain Scientific Railgun', how many 'sisters' did Accelerator have to kill to achieve the rumored level 6?",
+        "correct_answer": "20,000",
+        "incorrect_answers": [
+          "128",
+          "10,000",
+          "5,000"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following anime of the mecha genre began airing in 1982?",
+        "correct_answer": "The Super Dimension Fortress Macross",
+        "incorrect_answers": [
+          "Mobile Suit Gundam",
+          "Armored Trooper VOTOMS",
+          "Neon Genesis Evangelion"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In Digimon, what is the Japanese name for the final evolutionary stage?",
+        "correct_answer": "Ultimate",
+        "incorrect_answers": [
+          "Mega",
+          "Adult",
+          "Champion"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The character Plum from 'No Game No Life' is of what race?",
+        "correct_answer": "Dhampir",
+        "incorrect_answers": [
+          "Fl&uuml;gel",
+          "Imanity",
+          "Seiren"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The character Momonga from the 'Overlord' series orders his servants to call him by what name?",
+        "correct_answer": "Ainz Ooal Gown",
+        "incorrect_answers": [
+          "Master",
+          "Yggdrasil",
+          "Kugane Maruyama"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Aoi Miyamori is the production manager of what anime in 'Shirobako'?",
+        "correct_answer": "The Third Aerial Girls Squad",
+        "incorrect_answers": [
+          "Exodus!",
+          "Andes Chucky",
+          "Angel Beats!"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Kiznaiver is an adaptation of a manga.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Ikki Kurogane is known by what nickname at the beginning of 'Chivalry of a Failed Knight'?",
+        "correct_answer": "Worst One",
+        "incorrect_answers": [
+          "Another One",
+          "Blazer",
+          "Princess"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Akatsuki's subclass in 'Log Horizon' is what?",
+        "correct_answer": " Tracker",
+        "incorrect_answers": [
+          "Assassin",
+          "Scribe",
+          "Apprentice"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Satella in 'Re:Zero' is the witch of what?",
+        "correct_answer": "Envy",
+        "incorrect_answers": [
+          "Pride",
+          "Sloth",
+          "Wrath"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of the following originated as a manga?",
+        "correct_answer": "Akira",
+        "incorrect_answers": [
+          "Cowboy Bebop",
+          "High School DxD",
+          "Gurren Lagann"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which one of these characters is from 'Legendz : Tale of the Dragon Kings'?",
+        "correct_answer": "Shiron",
+        "incorrect_answers": [
+          "Jack",
+          "Axia",
+          "Drum"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'A Certain Magical Index,' what is Accelerator able to control?",
+        "correct_answer": "Vectors",
+        "incorrect_answers": [
+          "Velocity",
+          "Quantums",
+          "Wormholes"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'Toriko', which of the following Heavenly Kings has an enhanced sense of Hearing?",
+        "correct_answer": "Zebra",
+        "incorrect_answers": [
+          "Coco",
+          "Sunny",
+          "Toriko"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who is the creator of the manga series 'One Piece'?",
+        "correct_answer": "Eiichiro Oda",
+        "incorrect_answers": [
+          "Yoshihiro Togashi",
+          "Hayao Miyazaki",
+          "Masashi Kishimoto"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What year did 'Attack on Titan' first air?",
+        "correct_answer": "2013",
+        "incorrect_answers": [
+          "2014",
+          "2012",
+          "2015"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "'Silhouette', a song performed by the group 'KANA-BOON' is featured as the sixteenth opening of which anime?",
+        "correct_answer": "Naruto: Shippūden",
+        "incorrect_answers": [
+          "One Piece",
+          "Naruto",
+          "Gurren Lagann"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In 'To Love-Ru', Ren and Run are from what planet?",
+        "correct_answer": "Memorze",
+        "incorrect_answers": [
+          "Deviluke",
+          "Mistletoe",
+          "Okiwana"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'To Love-Ru: Darkness', which of the girls attempt making a harem for Rito Yuuki?",
+        "correct_answer": "Momo Deviluke",
+        "incorrect_answers": [
+          "Yami (Golden Darkness)",
+          "Haruna Sairenji",
+          "Mea Kurosaki"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the 'To Love-Ru' series, how many Trans-weapons were created?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who is the armored titan in 'Attack On Titan'?",
+        "correct_answer": "Reiner Braun",
+        "incorrect_answers": [
+          "Armin Arlelt",
+          "Mikasa Ackermann",
+          "Eren Jaeger"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "In 'To Love-Ru: Darkness', Yami reveals her real name is Eve.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many 'JoJos' that are protagonists are there in the series 'Jojo's Bizarre Adventure'?",
+        "correct_answer": "8",
+        "incorrect_answers": [
+          "6",
+          "4",
+          "5"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "In Chobits, Hideki found Chii in his apartment.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which animation studio animated 'To Love-Ru'?",
+        "correct_answer": "Xebec",
+        "incorrect_answers": [
+          "Trigger",
+          "Sunrise",
+          "Kyoto Animation"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which animation studio animated 'Psycho Pass'?",
+        "correct_answer": "Production I.G",
+        "incorrect_answers": [
+          "Kyoto Animation",
+          "Shaft",
+          "Trigger"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which studio animated Afro Samurai?",
+        "correct_answer": "Gonzo",
+        "incorrect_answers": [
+          "Kyoto Animation",
+          "xebec",
+          "Production I.G"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which Japanese music group was formed to produce theme music for the anime 'Guilty Crown'?",
+        "correct_answer": "Egoist",
+        "incorrect_answers": [
+          "Goose house",
+          "Babymetal",
+          "Garnidelia"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of Funny Valentine's stand in Jojo's Bizarre Adventure Part 7, Steel Ball Run?",
+        "correct_answer": "Dirty Deeds Done Dirt Cheap",
+        "incorrect_answers": [
+          "Filthy Acts Done For A Reasonable Price",
+          "Civil War",
+          "God Bless The USA"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which Pokémon and it's evolutions were banned from appearing in a main role after the Episode 38 Incident?",
+        "correct_answer": "The Porygon Line",
+        "incorrect_answers": [
+          "The Pikachu Line",
+          "The Elekid Line",
+          "The Magby Line"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'Love Live: School Idol Project' what pseudonym does Kotori Minami use in her job as a maid?",
+        "correct_answer": "Minalinsky",
+        "incorrect_answers": [
+          "Stanoytchev",
+          "Kuznetsov",
+          "Aqours"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'JoJo's Bizzare Adventure: Stardust Crusaders', what is the last name of the protagonist Jotaro?",
+        "correct_answer": "Kujo",
+        "incorrect_answers": [
+          "Cujoh",
+          "Joestar",
+          "Higashikata"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these is not a world in the anime 'Buddyfight'?",
+        "correct_answer": "Ancient Dragon World",
+        "incorrect_answers": [
+          "Dragon World",
+          "Star Dragon World",
+          "Darkness Dragon World"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which part from the JoJo's Bizarre Adventure manga is about a horse race across America?",
+        "correct_answer": "Part 7: Steel Ball Run",
+        "incorrect_answers": [
+          "Part 6: Stone Ocean",
+          "Part 3: Stardust Crusaders",
+          "Part 5: Golden Wind"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What name is the main character Chihiro given in the 2001 movie 'Spirited Away'?",
+        "correct_answer": "Sen (Thousand)",
+        "incorrect_answers": [
+          "Hyaku (Hundred)",
+          "Ichiman (Ten thousand)",
+          "Juu (Ten)"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Who was the Director of the 1988 Anime film 'Grave of the Fireflies'?",
+        "correct_answer": "Isao Takahata",
+        "incorrect_answers": [
+          "Hayao Miyazaki",
+          "Satoshi Kon",
+          "Sunao Katabuchi"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which JoJo's Bizarre Adventure character possesses the Stand named Silver Chariot?",
+        "correct_answer": "Jean Pierre Polnareff",
+        "incorrect_answers": [
+          "Noriaki Kakyoin",
+          "Hol Horse",
+          "Hermes Costello"
+        ]
+      }
+    ]
+  },
+  "cartoon_animation": {
+    "results": [
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In South Park, what is Stan's surname?",
+        "correct_answer": "Marsh",
+        "incorrect_answers": [
+          "Stotch",
+          "Broflovski",
+          "Tweak"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which 'Family Guy' character got his own spin-off show in 2009?",
+        "correct_answer": "Cleveland Brown",
+        "incorrect_answers": [
+          "Glenn Quagmire",
+          "Joe Swanson",
+          "The Greased-up Deaf Guy"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The song 'Little April Shower' features in which Disney cartoon film?",
+        "correct_answer": "Bambi",
+        "incorrect_answers": [
+          "Cinderella",
+          "Pinocchio",
+          "The Jungle Book"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the name of the sea witch in the 1989 Disney film 'The Little Mermaid'?",
+        "correct_answer": "Ursula",
+        "incorrect_answers": [
+          "Madam Mim",
+          "Maleficent",
+          "Lady Tremaine"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What town was 'Springfield' from 'The Simpsons' originally named after?",
+        "correct_answer": "Springfield, Oregon",
+        "incorrect_answers": [
+          "Springfield, Missouri",
+          "Springfield, Illinois",
+          "Springfield, Massachusetts"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these is NOT a catchphrase used by Rick Sanchez in the TV show 'Rick and Morty'?",
+        "correct_answer": "Slam dunk, nothing but net!",
+        "incorrect_answers": [
+          "Hit the sack, Jack!",
+          "Rikki-Tikki-Tavi, biatch!",
+          "Wubba-lubba-dub-dub!"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the relationship between Rick and Morty in the show 'Rick and Morty'?",
+        "correct_answer": "Grandfather and Grandson",
+        "incorrect_answers": [
+          "Father and Son",
+          "Best Friends",
+          "Crimefighting Partners"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What year was the Disney film 'A Goofy Movie' released?",
+        "correct_answer": "1995",
+        "incorrect_answers": [
+          "1999",
+          "2001",
+          "1997"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the standard frame rate for animation?",
+        "correct_answer": "24 FPS",
+        "incorrect_answers": [
+          "12 FPS",
+          "30 FPS",
+          "60 FPS"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the first Disney movie to use CGI?",
+        "correct_answer": "The Black Cauldron",
+        "incorrect_answers": [
+          "Tron",
+          "Toy Story",
+          "Fantasia"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the Pixar film, 'Toy Story' what was the name of the child who owned the toys?",
+        "correct_answer": "Andy",
+        "incorrect_answers": [
+          "Edward",
+          "Danny",
+          "Matt"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In 'Avatar: The Last Airbender', which element does Aang begin to learn after being defrosted?",
+        "correct_answer": "Water",
+        "incorrect_answers": [
+          "Air",
+          "Earth",
+          "Fire"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these is not a real character in the cartoon series My Little Pony: Friendship is Magic?",
+        "correct_answer": "Rose Marene",
+        "incorrect_answers": [
+          "Pinkie Pie",
+          "Maud Pie",
+          "Rainbow Dash"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Who voice acted the character Hiccup in the movie 'How to Train Your Dragon'?",
+        "correct_answer": "Jay Baruchel",
+        "incorrect_answers": [
+          "Jack Brauchel",
+          "John Powell",
+          "Gerard Butler"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The stop motion comedy show 'Robot Chicken' was created by which of the following?",
+        "correct_answer": "Seth Green",
+        "incorrect_answers": [
+          "Seth MacFarlane",
+          "Seth Rogen",
+          "Seth Rollins"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What Cartoon Network show aired its first episode on November 4th, 2013?",
+        "correct_answer": "Steven Universe",
+        "incorrect_answers": [
+          "Regular Show",
+          "Adventure Time",
+          "The Amazing World of Gumball"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who created the Cartoon Network series 'Adventure Time'?",
+        "correct_answer": "Pendleton Ward",
+        "incorrect_answers": [
+          "J. G. Quintel",
+          "Ben Bocquelet",
+          "Rebecca Sugar"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which episode from The Amazing World Of Gumball won the Childrens Choice Award at the British Animation Awards in 2016?",
+        "correct_answer": "The Shell",
+        "incorrect_answers": [
+          "The Limit",
+          "The Kids",
+          "The Gripes"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of the following is not a Flintstones character?",
+        "correct_answer": "Lord Rockingham IX",
+        "incorrect_answers": [
+          "Rockhead Slate",
+          "The Great Gazoo",
+          "Barney Rubble"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is lost in Hawaiian and is also the name of a little girl in a 2002 film which features a alien named 'Stitch'?",
+        "correct_answer": "Lilo",
+        "incorrect_answers": [
+          "Lolo",
+          "Lucy",
+          "Lulu"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'The Amazing World of Gumball', who is the principal of Elmore Junior High?",
+        "correct_answer": "Principal Brown",
+        "incorrect_answers": [
+          "Principal Small",
+          "Principal Brawn",
+          "Principal Simeon"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which Teenage Mutant Ninja Turtle traditionally wears an orange bandana?",
+        "correct_answer": "Michelangelo",
+        "incorrect_answers": [
+          "Leonardo",
+          "Donatello",
+          "Raphael"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which one of these cartoon characters is NOT voiced by Rob Paulsen?",
+        "correct_answer": "Max Tennyson (Ben 10)",
+        "incorrect_answers": [
+          "Carl Wheezer (Jimmy Neutron)",
+          "Yakko Warner (Animaniacs)",
+          "The Mask (The Mask, TV Series)"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who created the Cartoon Network series 'Regular Show'?",
+        "correct_answer": "J. G. Quintel",
+        "incorrect_answers": [
+          "Ben Bocquelet",
+          "Pendleton Ward",
+          "Rebecca Sugar"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who created 'RWBY'?",
+        "correct_answer": "Monty Oum",
+        "incorrect_answers": [
+          "Miles Luna",
+          "Kerry Shawcross",
+          "Shane Newville"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is Everest's favorite food in the Nickelodeon/Nick Jr. series 'PAW Patrol'?",
+        "correct_answer": "Liver",
+        "incorrect_answers": [
+          "Chicken",
+          "Steak",
+          "Caribou"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the show 'Foster's Home For Imaginary Friends', which character had an obsession with basketball?",
+        "correct_answer": "Wilt",
+        "incorrect_answers": [
+          "Coco",
+          "Mac",
+          "Cheese"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Adam West was the mayor of which cartoon town?",
+        "correct_answer": "Quahog",
+        "incorrect_answers": [
+          "Springfield",
+          "South Park",
+          "Langley Falls"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In 'Rick and Morty', from which dimension do Rick and Morty originate from?",
+        "correct_answer": "C-137",
+        "incorrect_answers": [
+          "J1977",
+          "C-136",
+          "C500-a"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'My Little Pony: Friendship is Magic', which of these ponies represents the quality of honesty?",
+        "correct_answer": "Applejack",
+        "incorrect_answers": [
+          "Twilight Sparkle",
+          "Pinkie Pie",
+          "Rarity"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In 'Gravity Falls', what does Quentin Trembley do when he is driven out from the White House?",
+        "correct_answer": "Eat a salamander and jump out the window.",
+        "incorrect_answers": [
+          "Leave in peace.",
+          "Jump out the window.",
+          "Release 1,000 captive salamanders into the white house."
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these characters live in a pineapple under the sea in the cartoon 'SpongeBob SquarePants'.",
+        "correct_answer": "SpongeBob SquarePants ",
+        "incorrect_answers": [
+          "Patrick Star",
+          "Squidward Tentacles",
+          "Mr. Krabs"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which Sanrio character was introduced in 1996?",
+        "correct_answer": "Pompompurin",
+        "incorrect_answers": [
+          "My Melody",
+          "Badtz-Maru",
+          "Kerropi"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the 'Star Wars' universe, what species is Grand Admiral Thrawn?",
+        "correct_answer": "Chiss",
+        "incorrect_answers": [
+          "Gungans",
+          "Pantorans",
+          "Twi'lek"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How many episodes were in season five of Samurai Jack?",
+        "correct_answer": "10",
+        "incorrect_answers": [
+          "12",
+          "11",
+          "13"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the 1968 Cartoon Show 'Wacky Races' what was the name of cavemen duo who rode in The Boulder Mobile?",
+        "correct_answer": "The Slag Brothers",
+        "incorrect_answers": [
+          "The Slate Brothers",
+          "The Rock Brothers",
+          "The Stone Brothers"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Benny, Brain, Fancy-Fancy, Spook and Choo-Choo were known associates of what Hanna Barbera cartoon character?",
+        "correct_answer": "Top Cat",
+        "incorrect_answers": [
+          "Yogi Bear",
+          "Snagglepuss",
+          "Scooby-Doo"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the 1969 Cartoon show 'Dastardly and Muttley in Their Flying Machines', which were NOT one of the lyrics in the opening theme?",
+        "correct_answer": "Stab him",
+        "incorrect_answers": [
+          "Nab him",
+          "Jab him",
+          "Tab him"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the name of Jonny's pet dog in The Adventures of Jonny Quest?",
+        "correct_answer": "Bandit",
+        "incorrect_answers": [
+          "Lucky",
+          "Rocky",
+          "Max"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Night on Bald Mountain was one of the musical pieces featured in Disney's 1940's film Fantasia.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Blue Danube was one of the musical pieces featured in Disney's 1940's film Fantasia.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who voiced Finn in Adventure Time?",
+        "correct_answer": "Jeremy Shada",
+        "incorrect_answers": [
+          "Nolan North",
+          "John DiMaggio",
+          "Tom Kenny"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Snagglepuss was part of the Yogi Yahooies in the 1977 show Scooby's All-Star Laff-a-Lympics.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+          "True"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Nickelodeon is owned by what parent company?",
+        "correct_answer": "Viacom",
+        "incorrect_answers": [
+          "CBS",
+          "FOX",
+          "ABC"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Townsend Coleman provided the voice for which turtle in the original 1987 series of 'Teenage Mutant Ninja Turtles'?",
+        "correct_answer": "Michelangelo",
+        "incorrect_answers": [
+          "Leonardo",
+          "Donatello",
+          "Raphael"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What ability does Princess Sofia the First have from her amulet that allows her to breathe underwater?",
+        "correct_answer": "Mermaid Transformation",
+        "incorrect_answers": [
+          "Artificial Gills",
+          "Bubble Head",
+          "Bubble Shield"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In The Simpsons, which war did Seymour Skinner serve in the USA Army as a Green Beret?",
+        "correct_answer": "Vietnam War",
+        "incorrect_answers": [
+          "World War 2",
+          "World War 1",
+          "Cold War"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was Maggie Simpson's first canonical word, not including the Tracey Ullman shorts?",
+        "correct_answer": "Daddy.",
+        "incorrect_answers": [
+          "Sequel?",
+          "Ja!",
+          "Rusty!"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Wendy O. Koopa appeared in the Super Mario DIC Cartoons, but what was she known as?",
+        "correct_answer": "Kootie Pie",
+        "incorrect_answers": [
+          "Sweetie Pie",
+          "Wendy Pie",
+          "Honey Pie"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of Ruby Rose's weapon from RWBY?",
+        "correct_answer": "Crescent Rose",
+        "incorrect_answers": [
+          "Thorned Rosebud",
+          "Magnhild",
+          "Crooked Scythe"
+        ]
+      }
+    ]
+  }
+}
