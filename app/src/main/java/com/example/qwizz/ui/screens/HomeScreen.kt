@@ -1,7 +1,9 @@
 package com.example.qwizz.ui.screens
 
+import android.content.res.Configuration
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -36,7 +38,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -74,7 +78,7 @@ internal fun HomeScreen(
         },
         drawerContent = {
             StatusBarInsetHandler {
-                DrawerContent()
+                DrawerContent(scaffoldState)
             }
         },
         drawerBackgroundColor = QColors.LightWhite,
@@ -82,14 +86,15 @@ internal fun HomeScreen(
 //        drawerShape = RoundedCornerShape(topEnd = 32.dp, bottomEnd = 32.dp)
         drawerShape = QShapes.DrawerShapes.shape
     ) { paddingValues ->
+        val scrollState = rememberScrollState()
         Column(
             modifier = Modifier
                 .padding(paddingValues)
                 .fillMaxSize()
-                .verticalScroll(rememberScrollState())
+                .verticalScroll(scrollState)
                 .padding(bottom = 20.dp) // extra space at bottom of the screen
         ) {
-            WelcomeText()
+            WelcomeText(scrollState)
 
             val subjectGridData = getSubjectGridData()
             SubjectGrid(subjectGridData, navController)
@@ -172,11 +177,14 @@ private fun HomeScreenTopBar(
 }
 
 @Composable
-private fun WelcomeText() {
+private fun WelcomeText(scrollState: ScrollState) {
     Text(
         text = stringResource(R.string.welcome_text),
         modifier = Modifier
             .fillMaxWidth(0.76f)
+            .graphicsLayer {
+                translationY = (scrollState.value.toFloat() * 0.5f)
+            }
             .padding(start = 20.dp, end = 20.dp, bottom = 20.dp, top = 40.dp),
         fontSize = 18.sp,
         fontWeight = FontWeight.Bold,
@@ -190,73 +198,92 @@ private fun SubjectGrid(
     subjectData: List<SubjectCard>,
     navController: NavController
 ) {
+    val isPortrait = LocalConfiguration.current.orientation == Configuration.ORIENTATION_PORTRAIT
+    val factor = if (isPortrait) 0.5f else 0.333f
+
     FlowRow(
         modifier = Modifier.padding(5.dp)
     ) {
         subjectData.forEach { subject ->
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth(0.5f)
-                    .padding(5.dp)
-                    .shadow(
-                        elevation = 4.dp,
-                        clip = true,
-                        shape = RoundedCornerShape(12.dp),
-                        ambientColor = subject.progressColor,
-                        spotColor = subject.progressColor
-                    )
-                    .clip(RoundedCornerShape(12.dp))
-                    .background(QColors.VeryLightWhite)
-                    .clickable {
-                        navController.navigate(route = QScreens.Difficulty.route) {
-                            launchSingleTop = true
-                        }
-                    },
-            ) {
-                Column(
-                    modifier = Modifier.padding(5.dp),
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.SpaceEvenly,
-                ) {
-                    Image(
-                        modifier = Modifier
-                            .fillMaxWidth(0.7f)
-                            .padding(vertical = 5.dp)
-                            .aspectRatio(1f / 1f),
-                        painter = painterResource(subject.illustration),
-                        contentDescription = subject.title,
-                    )
-
-                    Text(
-                        text = subject.title,
-                        fontSize = 18.sp,
-                        fontWeight = FontWeight.Bold,
-                        lineHeight = 26.sp,
-                        color = QColors.TextPrimary,
-                        overflow = TextOverflow.Ellipsis,
-                        maxLines = 1,
-                        modifier = Modifier.padding(horizontal = 5.dp)
-                    )
-
-                    val progress = subject.progressValue.toFloat() / 100
-                    LinearProgressIndicator(
-                        modifier = Modifier
-                            .padding(vertical = 15.dp, horizontal = 30.dp)
-                            .clip(CircleShape)
-                            .height(6.dp),
-                        progress = progress,
-                        color = subject.progressColor,
-                        backgroundColor = QColors.ProgressBarBG
-                    )
-                }
-            }
+            SubjectGridCard(navController = navController, subject = subject, widthFactor = factor)
         }
+
+        val randomSubject = SubjectCard(
+            title = "Random",
+            illustration = R.drawable.reading,
+            progressValue = 77,
+            progressColor = QColors.Purple
+        )
+        SubjectGridCard(navController = navController, subject = randomSubject, widthFactor = 1f)
     }
 }
 
 @Composable
-private fun DrawerContent() {
+internal fun SubjectGridCard(
+    navController: NavController,
+    subject: SubjectCard,
+    widthFactor: Float
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth(widthFactor)
+            .padding(5.dp)
+            .shadow(
+                elevation = 4.dp,
+                clip = true,
+                shape = RoundedCornerShape(12.dp),
+                ambientColor = subject.progressColor,
+                spotColor = subject.progressColor
+            )
+            .clip(RoundedCornerShape(12.dp))
+            .background(QColors.VeryLightWhite)
+            .clickable {
+                navController.navigate(route = QScreens.Difficulty.route) {
+                    launchSingleTop = true
+                }
+            }
+            .padding(5.dp),
 
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.SpaceEvenly,
+    ) {
+        Image(
+            modifier = Modifier
+                .fillMaxWidth(0.7f)
+                .padding(vertical = 5.dp)
+                .aspectRatio(1f / 1f),
+            painter = painterResource(subject.illustration),
+            contentDescription = subject.title,
+        )
+
+        Text(
+            text = subject.title,
+            fontSize = 18.sp,
+            fontWeight = FontWeight.Bold,
+            lineHeight = 26.sp,
+            color = QColors.TextPrimary,
+            overflow = TextOverflow.Ellipsis,
+            maxLines = 1,
+            modifier = Modifier.padding(horizontal = 5.dp)
+        )
+
+        val progress = subject.progressValue.toFloat() / 100
+        LinearProgressIndicator(
+            modifier = Modifier
+                .padding(vertical = 15.dp, horizontal = 30.dp)
+                .clip(CircleShape)
+                .height(6.dp),
+            progress = progress,
+            color = subject.progressColor,
+            backgroundColor = QColors.ProgressBarBG
+        )
+    }
+}
+
+@Composable
+private fun DrawerContent(scaffoldState: ScaffoldState) {
+
+    val coroutineScope = rememberCoroutineScope()
     val drawerPrimaryColor = QColors.TextPrimary
 
     val textModifier = Modifier
@@ -269,10 +296,13 @@ private fun DrawerContent() {
             ambientColor = drawerPrimaryColor,
             spotColor = drawerPrimaryColor
         )
-//        .padding(2.dp)
         .clip(RoundedCornerShape(12.dp))
         .background(QColors.VeryLightWhite, shape = QShapes.DrawerShapes.shape)
-        .clickable { }
+        .clickable {
+            coroutineScope.launch {
+                scaffoldState.drawerState.close()
+            }
+        }
         .padding(vertical = 10.dp, horizontal = 20.dp)
 
     val brush = Brush.linearGradient(
@@ -366,6 +396,43 @@ private fun getSubjectGridData(): List<SubjectCard> {
         ),
         SubjectCard(
             title = "Music",
+            illustration = R.drawable.subject_music,
+            progressValue = 20,
+            progressColor = QColors.BabyGreen
+        ),
+
+        SubjectCard(
+            title = "Geography",
+            illustration = R.drawable.subject_arts,
+            progressValue = 100,
+            progressColor = QColors.Saffron
+        ),
+        SubjectCard(
+            title = "General Knowledge",
+            illustration = R.drawable.subject_sports,
+            progressValue = 50,
+            progressColor = QColors.Purple
+        ),
+        SubjectCard(
+            title = "Technology",
+            illustration = R.drawable.subject_mathematics,
+            progressValue = 30,
+            progressColor = QColors.InkBlue
+        ),
+        SubjectCard(
+            title = "Comics",
+            illustration = R.drawable.subject_science,
+            progressValue = 80,
+            progressColor = QColors.Tomato
+        ),
+        SubjectCard(
+            title = "Entertainment",
+            illustration = R.drawable.subject_history,
+            progressValue = 10,
+            progressColor = QColors.BabyPink
+        ),
+        SubjectCard(
+            title = "Nature",
             illustration = R.drawable.subject_music,
             progressValue = 20,
             progressColor = QColors.BabyGreen
