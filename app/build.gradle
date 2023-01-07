@@ -70,6 +70,12 @@ dependencies {
     // accompanist flow layout
     implementation "com.google.accompanist:accompanist-flowlayout:0.28.0"
 
+    // accompanist pager
+    implementation "com.google.accompanist:accompanist-pager:0.28.0"
+
+    // accompanist pager indicator
+    implementation "com.google.accompanist:accompanist-pager-indicators:0.28.0"
+
     // Hilt
 
     // retrofit

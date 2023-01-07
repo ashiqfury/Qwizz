@@ -77,7 +77,7 @@ internal fun HomeScreen(
                 DrawerContent()
             }
         },
-        drawerBackgroundColor = QColors.VeryLightWhite,
+        drawerBackgroundColor = QColors.LightWhite,
         drawerElevation = 8.dp,
 //        drawerShape = RoundedCornerShape(topEnd = 32.dp, bottomEnd = 32.dp)
         drawerShape = QShapes.DrawerShapes.shape
@@ -256,19 +256,22 @@ private fun SubjectGrid(
 
 @Composable
 private fun DrawerContent() {
+
+    val drawerPrimaryColor = QColors.TextPrimary
+
     val textModifier = Modifier
         .fillMaxWidth()
         .padding(vertical = 5.dp)
         .shadow(
-            3.dp,
+            4.dp,
             RoundedCornerShape(12.dp),
             clip = true,
-            ambientColor = Color.Black,
-            spotColor = QColors.BabyPink
+            ambientColor = drawerPrimaryColor,
+            spotColor = drawerPrimaryColor
         )
 //        .padding(2.dp)
-        .background(QColors.LightWhite, shape = QShapes.DrawerShapes.shape)
         .clip(RoundedCornerShape(12.dp))
+        .background(QColors.VeryLightWhite, shape = QShapes.DrawerShapes.shape)
         .clickable { }
         .padding(vertical = 10.dp, horizontal = 20.dp)
 
@@ -279,7 +282,7 @@ private fun DrawerContent() {
             Color.Transparent,
             Color.Transparent,
             Color.Transparent,
-            QColors.BabyPink,
+            drawerPrimaryColor,
             QColors.Tomato
         )
     )
@@ -317,7 +320,7 @@ private fun DrawerContent() {
         Text(text = "Profile", modifier = textModifier, color = QColors.TextPrimary)
         Text(text = "Settings", modifier = textModifier, color = QColors.TextPrimary)
         Text(text = "About Us", modifier = textModifier, color = QColors.TextPrimary)
-        Text(text = "Logout", modifier = textModifier, color = QColors.TextPrimary)
+        Text(text = "Logout", modifier = textModifier, color = QColors.Tomato)
     }
 }
 

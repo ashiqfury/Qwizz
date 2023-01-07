@@ -60,7 +60,7 @@ private fun BoxScope.InternetBannerContent() {
     LaunchedEffect(liveState) {
         translate = 0f
         delay(3000)
-        translate = 100f
+        translate = 150f
     }
 
     val brush = Brush.verticalGradient(listOf(Color.Transparent, bannerBgColor))
