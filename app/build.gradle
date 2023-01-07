@@ -77,6 +77,8 @@ dependencies {
     // accompanist navigation
     implementation "com.google.accompanist:accompanist-navigation-animation:0.28.0"
 
+    // google fonts
+    implementation "androidx.compose.ui:ui-text-google-fonts:1.4.0-alpha03"
 
     // some animations
 

@@ -21,10 +21,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
+import com.example.qwizz.R
 import com.example.qwizz.model.ConnectionState
 import com.example.qwizz.utils.observeConnectivityState
 import com.example.qwizz.ui.theme.QColors
@@ -51,7 +53,7 @@ private fun BoxScope.InternetBannerContent() {
     val isConnected = liveState == ConnectionState.Available
 
     val bannerBgColor = if (isConnected) QColors.BabyGreen else QColors.Tomato
-    val bannerText = if (isConnected) "InternetConnected" else "Connection Failed! Try Again"
+    val bannerText = if (isConnected) stringResource(R.string.internet_connected) else stringResource(R.string.connection_failed)
     var translate by remember { mutableStateOf(100f) }
     val animateTranslate by animateFloatAsState(targetValue = translate)
 

@@ -41,6 +41,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -51,6 +52,8 @@ import com.example.qwizz.ui.navigation.QScreens
 import com.example.qwizz.ui.theme.QColors
 import com.example.qwizz.ui.utils.QShapes
 import com.example.qwizz.ui.utils.StatusBarInsetHandler
+import com.example.qwizz.utils.LOGO_FONT
+import com.example.qwizz.utils.getGoogleFont
 import com.google.accompanist.flowlayout.FlowRow
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import kotlinx.coroutines.launch
@@ -152,8 +155,8 @@ private fun HomeScreenTopBar(
         },
         elevation = 0.dp,
         title = {
-            /*Text(
-                text = "Qwizz",
+            Text(
+                text = stringResource(id = R.string.qwizz_logo_name),
                 modifier = Modifier
                     .fillMaxWidth(),
 //                    .padding(horizontal = 20.dp, vertical = 40.dp),
@@ -161,8 +164,9 @@ private fun HomeScreenTopBar(
                 textAlign = TextAlign.Center,
                 fontWeight = FontWeight.Bold,
                 lineHeight = 26.sp,
-                color = QColors.TextPrimary
-            )*/
+                color = QColors.TextPrimary,
+                fontFamily = getGoogleFont(fontName = LOGO_FONT.fontName)
+            )
         }
     )
 }
@@ -228,7 +232,10 @@ private fun SubjectGrid(
                         fontSize = 18.sp,
                         fontWeight = FontWeight.Bold,
                         lineHeight = 26.sp,
-                        color = QColors.TextPrimary
+                        color = QColors.TextPrimary,
+                        overflow = TextOverflow.Ellipsis,
+                        maxLines = 1,
+                        modifier = Modifier.padding(horizontal = 5.dp)
                     )
 
                     val progress = subject.progressValue.toFloat() / 100
@@ -293,7 +300,7 @@ private fun DrawerContent() {
         )
 
         Text(
-            text = "Qwizz",
+            text = stringResource(R.string.qwizz_logo_name),
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(top = 10.dp, bottom = 40.dp),
@@ -301,7 +308,8 @@ private fun DrawerContent() {
             textAlign = TextAlign.Center,
             fontWeight = FontWeight.ExtraLight,
             lineHeight = 26.sp,
-            color = QColors.TextPrimary
+            color = QColors.TextPrimary,
+            fontFamily = getGoogleFont(fontName = LOGO_FONT.fontName)
         )
 
 
