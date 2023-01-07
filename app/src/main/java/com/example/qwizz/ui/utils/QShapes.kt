@@ -29,7 +29,7 @@ sealed class QShapes {
                 x1 = size.width,
                 y1 = size.height - heightOffset + curveRadius,
                 x2 = size.width - curveRadius,
-                y2 = size.height - heightOffset + curveRadius + 68f // static value
+                y2 = size.height - heightOffset + curveRadius + size.height * 0.04f
             ) // bottom major curve
             lineTo(0f, size.height) // line bottom
             lineTo(0f, 0f) // left line
