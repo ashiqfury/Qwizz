@@ -25,7 +25,6 @@ import com.example.qwizz.R
 import com.example.qwizz.ui.navigation.QScreens
 import com.example.qwizz.ui.theme.QColors
 import com.example.qwizz.ui.utils.StatusBarInsetHandler
-import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 
 @Composable
 internal fun DifficultyScreen(
@@ -173,8 +172,8 @@ private fun DifficultyButton(
 @Preview(showBackground = true)
 @Composable
 private fun DifficultyScreenPreview() {
-    val navController = rememberAnimatedNavController()
-    DifficultyScreen(navController = navController)
+//    val navController = rememberAnimatedNavController()
+//    DifficultyScreen(navController = navController)
 }
 
 private enum class Difficulty(val value: String) {

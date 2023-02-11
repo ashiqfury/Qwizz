@@ -52,7 +52,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the nickname of Northampton town&#039;s rugby union club?",
+      "question": "What is the nickname of Northampton town's rugby union club?",
       "correct_answer": "Saints",
       "incorrect_answers": [
         "Harlequins",
@@ -76,7 +76,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In what sport is a &quot;shuttlecock&quot; used?",
+      "question": "In what sport is a 'shuttlecock' used?",
       "correct_answer": "Badminton",
       "incorrect_answers": [
         "Table Tennis",
@@ -88,7 +88,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which Formula One driver was nicknamed &#039;The Professor&#039;?",
+      "question": "Which Formula One driver was nicknamed 'The Professor'?",
       "correct_answer": "Alain Prost",
       "incorrect_answers": [
         "Ayrton Senna",
@@ -206,7 +206,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which soccer team won the Copa Am&eacute;rica 2015 Championship ?",
+      "question": "Which soccer team won the Copa América 2015 Championship ?",
       "correct_answer": "Chile",
       "incorrect_answers": [
         "Argentina",
@@ -218,7 +218,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which soccer team won the Copa Am&eacute;rica Centenario 2016?",
+      "question": "Which soccer team won the Copa América Centenario 2016?",
       "correct_answer": "Chile",
       "incorrect_answers": [
         "Argentina",
@@ -300,7 +300,7 @@
       "category": "Sports",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "In Rugby League, performing a &quot;40-20&quot; is punished by a free kick for the opposing team.",
+      "question": "In Rugby League, performing a '40-20' is punished by a free kick for the opposing team.",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -320,7 +320,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is the full name of the footballer &quot;Cristiano Ronaldo&quot;?",
+      "question": "What is the full name of the footballer 'Cristiano Ronaldo'?",
       "correct_answer": "Cristiano Ronaldo dos Santos Aveiro",
       "incorrect_answers": [
         "Cristiano Ronaldo los Santos Diego",
@@ -332,7 +332,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who won the &quot;Champions League&quot; in 1999?",
+      "question": "Who won the 'Champions League' in 1999?",
       "correct_answer": "Manchester United",
       "incorrect_answers": [
         "Barcelona",
@@ -392,7 +392,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which boxer was banned for taking a bite out of Evander Holyfield&#039;s ear in 1997?",
+      "question": "Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?",
       "correct_answer": "Mike Tyson",
       "incorrect_answers": [
         "Roy Jones Jr.",
@@ -462,7 +462,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who is Manchester United&#039;s top premier league goal scorer?",
+      "question": "Who is Manchester United's top premier league goal scorer?",
       "correct_answer": "Wayne Rooney",
       "incorrect_answers": [
         "Sir Bobby Charlton",
@@ -474,7 +474,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Who is Manchester United&#039;s leading appearance maker?",
+      "question": "Who is Manchester United's leading appearance maker?",
       "correct_answer": "Ryan Giggs",
       "incorrect_answers": [
         "David Beckham",
@@ -496,7 +496,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which year did Jenson Button won his first ever Formula One World Drivers&#039; Championship?",
+      "question": "Which year did Jenson Button won his first ever Formula One World Drivers' Championship?",
       "correct_answer": "2009",
       "incorrect_answers": [
         "2010",
@@ -556,7 +556,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is &ldquo;The Sport of Kings&rdquo;?",
+      "question": "What is 'The Sport of Kings'?",
       "correct_answer": "Horse Racing",
       "incorrect_answers": [
         "Chess",

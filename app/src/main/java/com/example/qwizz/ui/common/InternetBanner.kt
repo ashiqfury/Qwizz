@@ -1,6 +1,7 @@
-package com.example.qwizz.ui.screens
+package com.example.qwizz.ui.common
 
 import android.os.Build
+import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
@@ -21,11 +22,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleOwner
 import com.example.qwizz.R
 import com.example.qwizz.model.ConnectionState
 import com.example.qwizz.utils.observeConnectivityState
@@ -49,7 +53,7 @@ internal fun InternetBanner(mainContent: @Composable () -> Unit) {
 @Composable
 private fun BoxScope.InternetBannerContent() {
 
-    val liveState by observeConnectivityState()
+    val liveState: ConnectionState by observeConnectivityState()
     val isConnected = liveState == ConnectionState.Available
 
     val bannerBgColor = if (isConnected) QColors.BabyGreen else QColors.Tomato
@@ -57,13 +61,20 @@ private fun BoxScope.InternetBannerContent() {
     var translate by remember { mutableStateOf(100f) }
     val animateTranslate by animateFloatAsState(targetValue = translate)
 
+    val lifecycle: LifecycleOwner = LocalLifecycleOwner.current
+    val isInitialRender: Boolean = lifecycle.lifecycle.currentState == Lifecycle.State.RESUMED
+
+    Log.d("FURY", ">>>> isInitialRender -> $isInitialRender")
+    Log.d("FURY", ">>>> my state -> ${lifecycle.lifecycle.currentState}")
+
     LaunchedEffect(liveState) {
         translate = 0f
-        delay(3000)
+        delay(timeMillis = 3000)
         translate = 150f
+
     }
 
-    val brush = Brush.verticalGradient(listOf(Color.Transparent, bannerBgColor))
+    val brush: Brush = Brush.verticalGradient(listOf(Color.Transparent, bannerBgColor))
 
     Box(
         modifier = Modifier

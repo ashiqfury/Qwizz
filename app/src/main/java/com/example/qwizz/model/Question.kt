@@ -8,3 +8,7 @@ data class Question(
     val question: String,
     val type: String
 )
+
+data class QuestionResponse(
+    val results: List<Question>
+)

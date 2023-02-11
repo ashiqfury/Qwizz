@@ -1,6 +1,5 @@
 package com.example.qwizz.ui.screens
 
-import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
@@ -9,6 +8,7 @@ import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.runtime.*
+import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -16,51 +16,63 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.util.lerp
 import androidx.navigation.NavController
 import com.example.qwizz.R
+import com.example.qwizz.data.utils.pickNItems
+import com.example.qwizz.model.Question
+import com.example.qwizz.ui.common.QHorizontalPagerIndicator
 import com.example.qwizz.ui.theme.QColors
 import com.example.qwizz.ui.utils.StatusBarInsetHandler
 import com.google.accompanist.flowlayout.FlowRow
-import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
-import com.google.accompanist.pager.HorizontalPagerIndicator
 import com.google.accompanist.pager.PagerState
 import com.google.accompanist.pager.calculateCurrentOffsetForPage
 import com.google.accompanist.pager.rememberPagerState
 import kotlinx.coroutines.launch
 import kotlin.math.absoluteValue
 
+
+private const val PAGE_COUNT = 10
+
 @OptIn(ExperimentalPagerApi::class)
 @Composable
 internal fun QuestionScreen(
-    navController: NavController
+    navController: NavController,
+    questions: List<Question>
 ) {
+
+    var requiredMultiChoiceQuestions by remember { mutableStateOf(questions) }
+
+    LaunchedEffect(key1 = Unit) {
+        val multipleChoiceQuestions = questions.filter { it.type == "multiple" }
+        val requiredQuestions = pickNItems(multipleChoiceQuestions, PAGE_COUNT)
+        requiredMultiChoiceQuestions = requiredQuestions
+    }
+
+    val questionsIndicatorList: SnapshotStateList<Boolean?> = remember { mutableStateListOf(null) }
+
+    LaunchedEffect(Unit) {
+        questionsIndicatorList.clear()
+        requiredMultiChoiceQuestions.forEach {
+            questionsIndicatorList.add(null)
+        }
+    }
+
+    val pagerState = rememberPagerState(pageCount = PAGE_COUNT)
+
     Scaffold(
         modifier = Modifier.fillMaxSize(),
         backgroundColor = QColors.LightWhite,
         topBar = {
             StatusBarInsetHandler {
-                QuestionScreenTopBar(navController)
+                QuestionScreenTopBar(navController, pagerState = pagerState, questionsIndicatorList = questionsIndicatorList)
             }
         },
     ) { paddingValues ->
-
-        val pagerState = rememberPagerState(pageCount = 10)
-
-        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {
-            HorizontalPagerIndicator(
-                pagerState = pagerState,
-                modifier = Modifier,
-                activeColor = QColors.Saffron,
-                inactiveColor = QColors.ProgressBarBG,
-                indicatorShape = RoundedCornerShape(2.dp)
-            )
-        }
 
         HorizontalPager(
             state = pagerState,
@@ -91,16 +103,18 @@ internal fun QuestionScreen(
                     .padding(bottom = 20.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                QuestionSection(pagerState)
+                val question = requiredMultiChoiceQuestions[page]
+                QuestionSection(pagerState, question)
                 BannerImage()
-                ChoicesSection(navController, pagerState)
+                ChoicesSection(navController, pagerState, question, questionsIndicatorList)
             }
         }
     }
 }
 
+@OptIn(ExperimentalPagerApi::class)
 @Composable
-private fun QuestionScreenTopBar(navController: NavController) {
+private fun QuestionScreenTopBar(navController: NavController, pagerState: PagerState, questionsIndicatorList: SnapshotStateList<Boolean?>) {
     TopAppBar(
         modifier = Modifier.padding(horizontal = 10.dp, vertical = 5.dp),
         backgroundColor = QColors.LightWhite,
@@ -117,13 +131,21 @@ private fun QuestionScreenTopBar(navController: NavController) {
         },
         elevation = 0.dp,
         title = {
-            Text(
-                text = stringResource(R.string.back),
-                modifier = Modifier
-                    .fillMaxWidth(),
-                fontSize = 18.sp,
-                color = QColors.TextPrimary
+            QHorizontalPagerIndicator(
+                pagerState = pagerState,
+                modifier = Modifier,
+                activeColor = QColors.Saffron,
+                inactiveColor = QColors.ProgressBarBG,
+                indicatorShape = RoundedCornerShape(2.dp),
+                choiceList = questionsIndicatorList
             )
+//            Text(
+//                text = stringResource(R.string.back),
+//                modifier = Modifier
+//                    .fillMaxWidth(),
+//                fontSize = 18.sp,
+//                color = QColors.TextPrimary
+//            )
         },
         actions = {
             Box(
@@ -148,7 +170,7 @@ private fun QuestionScreenTopBar(navController: NavController) {
 
 @OptIn(ExperimentalPagerApi::class)
 @Composable
-private fun QuestionSection(pagerState: PagerState) {
+private fun QuestionSection(pagerState: PagerState, question: Question) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -166,7 +188,7 @@ private fun QuestionSection(pagerState: PagerState) {
         Text(
             modifier = Modifier
                 .fillMaxWidth(),
-            text = "What's the diameter of a basketball hoop in inches?",
+            text = question.question,
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
             lineHeight = 32.sp,
@@ -190,25 +212,33 @@ private fun BannerImage() {
 @Composable
 private fun ChoicesSection(
     navController: NavController,
-    pagerState: PagerState
+    pagerState: PagerState,
+    question: Question,
+    questionsIndicatorList: SnapshotStateList<Boolean?>
 ) {
-    val isFlow = true
+    val choices: MutableList<String> = question.incorrect_answers as MutableList<String>
+    choices.add((0..2).random(), question.correct_answer)
+
+//    val isFlow = true
+    val isFlow = choices.maxOf { it.length } < 8
+
+    val RenderButtons = @Composable {
+        choices.forEachIndexed { pageIndex, choice ->
+            ChoiceButton(choices, pageIndex, isFlow, navController, pagerState, question.correct_answer, questionsIndicatorList)
+        }
+    }
 
     if (isFlow) {
         FlowRow(
             modifier = Modifier.padding(20.dp)
         ) {
-            choices.forEach { choice ->
-                ChoiceButton(choice, isFlow, navController, pagerState)
-            }
+            RenderButtons()
         }
     } else {
         Column(
             modifier = Modifier.padding(20.dp)
         ) {
-            choices.forEach { choice ->
-                ChoiceButton(choice, isFlow, navController, pagerState)
-            }
+            RenderButtons()
         }
     }
 
@@ -217,18 +247,24 @@ private fun ChoicesSection(
 @OptIn(ExperimentalPagerApi::class)
 @Composable
 private fun ChoiceButton(
-    choice: String,
+    choices: List<String>,
+    choiceIndex: Int,
     isFlow: Boolean,
     navController: NavController,
-    pagerState: PagerState
+    pagerState: PagerState,
+    correctAnswer: String,
+    questionsIndicatorList: SnapshotStateList<Boolean?>
 ) {
-    val coroutineScope = rememberCoroutineScope()
     val fraction = if (isFlow) 0.5f else 1f
+
+    val coroutineScope = rememberCoroutineScope()
     OutlinedButton(
         modifier = Modifier
             .fillMaxWidth(fraction = fraction)
             .padding(5.dp),
         onClick = {
+
+            questionsIndicatorList[pagerState.currentPage] = choices[choiceIndex] == correctAnswer
             coroutineScope.launch {
                 if (pagerState.currentPage + 1 < 10) {
                     pagerState.animateScrollToPage(pagerState.currentPage + 1)
@@ -252,29 +288,22 @@ private fun ChoiceButton(
                     .padding(vertical = 5.dp, horizontal = 10.dp),
                 fontSize = 13.sp,
                 color = QColors.TextPrimary,
-                text = (choices.indexOf(choice) + 1).toString()
+                text = (choiceIndex + 1).toString()
             )
         }
         Text(
             modifier = Modifier.padding(10.dp),
-            text = choice,
+            text = choices[choiceIndex],
             fontSize = 13.sp,
             color = QColors.TextPrimary
         )
     }
 }
 
-@OptIn(ExperimentalAnimationApi::class)
-@Preview(showBackground = true)
-@Composable
-private fun QuestionScreenPreview() {
-    val navController = rememberAnimatedNavController()
-    QuestionScreen(navController)
-}
-
-private val choices = listOf(
-    "18 inches",
-    "16 inches",
-    "14 inches",
-    "20 inches"
-)
+//@OptIn(ExperimentalAnimationApi::class)
+//@Preview(showBackground = true)
+//@Composable
+//private fun QuestionScreenPreview() {
+//    val navController = rememberAnimatedNavController()
+//    QuestionScreen(navController, listOf())
+//}

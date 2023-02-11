@@ -1,6 +1,7 @@
 package com.example.qwizz.ui.screens
 
 import android.content.res.Configuration
+import android.widget.Toast
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.ScrollState
@@ -41,6 +42,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -59,7 +61,6 @@ import com.example.qwizz.ui.utils.StatusBarInsetHandler
 import com.example.qwizz.utils.LOGO_FONT
 import com.example.qwizz.utils.getGoogleFont
 import com.google.accompanist.flowlayout.FlowRow
-import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import kotlinx.coroutines.launch
 
 @Composable
@@ -67,6 +68,7 @@ internal fun HomeScreen(
     navController: NavController
 ) {
     val scaffoldState = rememberScaffoldState()
+    Toast.makeText(LocalContext.current, "Home", Toast.LENGTH_SHORT).show()
     Scaffold(
         scaffoldState = scaffoldState,
         modifier = Modifier.fillMaxSize(),
@@ -358,8 +360,8 @@ private fun DrawerContent(scaffoldState: ScaffoldState) {
 @Preview(showBackground = true)
 @Composable
 private fun HomePagePreview() {
-    val navController = rememberAnimatedNavController()
-    HomeScreen(navController)
+//    val navController = rememberAnimatedNavController()
+//    HomeScreen(navController)
 }
 
 private fun getSubjectGridData(): List<SubjectCard> {
