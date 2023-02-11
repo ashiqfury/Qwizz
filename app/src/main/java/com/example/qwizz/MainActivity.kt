@@ -17,6 +17,7 @@ import com.example.qwizz.ui.navigation.QwizzNavHost
 import com.example.qwizz.ui.screens.HomeScreen
 import com.example.qwizz.ui.common.InternetBanner
 import com.example.qwizz.ui.screens.QuestionScreen
+import com.example.qwizz.ui.screens.ResultScreen
 import com.example.qwizz.ui.theme.QwizzTheme
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 
@@ -32,6 +33,7 @@ class MainActivity : ComponentActivity() {
 
                 val sportsQuestions = getDataFromAssets(QuizCategories.SPORTS.fileName)
 //                QuestionScreen(navController = navHostController, questions = sportsQuestions)
+//                ResultScreen(navController = navHostController)
                 InternetBanner {
                     QwizzNavHost(navController = navHostController, questions = sportsQuestions)
                 }

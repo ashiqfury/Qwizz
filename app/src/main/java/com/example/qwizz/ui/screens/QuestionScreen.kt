@@ -31,6 +31,7 @@ import com.example.qwizz.R
 import com.example.qwizz.data.utils.pickNItems
 import com.example.qwizz.model.Question
 import com.example.qwizz.ui.common.QHorizontalPagerIndicator
+import com.example.qwizz.ui.navigation.QScreens
 import com.example.qwizz.ui.theme.QColors
 import com.example.qwizz.ui.utils.StatusBarInsetHandler
 import com.google.accompanist.flowlayout.FlowRow
@@ -274,7 +275,6 @@ private fun ChoicesSection(
     questionsIndicatorList: SnapshotStateList<Boolean?>
 ) {
     val choices = (question.incorrect_answers + question.correct_answer).shuffled()
-    Log.d("FURY", "choices -> $choices")
 
 //    val isFlow = true
     val isFlow = choices.maxOf { it.length } < 8
@@ -320,11 +320,13 @@ private fun ChoiceButton(
             .fillMaxWidth(fraction = fraction)
             .padding(5.dp),
         onClick = {
-
+            navController.navigate(QScreens.Result.route) // TODO: REMOVE IT
             questionsIndicatorList[pagerState.currentPage] = choices[choiceIndex] == correctAnswer
             coroutineScope.launch {
                 if (pagerState.currentPage + 1 < 10) {
                     pagerState.animateScrollToPage(pagerState.currentPage + 1)
+                } else {
+                    navController.navigate(QScreens.Result.route)
                 }
             }
         },
