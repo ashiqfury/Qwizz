@@ -64,9 +64,6 @@ private fun BoxScope.InternetBannerContent() {
     val lifecycle: LifecycleOwner = LocalLifecycleOwner.current
     val isInitialRender: Boolean = lifecycle.lifecycle.currentState == Lifecycle.State.RESUMED
 
-    Log.d("FURY", ">>>> isInitialRender -> $isInitialRender")
-    Log.d("FURY", ">>>> my state -> ${lifecycle.lifecycle.currentState}")
-
     LaunchedEffect(liveState) {
         translate = 0f
         delay(timeMillis = 3000)

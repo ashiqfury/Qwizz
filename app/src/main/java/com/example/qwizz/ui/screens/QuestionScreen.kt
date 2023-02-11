@@ -1,5 +1,9 @@
 package com.example.qwizz.ui.screens
 
+import android.os.CountDownTimer
+import android.util.Log
+import android.widget.Toast
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
@@ -12,13 +16,16 @@ import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.util.lerp
+import androidx.compose.ui.window.DialogProperties
 import androidx.navigation.NavController
 import com.example.qwizz.R
 import com.example.qwizz.data.utils.pickNItems
@@ -32,6 +39,7 @@ import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.PagerState
 import com.google.accompanist.pager.calculateCurrentOffsetForPage
 import com.google.accompanist.pager.rememberPagerState
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlin.math.absoluteValue
 
@@ -47,19 +55,26 @@ internal fun QuestionScreen(
 
     var requiredMultiChoiceQuestions by remember { mutableStateOf(questions) }
 
-    LaunchedEffect(key1 = Unit) {
+    LaunchedEffect(Unit) {
         val multipleChoiceQuestions = questions.filter { it.type == "multiple" }
         val requiredQuestions = pickNItems(multipleChoiceQuestions, PAGE_COUNT)
         requiredMultiChoiceQuestions = requiredQuestions
     }
 
     val questionsIndicatorList: SnapshotStateList<Boolean?> = remember { mutableStateListOf(null) }
+    val (showAlert, setShowAlert) = remember { mutableStateOf(false) }
 
     LaunchedEffect(Unit) {
         questionsIndicatorList.clear()
-        requiredMultiChoiceQuestions.forEach {
+        requiredMultiChoiceQuestions.forEach { _ ->
             questionsIndicatorList.add(null)
         }
+    }
+    BackHandler {
+        setShowAlert(true)
+    }
+    if (showAlert) {
+        BackHandledAlertDialog(navController = navController, setShowAlert = setShowAlert)
     }
 
     val pagerState = rememberPagerState(pageCount = PAGE_COUNT)
@@ -131,40 +146,82 @@ private fun QuestionScreenTopBar(navController: NavController, pagerState: Pager
         },
         elevation = 0.dp,
         title = {
-            QHorizontalPagerIndicator(
-                pagerState = pagerState,
-                modifier = Modifier,
-                activeColor = QColors.Saffron,
-                inactiveColor = QColors.ProgressBarBG,
-                indicatorShape = RoundedCornerShape(2.dp),
-                choiceList = questionsIndicatorList
-            )
-//            Text(
-//                text = stringResource(R.string.back),
-//                modifier = Modifier
-//                    .fillMaxWidth(),
-//                fontSize = 18.sp,
-//                color = QColors.TextPrimary
-//            )
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center
+            ) {
+                QHorizontalPagerIndicator(
+                    pagerState = pagerState,
+                    modifier = Modifier,
+                    activeColor = QColors.Saffron,
+                    inactiveColor = QColors.ProgressBarBG,
+                    indicatorShape = RoundedCornerShape(2.dp),
+                    choiceList = questionsIndicatorList
+                )
+            }
         },
         actions = {
             Box(
                 modifier = Modifier
-                    .fillMaxHeight()
+                    .fillMaxHeight(0.9f)
                     .aspectRatio(1 / 1f)
                     .background(QColors.LightWhite, CircleShape)
                     .clip(CircleShape)
-                    .border(3.dp, QColors.ProgressBarBG, CircleShape),
+                    .border(1.dp, QColors.ProgressBarBG, CircleShape),
                 contentAlignment = Alignment.Center
             ) {
-                Text(
-                    text = "4:09",
-                    color = QColors.TextPrimary,
-                    fontSize = 12.sp,
-                    fontWeight = FontWeight.Bold
+                CountDown(
+                    questionsIndicatorList = questionsIndicatorList,
+                    pagerState = pagerState
                 )
             }
         }
+    )
+}
+
+
+@OptIn(ExperimentalPagerApi::class)
+@Composable
+private fun CountDown(
+    questionsIndicatorList: SnapshotStateList<Boolean?>,
+    pagerState: PagerState
+) {
+    val seconds = 15
+    val initialTime = seconds * 1000L
+    var time by remember{ mutableStateOf(seconds) }
+
+    val coroutineScope = rememberCoroutineScope()
+
+    val countDown = object: CountDownTimer(initialTime, 1000L) {
+        override fun onTick(p0: Long) {
+            time--
+        }
+
+        override fun onFinish() {
+            questionsIndicatorList[pagerState.currentPage] = false
+            coroutineScope.launch {
+                if (pagerState.currentPage + 1 < 10) {
+                    pagerState.animateScrollToPage(pagerState.currentPage + 1)
+                }
+            }
+        }
+    }
+
+    DisposableEffect(pagerState.currentPage) {
+        time = seconds
+        countDown.start()
+        onDispose {
+            countDown.cancel()
+        }
+    }
+
+
+    Text(
+        text = time.toString(),
+        color = if (time < 10) QColors.Tomato else QColors.TextPrimary,
+        fontSize = 16.sp,
+        fontWeight = FontWeight.Bold
     )
 }
 
@@ -216,8 +273,8 @@ private fun ChoicesSection(
     question: Question,
     questionsIndicatorList: SnapshotStateList<Boolean?>
 ) {
-    val choices: MutableList<String> = question.incorrect_answers as MutableList<String>
-    choices.add((0..2).random(), question.correct_answer)
+    val choices = (question.incorrect_answers + question.correct_answer).shuffled()
+    Log.d("FURY", "choices -> $choices")
 
 //    val isFlow = true
     val isFlow = choices.maxOf { it.length } < 8
@@ -298,6 +355,28 @@ private fun ChoiceButton(
             color = QColors.TextPrimary
         )
     }
+}
+
+@Composable
+private fun BackHandledAlertDialog(navController: NavController, setShowAlert: (Boolean) -> Unit) {
+    AlertDialog(
+        onDismissRequest = { /*TODO*/ },
+        confirmButton = {
+            Button(onClick = { navController.popBackStack(); setShowAlert(false) }, colors = ButtonDefaults.buttonColors(backgroundColor = QColors.BabyGreen)) {
+                Text(text = "Ok", color = Color.White)
+            }
+        },
+        modifier = Modifier,
+        dismissButton = {
+            TextButton(onClick = { setShowAlert(false) }) {
+                Text(text = "Cancel", color = QColors.Tomato)
+            }
+        },
+        title = { Text(text = "Are you sure?") },
+        text = { Text(text = "Your progress will be lost once you go back.") },
+        shape = RoundedCornerShape(12.dp),
+        properties = DialogProperties()
+    )
 }
 
 //@OptIn(ExperimentalAnimationApi::class)

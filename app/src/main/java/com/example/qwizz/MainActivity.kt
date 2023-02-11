@@ -31,10 +31,10 @@ class MainActivity : ComponentActivity() {
                 val navHostController = rememberAnimatedNavController()
 
                 val sportsQuestions = getDataFromAssets(QuizCategories.SPORTS.fileName)
-                QuestionScreen(navController = navHostController, questions = sportsQuestions)
-//                InternetBanner {
-//                    QwizzNavHost(navController = navHostController, questions = sportsQuestions)
-//                }
+//                QuestionScreen(navController = navHostController, questions = sportsQuestions)
+                InternetBanner {
+                    QwizzNavHost(navController = navHostController, questions = sportsQuestions)
+                }
             }
         }
     }

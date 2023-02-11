@@ -1,7 +1,6 @@
 package com.example.qwizz.ui.screens
 
 import android.content.res.Configuration
-import android.widget.Toast
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.ScrollState
@@ -68,7 +67,6 @@ internal fun HomeScreen(
     navController: NavController
 ) {
     val scaffoldState = rememberScaffoldState()
-    Toast.makeText(LocalContext.current, "Home", Toast.LENGTH_SHORT).show()
     Scaffold(
         scaffoldState = scaffoldState,
         modifier = Modifier.fillMaxSize(),

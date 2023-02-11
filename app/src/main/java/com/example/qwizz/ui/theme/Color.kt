@@ -31,4 +31,5 @@ object QColors {
     val BabyPink = Color(0xFFFC8BA1)
     val BabyGreen = Color(0xFFACD3A6)
     val Tomato = Color(0xFFE63946)
+    val Golden = Color(0xFFFFD700)
 }

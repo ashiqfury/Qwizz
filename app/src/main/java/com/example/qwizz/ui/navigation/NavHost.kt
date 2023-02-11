@@ -7,6 +7,7 @@ import com.example.qwizz.model.Question
 import com.example.qwizz.ui.screens.DifficultyScreen
 import com.example.qwizz.ui.screens.HomeScreen
 import com.example.qwizz.ui.screens.QuestionScreen
+import com.example.qwizz.ui.screens.ResultScreen
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
 
@@ -50,6 +51,16 @@ fun QwizzNavHost(
             popExitTransition = NavAnimation.popExitTransition
         ) {
             QuestionScreen(navController, questions)
+        }
+
+        composable(
+            route = QScreens.Result.route,
+            enterTransition = NavAnimation.enterTransition,
+            exitTransition = NavAnimation.exitTransition,
+            popEnterTransition = NavAnimation.popEnterTransition,
+            popExitTransition = NavAnimation.popExitTransition
+        ) {
+            ResultScreen(navController)
         }
     }
 }
