@@ -15,6 +15,7 @@ import com.example.qwizz.model.ConnectionState
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.callbackFlow
+import kotlinx.coroutines.flow.collectLatest
 
 @RequiresApi(Build.VERSION_CODES.S)
 @ExperimentalCoroutinesApi
@@ -65,10 +66,10 @@ private fun Context.observeConnectivityAsFlow() = callbackFlow {
 
 
 private fun getCurrentConnectivityState(connectivityManager: ConnectivityManager): ConnectionState {
-    val connected = connectivityManager.allNetworks.any { network ->
-        connectivityManager.getNetworkCapabilities(network)
-            ?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) ?: false
-    }
+    val connected = connectivityManager
+        .getNetworkCapabilities(connectivityManager.activeNetwork)
+        ?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
+        ?: false
 
     return if (connected) ConnectionState.Available else ConnectionState.Unavailable
 }

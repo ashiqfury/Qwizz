@@ -174,7 +174,8 @@ private fun QuestionScreenTopBar(navController: NavController, pagerState: Pager
             ) {
                 CountDown(
                     questionsIndicatorList = questionsIndicatorList,
-                    pagerState = pagerState
+                    pagerState = pagerState,
+                    navController = navController
                 )
             }
         }
@@ -186,7 +187,8 @@ private fun QuestionScreenTopBar(navController: NavController, pagerState: Pager
 @Composable
 private fun CountDown(
     questionsIndicatorList: SnapshotStateList<Boolean?>,
-    pagerState: PagerState
+    pagerState: PagerState,
+    navController: NavController
 ) {
     val seconds = 15
     val initialTime = seconds * 1000L
@@ -204,6 +206,8 @@ private fun CountDown(
             coroutineScope.launch {
                 if (pagerState.currentPage + 1 < 10) {
                     pagerState.animateScrollToPage(pagerState.currentPage + 1)
+                } else {
+                    navController.navigate(QScreens.Result.route)
                 }
             }
         }
@@ -320,7 +324,6 @@ private fun ChoiceButton(
             .fillMaxWidth(fraction = fraction)
             .padding(5.dp),
         onClick = {
-            navController.navigate(QScreens.Result.route) // TODO: REMOVE IT
             questionsIndicatorList[pagerState.currentPage] = choices[choiceIndex] == correctAnswer
             coroutineScope.launch {
                 if (pagerState.currentPage + 1 < 10) {

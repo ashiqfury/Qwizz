@@ -16,6 +16,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -52,23 +53,23 @@ internal fun InternetBanner(mainContent: @Composable () -> Unit) {
 @RequiresApi(Build.VERSION_CODES.S)
 @Composable
 private fun BoxScope.InternetBannerContent() {
-
     val liveState: ConnectionState by observeConnectivityState()
-    val isConnected = liveState == ConnectionState.Available
+    val isConnected = rememberSaveable(liveState) { liveState == ConnectionState.Available }
 
     val bannerBgColor = if (isConnected) QColors.BabyGreen else QColors.Tomato
     val bannerText = if (isConnected) stringResource(R.string.internet_connected) else stringResource(R.string.connection_failed)
-    var translate by remember { mutableStateOf(100f) }
+    var translate by remember { mutableStateOf(150f) }
     val animateTranslate by animateFloatAsState(targetValue = translate)
+    val flag = rememberSaveable { mutableStateOf(false) }
 
-    val lifecycle: LifecycleOwner = LocalLifecycleOwner.current
-    val isInitialRender: Boolean = lifecycle.lifecycle.currentState == Lifecycle.State.RESUMED
 
     LaunchedEffect(liveState) {
-        translate = 0f
-        delay(timeMillis = 3000)
-        translate = 150f
-
+        if(flag.value || liveState == ConnectionState.Unavailable) {
+            translate = 0f
+            delay(timeMillis = 3000)
+            translate = 150f
+        }
+        flag.value = true
     }
 
     val brush: Brush = Brush.verticalGradient(listOf(Color.Transparent, bannerBgColor))

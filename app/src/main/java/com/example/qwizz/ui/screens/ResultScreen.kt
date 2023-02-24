@@ -1,5 +1,6 @@
 package com.example.qwizz.ui.screens
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -13,10 +14,15 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Scaffold
+import androidx.compose.material.Snackbar
 import androidx.compose.material.Text
 import androidx.compose.material.TextButton
 import androidx.compose.material.rememberScaffoldState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
@@ -40,6 +46,18 @@ import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 internal fun ResultScreen(
     navController: NavController
 ) {
+
+    /*var backPressed by remember { mutableStateOf(false) }
+    BackHandler {
+        backPressed = true
+    }
+    if (backPressed) {
+        Snackbar {
+            Text(text = "Sorry! Going back is not allow here!")
+        }
+        backPressed = false
+    }*/
+
     val scaffoldState = rememberScaffoldState()
     Scaffold(
         scaffoldState = scaffoldState,
@@ -54,7 +72,7 @@ internal fun ResultScreen(
         val brush = Brush.linearGradient(
             colors = listOf(
                 Color.White,
-                QColors.Golden.copy(0.1f),
+                QColors.Golden.copy(0.05f),
                 Color.White
             )
         )
@@ -121,7 +139,7 @@ private fun PointsText() {
         )
         Text(
             text = "308",
-            color = QColors.Saffron,
+            color = QColors.Golden,
             fontWeight = FontWeight.Bold,
             fontSize = 32.sp,
         )
